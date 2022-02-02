@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Team"
+title: "Noh Lab - Team"
 layout: gridlay
-excerpt: "Allan Lab: Team members"
+excerpt: "Noh Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
@@ -13,7 +13,7 @@ permalink: /team/
 
 Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
 
-## Staff
+## 지도교수 (Principal Investigator)
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -76,9 +76,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endif %}
 
 
-
-
-## Master and Bachelor Students
+## 대학원생 (PhD and Master Students)
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -132,7 +130,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endif %}
 
 
-## Alumni
+## 학부연구생 (Bachelor)
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
@@ -165,32 +163,5 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-## Former visitors, BSc/ MSc students
-<div class="row">
 
-<div class="col-sm-4 clearfix">
-<h4>Visitors</h4>
-{% for member in site.data.alumni_visitors %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4>Master students</h4>
-{% for member in site.data.alumni_msc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4>Bachelor Students</h4>
-{% for member in site.data.alumni_bsc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-</div>
-
-
-## Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
+#<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
