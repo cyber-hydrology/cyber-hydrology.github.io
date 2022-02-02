@@ -1,29 +1,22 @@
 ---
-title: "Allan Lab - Vacancies"
+title: "Noh Lab - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
 permalink: /vacancies
 ---
 
-# Open positions
+# 대학원생 및 학부연구생 모집 Open positions
+
+수문학연구실은 재능과 열정을 가진 연구원들은 언제나 찾고 있습니다.
 
 We are always looking for new group members with passion, talent, and grit!
 
-You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
+You will have the chance to work on the grand challenges of hydrology and water resources research, often at the interface of simulation models and new data. You will be involved in determining the important and interesting questions, creating and improving hydrologic models, instrumental setups, performing measurements, and making discoveries.
 
-### Current open positions
-
-You find the current job openings here:
-[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
-[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf).
-
-It might be interesting to look at some past job advertisements. While the projects keep changing, the themes are still roughly the same. You can download them [here]({{ site.baseurl }}/downloads/PD.pdf), [here]({{ site.baseurl }}/downloads/PHD1.pdf), or [here]({{ site.baseurl }}/downloads/PHD2.pdf).
-
-### Applications for PhD and Postdoc positions
-If you are interested in working with us as a PhD student or postdoc, please send me an [email](mailto:milan.allan@gmail.com). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
-
-There are  postdoc scholarship available.  I'd be happy to support you after you apply to our group. Take a look at the [veni fellowship](http://www.nwo.nl/en/funding/our-funding-instruments/nwo/innovational-research-incentives-scheme/veni/index.html) or the [Marie Curie fellowship](http://ec.europa.eu/research/mariecurieactions/about-msca/actions/if/index_en.htm).
+### 대학원과정 지원 Applications for PhD and Master positions
+석사나 박사과정에 관심있는 분들은 지도교수에게 "(석사 혹은 박사) 대학원과정 지원"이라는 제목으로 본인 소개와 연구관심분야에 대한 내용을 간단히 적어 지도교수에게 [email](mailto:seongjin.noh@gmail.com)을 보내세요.
+If you are interested in working with us as a PhD or Master student, please send me an [email](mailto:seongjin.noh@gmail.com). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Master"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
 
 ### Master projects for Leiden University students
 If you are a Master student at Leiden University looking for a Master project, contact me (or any group member) per email or stop by my office.
