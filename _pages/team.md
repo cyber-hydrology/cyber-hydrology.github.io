@@ -8,11 +8,9 @@ permalink: /team/
 
 # Group Members
 
- **We are  looking for new PhD, Master, Bachelor students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **박사과정, 석사과정, 학부 연구생 모집합니다 We are  looking for new PhD, Master, Bachelor students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
-#(Please click the name below for the lab memeber's profile)
-
-## 지도교수 (Principal Investigator)
+## Principal Investigator
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -75,7 +73,7 @@ permalink: /team/
 {% endif %}
 
 
-## 대학원생 (PhD and Master Students)
+## PhD and Master Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -162,5 +160,3 @@ permalink: /team/
 </div>
 {% endif %}
 
-
-#<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
