@@ -6,20 +6,19 @@ sitemap: false
 permalink: /
 ---
 
-[금오공과대학교](https://www.kumoh.ac.kr) [토목공학과](https://civil.kumoh.ac.kr) 수문학연구실에서는 홍수, 가뭄 등 기후변화로 인해 인류에게 직접적인 영향을 미치는 물 문제에 대한 분석 방법 및 해결책에 대해 연구합니다.
+[금오공과대학교](https://www.kumoh.ac.kr) [토목공학과](https://civil.kumoh.ac.kr) **수문학연구실**에서는 홍수, 가뭄 등 기후변화로 인해 인류에게 직접적인 영향을 미치는 물 문제에 대한 분석 방법 및 해결책에 대해 연구합니다.
 
-We are a Hydrology and Water Resources Lab at Civil Engineering Department at [Kumoh National Institute of Technology](https://eng.kumoh.ac.kr). Our aim is to explore and characterize complexity and quantifying uncertainty in hydrology and water resources systems, with the goals of improving both our understanding of these systems and our ability to respond to water-related hazards under changing climate conditions.
+We are a **Hydrology and Water Resources Lab (Noh Lab)** at Civil Engineering Department at [Kumoh National Institute of Technology](https://eng.kumoh.ac.kr). Our aim is to explore and characterize complexity and quantifying uncertainty in hydrology and water resources systems to improve both our understanding of these systems and our ability to respond to water-related hazards under changing climate conditions.
 
 주요 연구분야:
 
 There are five main areas of research:
 
-1. **도시 홍수 해석(Urban flood)**: Genomic analysis of DNA using high-throughput sequencing to identify genes associated with human disorders
-2. **수문학적 자료 동화(Hydrologic data assimilation)**: Using whole-genome sequencing to identify the elements of the noncoding genome that contribute to ASD
-3. **데이터기반 수문 해석(Data-driven hydrologic modeling)**: SCN2A mutations are one of the most common causes of ASD; we aim to understand how this risk is mediated with the view to developing therapeutics
-4. **기후변화 적응 수자원 관리(Climate-adaptative water resource management)**: Leveraging functional genomic data to understand physiological brain development and the pathology associated with neuropsychiatric disorders
-5. **멀티센서 수문 관측(Measuring hydrologic variables using multi-sensors)**: Identifying genes and gene networks that lead to the preponderance of males diagnosed with ASD
-
+1. **도시 홍수 해석 (Urban flood)** : Urban flood modeling to disentangle uncertainty in urban water systems for resilient and sustainable cities 
+2. **수문학적 자료 동화 (Hydrologic data assimilation)** : Reducing uncertainty by combining computer simulations of model states and parameters with measurement information
+3. **데이터 기반 수문 해석 (Data-driven hydrologic modeling)** : Data-driven machine learning approaches to solve complex water-related environmental problems
+4. **기후변화 적응 수자원 관리 (Climate-adaptative water resources management)** : Intigrated and adaptive water resources management schemes to mitigate impacts of the climate change
+5. **멀티센서 수문 관측 (Measuring hydrologic variables using multi-sensors)** : Utilization ana analysis of multiple sensors to measure hydrologic variables from precipitations to soil moisture to streamflow
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -34,16 +33,16 @@ There are five main areas of research:
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-DA.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood-3D.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-DA.jpg" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SaphireSTM2.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood.jpg" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-modeling.jpg" alt="Slide 4" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -56,15 +55,11 @@ There are five main areas of research:
   </a>
 </div>
 
-
-### Collaborators
-We work with closely with numerous collaborators, including the [State Lab](https://www.mstatelab.com/) and [Bender Lab](https://benderlab.ucsf.edu/lab-members) at UCSF, the [Devlin Lab](https://www.psychiatry.pitt.edu/about-us/our-people/faculty/bernie-j-devlin-phd) at UPMC, the [Roeder Lab](http://www.stat.cmu.edu/~roeder/) at Carnegie Mellon, the [Sestan Lab](http://medicine.yale.edu/lab/sestan/index.aspx), and the [Talkowski lab](http://talkowski.mgh.harvard.edu/) at Harvard.
-
 ### 수문학연구실 가입 Joining Noh Lab
 If you are interested in joining please go to the [recruitment](recruitment) page.
 
 ### 연구비 지원 Funding
-We are grateful for funding from the [National Institute of Mental Health](https://www.nimh.nih.gov/) and the [The Simons Foundation Autism Research Initiative](https://www.sfari.org/), the [Autism Science Foundation](https://autismsciencefoundation.org/), and the [Brain & Behavior Research Foundation](https://www.bbrfoundation.org/).
+We are grateful for funding from the [National Research Foundation](http://nrf.re.kr), [K-water](https://www.kwater.or.kr/), and [Kumoh National Institute of Technology](https://www.kumoh.ac.kr).
 
 
 
