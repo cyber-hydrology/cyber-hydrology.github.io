@@ -6,10 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-여기는 [금오공과대학교](https://www.kumoh.ac.kr) [토목공학과](https://civil.kumoh.ac.kr) 수문학연구실입니다.
+[금오공과대학교](https://www.kumoh.ac.kr) [토목공학과](https://civil.kumoh.ac.kr) 수문학연구실에서는 홍수, 가뭄 등 기후변화로 인해 인류에게 직접적인 영향을 미치는 물 문제에 대한 분석 방법 및 해결책에 대해 연구합니다.
 
-We are a Hydrology and Water Resources Lab at Civil Engineering Department at [Kumoh National Institute of Technology](https://eng.kumoh.ac.kr)
-Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including strange metals, high-temperature superconductors, and quantum critical electron matter. Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including strange metals, high-temperature superconductors, and quantum critical electron matter.
+We are a Hydrology and Water Resources Lab at Civil Engineering Department at [Kumoh National Institute of Technology](https://eng.kumoh.ac.kr). Our aim is to explore and characterize complexity and quantifying uncertainty in hydrology and water resources systems, with the goals of improving both our understanding of these systems and our ability to respond to water-related hazards under changing climate conditions.
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
