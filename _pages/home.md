@@ -11,6 +11,7 @@ permalink: /
 We are a Hydrology and Water Resources Lab at Civil Engineering Department at [Kumoh National Institute of Technology](https://eng.kumoh.ac.kr). Our aim is to explore and characterize complexity and quantifying uncertainty in hydrology and water resources systems, with the goals of improving both our understanding of these systems and our ability to respond to water-related hazards under changing climate conditions.
 
 주요 연구분야:
+
 There are five main areas of research:
 
 1. **도시 홍수 해석(Urban flood)**: Genomic analysis of DNA using high-throughput sequencing to identify genes associated with human disorders
@@ -19,8 +20,42 @@ There are five main areas of research:
 4. **기후변화 적응 수자원 관리(Climate-adaptative water resource management)**: Leveraging functional genomic data to understand physiological brain development and the pathology associated with neuropsychiatric disorders
 5. **멀티센서 수문 관측(Measuring hydrologic variables using multi-sensors)**: Identifying genes and gene networks that lead to the preponderance of males diagnosed with ASD
 
-### 기술 및 방법론 Technologies and methods
-The Sanders Lab is primarily a bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods including: whole-exome sequencing, whole-genome sequencing, de novo mutation detection, RNA-Seq, and ChIP-Seq.
+
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+    <!-- Menu -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Items -->
+    <div class="carousel-inner" markdown="0">
+        <div class="item active">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-DA.jpg" alt="Slide 1" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood.jpg" alt="Slide 2" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SaphireSTM2.jpg" alt="Slide 3" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab.jpg" alt="Slide 4" />
+        </div>
+    </div>
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 
 ### Collaborators
 We work with closely with numerous collaborators, including the [State Lab](https://www.mstatelab.com/) and [Bender Lab](https://benderlab.ucsf.edu/lab-members) at UCSF, the [Devlin Lab](https://www.psychiatry.pitt.edu/about-us/our-people/faculty/bernie-j-devlin-phd) at UPMC, the [Roeder Lab](http://www.stat.cmu.edu/~roeder/) at Carnegie Mellon, the [Sestan Lab](http://medicine.yale.edu/lab/sestan/index.aspx), and the [Talkowski lab](http://talkowski.mgh.harvard.edu/) at Harvard.
