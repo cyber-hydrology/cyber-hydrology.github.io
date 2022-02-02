@@ -8,9 +8,35 @@
 #  education3:
 #  education4:
 
-- name: Rosanne Wijgman
+
+
+- name: 김보미 ()
+  photo: 
+  info: 석사과정 (Master Student), started March 2021
+  email: M.Leeuwenhoek@tudelft.nl
+  number_educ: 1
+  education1: Master Leiden University with Milan Allan
+  education2:
+  education3:
+  education4:
+
+- name: 최현진 ()
+  photo: 
+  info: 석사과정 (Master Student), started March 2021
+  email: 
+  number_educ: 2
+  education1: Bachelor National and Kapodistrian University of Athens with D Syvridis
+  education2: Master TU Delft with <a href="http://vanderzantlab.tudelft.nl/">Herre van der Zant</a>
+  education3:
+
+
+- name: "This could be you !"
   photo: rock.jpg
-  info: Master student
-  email: rosanne.wijgman@student.ru.nl
+  info: See <a href="http://www.allanlab.org/vacancies">openings</a> for more info
+  email: milan.allan@gmail.com
   number_educ: 0
   education1:
+  education2:
+  education3:
+  education4:
+
