@@ -1,11 +1,11 @@
 - name: 노성진 (Seong Jin Noh)
   photo: seongjin_noh.JPG
   info: 조교수 (Assistant professor)
-#  email: seongjin.noh@kumoh.ac.kr
-#  number_educ: 0
-#  education1: 공학사   서울대학교 (Bachelor, Seoul National University)
-#  education2: 공학석사 서울대학교 (Master, Seoul National University)
-#  education3: 공학박사 교토대학교 (PhD, Kyoto University)
-#  education4: 연구조교수 텍사스 알링턴 대학교 (Research Assistant Professor, University of Texas at Arlington)
-#  education5: 수석연구원 한국건설기술연구원 (Research Fellow, KICT)
+  email: seongjin.noh@kumoh.ac.kr
+  number_educ: 5
+  education1: Bachelor, Seoul National University
+  education2: Master, Seoul National University
+  education3: PhD, Kyoto University
+  education4: Research Assistant Professor, University of Texas at Arlington)
+  education5: 수석연구원 한국건설기술연구원 (KICT)
 
