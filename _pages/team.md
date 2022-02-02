@@ -8,11 +8,9 @@ permalink: /team/
 
 # Group Members
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **We are  looking for new PhD, Master, Bachelor students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
-Jump to [Principal Investigator](#Principal-Investigator), [PhD and master students](#PhD-and-master-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
-
-(Please click the name below for the lab memeber's profile)
+#(Please click the name below for the lab memeber's profile)
 
 ## 지도교수 (Principal Investigator)
 {% assign number_printed = 0 %}
