@@ -14,7 +14,7 @@ We are a Hydrology and Water Resources Lab at Civil Engineering Department at [K
 There are five main areas of research:
 
 1. **도시 홍수 해석(Urban flood)**: Genomic analysis of DNA using high-throughput sequencing to identify genes associated with human disorders
-2. **수문학적 자료 동화(Hydrologic data assimilation) **: Using whole-genome sequencing to identify the elements of the noncoding genome that contribute to ASD
+2. **수문학적 자료 동화(Hydrologic data assimilation)**: Using whole-genome sequencing to identify the elements of the noncoding genome that contribute to ASD
 3. **데이터기반 수문 해석(Data-driven hydrologic modeling)**: SCN2A mutations are one of the most common causes of ASD; we aim to understand how this risk is mediated with the view to developing therapeutics
 4. **기후변화 적응 수자원 관리(Climate-adaptative water resource management)**: Leveraging functional genomic data to understand physiological brain development and the pathology associated with neuropsychiatric disorders
 5. **멀티센서 수문 관측(Measuring hydrologic variables using multi-sensors)**: Identifying genes and gene networks that lead to the preponderance of males diagnosed with ASD
