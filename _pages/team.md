@@ -104,6 +104,7 @@ permalink: /team/
   {% endif %}
 
   {% if member.number_educ == 4 %}
+    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
