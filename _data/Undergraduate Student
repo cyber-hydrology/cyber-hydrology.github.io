@@ -1,0 +1,41 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+
+
+- name: 이예원 (Yaewon Lee)
+  photo: lee_Yaewon.jpg
+  info: 학부연구생 (Undergraduate Student), started March 2022
+  email: 
+  number_educ: 0
+  education1: 
+  education2:
+  education3:
+  education4:
+
+- name: 우현아 (Hyuna Woo)
+  photo: woo_hyuna.jpg
+  info: 학부연구생 (Undergraduate Student), started March 2022
+  email: 
+  number_educ: 0
+  education1: 
+  education2: 
+  education3:
+  education4:
+
+- name: 서제무 (Jemu Seo)
+  photo: seo_jemu.jpg
+  info: 학부연구생 (Undergraduate Student), started March 2022
+  email: 
+  number_educ: 0
+  education1: 
+  education2:
+  education3:
+  education4:
