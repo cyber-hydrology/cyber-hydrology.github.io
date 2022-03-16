@@ -138,7 +138,7 @@ permalink: /team/
 
 ## Undergraduate Student
 {% assign number_printed = 0 %}
-{% for member in site.data.Undergraduate Student %}
+{% for member in site.data.Undergraduate_Student %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
