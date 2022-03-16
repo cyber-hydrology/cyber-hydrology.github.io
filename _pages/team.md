@@ -136,7 +136,7 @@ permalink: /team/
 {% endif %}
 
 
-## 학부연구생 (Bachelor)
+## Undergraduate tudent
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
