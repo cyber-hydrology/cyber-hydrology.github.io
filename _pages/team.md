@@ -136,7 +136,7 @@ permalink: /team/
 {% endif %}
 
 
-## Undergraduate tudent
+## Undergraduate Student
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
