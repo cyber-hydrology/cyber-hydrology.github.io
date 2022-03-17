@@ -23,16 +23,16 @@ We are a **Hydrology and Water Resources Lab (Noh Lab)** at Civil Engineering De
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood-3D.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood-3D.jpg" style="height: 300px;" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-DA.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-DA.jpg" style="height: 300px;" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood.jpg" style="height: 300px;" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-modeling.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-modeling.jpg" style="height: 300px;" alt="Slide 4" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -93,6 +93,6 @@ We are grateful for funding from the [National Research Foundation](http://nrf.r
   <p style="display:flex; justify-content: space-between; align-items: flex-end;">
     <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NRF.jpg" style="width: 209px; height: 77px;">
     <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_kwater.jpg" style="width: 160px; height: 65px;">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_kit.jpg" style="width: 180px; height: 44px;">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_kit.jpg" style="width: 180px; height: 40px;">
   </p>
 </figure>
