@@ -57,7 +57,7 @@ There are five main areas of research:
 5. **멀티센서 수문 관측 (Measuring hydrologic variables using multi-sensors)** : Utilization ana analysis of multiple sensors to measure hydrologic variables from precipitations to soil moisture to streamflow
 
 ### 수문학연구실 가입 Joining Noh Lab
-If you are interested in joining please go to the [recruitment](recruitment) page.
+If you are interested in joining please go to the [contact](contact) page.
 
 ### 연구비 지원 Funding
 We are grateful for funding from the [National Research Foundation](http://nrf.re.kr), [K-water](https://www.kwater.or.kr/), and [Kumoh National Institute of Technology](https://www.kumoh.ac.kr).
