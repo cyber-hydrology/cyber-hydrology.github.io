@@ -198,3 +198,4 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+<br>
