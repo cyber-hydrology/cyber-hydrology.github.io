@@ -6,6 +6,8 @@ sitemap: false
 permalink: /
 ---
 
+## Welcome to the Noh Lab
+
 [금오공과대학교](https://www.kumoh.ac.kr) [토목공학과](https://civil.kumoh.ac.kr) **수문학연구실**에서는 홍수, 가뭄 등 기후변화로 인해 인류에게 직접적인 영향을 미치는 물 문제에 대한 분석 방법 및 해결책에 대해 연구합니다.
 
 We are a **Hydrology and Water Resources Lab (Noh Lab)** at Civil Engineering Department at [Kumoh National Institute of Technology](https://eng.kumoh.ac.kr). Our aim is to explore and characterize complexity and uncertainty in hydrology and water resources systems to improve both our understanding of these systems and our ability to respond to water-related hazards under changing climate conditions.
@@ -45,9 +47,8 @@ We are a **Hydrology and Water Resources Lab (Noh Lab)** at Civil Engineering De
   </a>
 </div>
 
-
+<br>
 주요 연구분야:
-
 There are five main areas of research:
 
 1. **도시 홍수 해석 (Urban flood)** : Urban flood modeling to disentangle uncertainty in urban water systems for resilient and sustainable cities 
