@@ -1,5 +1,5 @@
 ---
-title: "News"
+title: "Noh Lab - News"
 layout: textlay
 excerpt: "Allan Lab at Leiden University."
 sitemap: false
