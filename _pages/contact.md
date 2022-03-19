@@ -1,5 +1,5 @@
 ---
-layout : default
+layout : textlay
 title : "Noh Lab - Contact"
 permalink : /contact/
 ---
