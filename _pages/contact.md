@@ -1,10 +1,10 @@
 ---
-layout : page
+layout : default
 title : "Noh Lab - Contact"
 permalink : /contact/
 ---
 
-## Contact
+# Contact
 
 
 ### Address
@@ -12,13 +12,16 @@ permalink : /contact/
 Room 302, Bldg. Global, Kumoh National Institute of Technology
 61, Daehak-ro, Gumi-si, Gyeongsangbuk-do, Republic of Korea
 
+
 ### E-Mail
 
 seongjin.noh@kumoh.ac.kr
 
+
 ### Phone
 
 +82-54-478-7621
+
 
 ### Map
 
