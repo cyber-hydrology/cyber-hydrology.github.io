@@ -10,6 +10,7 @@ permalink: /team/
 
  **박사과정, 석사과정, 학부 연구생 모집합니다 We are  looking for new PhD, Master, Bachelor students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
+<br>
 ## Principal Investigator
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -72,7 +73,7 @@ permalink: /team/
 </div>
 {% endif %}
 
-
+<br>
 ## PhD and Master Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
@@ -135,7 +136,7 @@ permalink: /team/
 </div>
 {% endif %}
 
-
+<br>
 ## Undergraduate Student
 {% assign number_printed = 0 %}
 {% for member in site.data.Undergraduate_Student %}
