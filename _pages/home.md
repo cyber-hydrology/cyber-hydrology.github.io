@@ -22,17 +22,17 @@ We are a **Hydrology and Water Resources Lab (Noh Lab)** at Civil Engineering De
 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood-3D.jpg" style="height: 300px;" alt="Slide 1" />
+        <div class="item active" style="height: 100%; width: 100%;">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood-3D.jpg" style="height: 300px; width: 100%;" alt="Slide 1" />
+        </div> 
+        <div class="item" style="height: 100%; width: 100%;">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-DA.jpg" style="height: 300px; width: 100%;" alt="Slide 2" />
         </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-DA.jpg" style="height: 300px;" alt="Slide 2" />
+        <div class="item" style="height: 100%; width: 100%;">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood.jpg" style="height: 300px; width: 100%;" alt="Slide 3" />
         </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-flood.jpg" style="height: 300px;" alt="Slide 3" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-modeling.jpg" style="height: 300px;" alt="Slide 4" />
+        <div class="item" style="height: 100%; width: 100%;">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/home-modeling.jpg" style="height: 300px; width: 100%;" alt="Slide 4" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
