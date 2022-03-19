@@ -6,8 +6,6 @@ permalink : /contact/
 
 <h3 style="font-weight:bold;">Contact</h3>
 <br>
-<br>
-
 
 <h4 style="font-weight:bold;">Address</h4>
 
