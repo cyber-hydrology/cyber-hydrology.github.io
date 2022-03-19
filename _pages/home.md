@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 <br>
-<h1 style = "font-weight:bold; margin-bottom:20px;"> Welcome to the Noh Lab </h1>
+<h1 style = "margin-bottom:20px;"> Welcome to the Noh Lab </h1>
 
 [금오공과대학교](https://www.kumoh.ac.kr) [토목공학과](https://civil.kumoh.ac.kr) **수문학연구실**에서는 홍수, 가뭄 등 기후변화로 인해 인류에게 직접적인 영향을 미치는 물 문제에 대한 분석 방법 및 해결책에 대해 연구합니다.
 
@@ -59,11 +59,11 @@ There are five main areas of research:
 5. **멀티센서 수문 관측 (Measuring hydrologic variables using multi-sensors)** : Utilization ana analysis of multiple sensors to measure hydrologic variables from precipitations to soil moisture to streamflow
 
 
-<h3 style = "font-weight:bold; margin-top:40px;"> 수문학연구실 가입 Joining Noh Lab </h3>
+<h3 style = "font-size: 30px; margin-top:40px;"> 수문학연구실 가입 Joining Noh Lab </h3>
 If you are interested in joining please go to the [contact](contact) page.
 
 
-<h3 style = "font-weight:bold; margin-top:40px;"> 연구비 지원 Funding </h3>
+<h3 style = "font-size:30px; margin-top:40px;"> 연구비 지원 Funding </h3>
 We are grateful for funding from the [National Research Foundation](http://nrf.re.kr), [K-water](https://www.kwater.or.kr/), and [Kumoh National Institute of Technology](https://www.kumoh.ac.kr).
 
 
