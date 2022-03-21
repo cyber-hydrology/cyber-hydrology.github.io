@@ -5,7 +5,6 @@ excerpt: "Noh Lab at kit."
 sitemap: false
 permalink: /
 ---
-<br>
 <h1 style = "margin-bottom:20px;"> Welcome to the Noh Lab </h1>
 
 [금오공과대학교](https://www.kumoh.ac.kr) [토목공학과](https://civil.kumoh.ac.kr) **수문학연구실**에서는 홍수, 가뭄 등 기후변화로 인해 인류에게 직접적인 영향을 미치는 물 문제에 대한 분석 방법 및 해결책에 대해 연구합니다.
