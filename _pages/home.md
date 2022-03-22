@@ -65,33 +65,7 @@ If you are interested in joining please go to the [contact](contact) page.
 <h3 style = "font-size:30px; margin-top:40px;"> 연구비 지원 Funding </h3>
 We are grateful for funding from the [National Research Foundation](http://nrf.re.kr), [K-water](https://www.kwater.or.kr/), and [Kumoh National Institute of Technology](https://www.kumoh.ac.kr).
 
-
-
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-    </ol>
-
-    <!-- Items -->
-    <div class="carousel-inner" markdown="0">
-
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STS.jpg" alt="Slide 1" />
-        </div>
-
-    </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
+<dir>
 <figure class="fourth">
   <p style="display:flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap;">
     <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NRF.jpg" style="width: 209px; height: 77px;">
