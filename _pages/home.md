@@ -68,13 +68,13 @@ We are grateful for funding from the [National Research Foundation](http://nrf.r
 <dir>
 <figure class="fourth">
   <p style="display:flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap;">
-    <div class="display:inline-block; height: 100px;">
+    <div style="display:inline-block; height: 100px;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NRF.jpg" style="width: 209px; height: 77px;">
     </div>
-    <div class="display:inline-block; height: 100px;">
+    <div style="display:inline-block; height: 100px;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_kwater.jpg" style="width: 160px; height: 65px;">
     </div>
-    <div class="display:inline-block; height: 100px;">
+    <div style="display:inline-block; height: 100px;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_kit.jpg" style="width: 180px; height: 40px;">
     </div>
   </p>
