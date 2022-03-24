@@ -52,7 +52,7 @@ firstp {
 #homeid dir {
 	padding: 0px;
 }
-#homeid figure div{
+#homeid figure div:nth-child(n + 2){
 	display:inline-block; 
 	height: 100px; 
 	line-height: 100px;
