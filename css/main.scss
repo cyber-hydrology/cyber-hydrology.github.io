@@ -1,5 +1,7 @@
 ---
 ---
+
+/* css 파일 */
     
 @import "bootstrap";
 
@@ -47,6 +49,19 @@ firstp {
 }
 
 /* Home, News */
+#homeid dir {
+	padding: 0px;
+}
+#homeid figure div{
+	display:inline-block; 
+	height: 100px; 
+	line-height: 100px;
+	margin-left: 20px;
+}
+#homeid figure div img{
+	vertical-align: middle;
+}
+
 #newsid p {
 	text-align: left;
 }
@@ -104,4 +119,3 @@ firstp {
 		margin-bottom: 20px;
 	}
 }
-
