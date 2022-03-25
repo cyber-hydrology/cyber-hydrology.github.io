@@ -55,8 +55,9 @@ firstp {
 #homeid figure div:nth-child(n + 2){
 	display:inline-block; 
 	height: 100px; 
+	width: 200px;
 	line-height: 100px;
-	margin-left: 20px;
+	text-align: center;
 }
 #homeid figure div img{
 	vertical-align: middle;
