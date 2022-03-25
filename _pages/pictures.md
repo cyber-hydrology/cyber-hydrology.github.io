@@ -19,7 +19,7 @@ permalink: /pictures/
 {% assign number_printed = 0 %}
 
 <!-- for문 시작지점--> <!--for문을 pic세트 개수만큼 출력-->
-{% for pic in site.data.pictures_Leiden %} 
+{% for pic in site.data.pictures %} 
 
 {% assign even_odd = number_printed | modulo: 4 %}
 
