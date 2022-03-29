@@ -1,10 +1,21 @@
-- title: "A strongly inhomogeneous superfluid in an iron-based superconductor"
-  image: STS_news.png
-  description: We succeeded in measuring the superfluid density with atomic resolution on an unconventional superconductor! In contrast to expectations for conventional superconductors, we find that the superfluid densisty is strongly inhomogeneous in FeTe0.55Se0.45.
-  authors: D Cho* & KM Bastiaans* & D Chatzopoulos*, GD Gu, MP Allan
+#- title: "A strongly inhomogeneous superfluid in an iron-based superconductor"
+#  image: STS_news.png
+#  description: We succeeded in measuring the superfluid density with atomic resolution on an unconventional superconductor! In contrast to expectations for conventional superconductors, we find that the superfluid densisty is strongly inhomogeneous in FeTe0.55Se0.45.
+#  authors: D Cho* & KM Bastiaans* & D Chatzopoulos*, GD Gu, MP Allan
+#  link:
+#    url: https://www.nature.com/articles/s41586-019-1408-8
+#    display:  Nature 571, 541 (2019)
+#  highlight: 1
+#  news2:
+
+
+- title: "Ensemble streamflow data assimilation using WRF-Hydro and DART: novel localization and inflation techniques applied to Hurricane Florence flooding"
+  image: Ensemble_streamflow.png
+  description: This study presents a general data assimilation framework that aims to improve flood predictions in channel routing models.
+  authors: El Gharamti, M., McCreight, J. L., Noh, S. J., Hoar, T. J., RafieeiNasab, A., and Johnson, B. K.
   link:
-    url: https://www.nature.com/articles/s41586-019-1408-8
-    display:  Nature 571, 541 (2019)
+    url: https://hess.copernicus.org/articles/25/5315/2021/
+    display:  EGU 25, 5315 (2021)
   highlight: 1
   news2:
 
