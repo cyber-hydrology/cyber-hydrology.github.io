@@ -8,11 +8,20 @@
 #  highlight: 1
 #  news2:
 
+#- title: ""
+#  image: 
+#  description: 
+#  authors:  
+#  link:
+#    url: 
+#    display:  
+#  highlight: 0
+#  news2:
 
 - title: "Ensemble streamflow data assimilation using WRF-Hydro and DART: novel localization and inflation techniques applied to Hurricane Florence flooding"
   image: Ensemble_streamflow.png
   description: This study presents a general data assimilation framework that aims to improve flood predictions in channel routing models.
-  authors: El Gharamti, M., McCreight, J. L., Noh, S. J., Hoar, T. J., RafieeiNasab, A., and Johnson, B. K.
+  authors: El Gharamti, M., McCreight, J. L., Noh, S. J., Hoar, T. J., RafieeiNasab, A., Johnson, B. K.
   link:
     url: https://hess.copernicus.org/articles/25/5315/2021/
     display:  EGU 25, 5315 (2021)
@@ -35,17 +44,68 @@
   authors: Wu, Y.C., Noh, S.J., Ham, S. 
   link:
     url: https://doi.org/10.3390/w12061725
-    display:  Water 2020 12, 1725 (2020)
+    display:  Water 12, 1725 (2020)
   highlight: 0
   news2:
 
 - title: "Improving Multisensor Precipitation Estimation via Adaptive Conditional Bias-Penalized Merging of Rain Gauge Data and Remotely-Sensed Quantitative Precipitation Estimates"
   image: 
   description: 
-  authors: Jozaghi, A., Nabatian, M., Noh, S. J., Seo, D.-J., Tang, L., and Zhang, J. 
+  authors: Jozaghi, A., Nabatian, M., Noh, S. J., Seo, D.-J., Tang, L., Zhang, J. 
   link:
     url: https://doi.org/10.1175/JHM-D-19-0129.1
     display:  Journal of Hydrometeorology 20, 2347 (2019)
   highlight: 0
   news2:
   
+- title: "Improving flood forecasting using conditional bias-penalized ensemble Kalman filter"
+  image: 
+  description: 
+  authors: Lee, H., Shen, H., Noh, S. J., Kim, S., Seo, D.-J., Zhang, Y.  
+  link:
+    url: https://doi.org/10.1016/j.jhydrol.2019.05.072
+    display:  Journal of Hydrology 575, 596 (2019)
+  highlight: 0
+  news2:
+  
+- title: "Retrospective dynamic inundation mapping of Hurricane Harvey flooding in the Houston metropolitan area using high-resolution modelling"
+  image: 
+  description: 
+  authors: Noh, S. J., Lee, H., Lee, S., Seo, D.-J. 
+  link:
+    url: https://doi.org/10.3390/w11030597
+    display: Water 11(3), 597 (2019)
+  highlight: 0
+  news2:
+  
+- title: "Toward parsimonious modeling of frequency of areal runoff from heavy-to-extreme precipitation in large urban areas under changing conditions: a derived moment approach"
+  image: 
+  description: 
+  authors: Norouzi, A., Habibi, H., Nazari, B., Noh, S. J., Seo, D.-J., Zhang, Y.
+  link:
+    url: https://doi.org/10.1007/s00477-019-01698-8
+    display: SERRA 33, 1263 (2019)
+  highlight: 0
+  news2:
+  
+- title: "High-Resolution Hydrologic Forecasting for Very Large Urban Areas"
+  image: 
+  description: 
+  authors: Habibi, H., Dasgupta, I., Noh, S. J., Kim, S., Zink, M., Seo, D.-J., Bartos, M., and Kerkez, B. 
+  link:
+    url: https://doi.org/10.2166/hydro.2019.100
+    display: Journal of Hydroinformatics 21(3), 441 (2019)
+  highlight: 0
+  news2:
+  
+- title: ""
+  image: 
+  description: 
+  authors:  
+  link:
+    url: 
+    display:  
+  highlight: 0
+  news2:
+
+
