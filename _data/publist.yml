@@ -64,7 +64,7 @@
   authors: Lee, H., Shen, H., Noh, S. J., Kim, S., Seo, D.-J., Zhang, Y.  
   link:
     url: https://doi.org/10.1016/j.jhydrol.2019.05.072
-    display:  Journal of Hydrology 575, 596 (2019)
+    display:  J. Hydrol. 575, 596 (2019)
   highlight: 0
   news2:
   
@@ -98,4 +98,123 @@
   highlight: 0
   news2:
   
+- title: "Hyper-resolution 1D-2D urban flood modelling using LiDAR data and hybrid parallelization"
+  image: 
+  description: 
+  authors: Noh, S. J., Lee, J., Lee, S., Kawaike, K., Seo, D.-J.
+  link:
+    url: https://doi.org/10.1016/j.envsoft.2018.02.008
+    display: Environmental Modelling and Software 103, 131 (2018)
+  highlight: 0
+  news2:
+  
+- title: "Hybrid numerical scheme of Preissmann Slot Model for Transient Mixed Flows"
+  image: 
+  description: 
+  authors: An, H., Lee, S., Noh, S. J., Kim, Y., Noh, J.
+  link:
+    url: https://doi.org/10.3390/w10070899
+    display: Water 10(7), 899 (2018)
+  highlight: 0
+  news2:
+  
+- title: "Real-time assimilation of streamflow observations into a hydrologic routing model: Effects of model structures and updating methods"
+  image: 
+  description: 
+  authors: Mazzoleni, M., Noh, S. J.*, Lee, H., Liu, Y., Seo, D. J., Amaranto, A., Alfonso, L., Solomatine, D. P. 
+  link:
+    url: https://doi.org/10.1080/02626667.2018.1430898
+    display: Hydrological Sciences Journal 63, 385 (2018)
+  highlight: 0
+  news2:
+  
+- title: "Data assimilation in hydrologic routing: impact of model error and sensor placement on flood forecasting"
+  image: 
+  description: 
+  authors: Mazzoleni, M., Chacon-Hurtado, J, Noh, S. J., Seo, D.-J., Alfonso, L, Solomatine, D. 
+  link:
+    url: https://doi.org/10.1061/(ASCE)HE.1943-5584.0001656
+    display: J. Hydrol. Eng. 23(6), 1943 (2018)
+  highlight: 0
+  news2:
+  
+- title: "Improving multisensor estimation of heavy-to-extreme precipitation via conditional bias-penalized optimal estimation"
+  image: 
+  description: 
+  authors: Kim, B., Seo, D.-J., Noh, S. J., Prat, O. P., Nelson, B. R. 
+  link:
+    url: https://doi.org/10.1016/j.jhydrol.2016.10.052
+    display: J. Hydrol. 556, 1096 (2018)
+  highlight: 0
+  news2:
+  
+- title: "Merging Real-Time Channel Sensor Networks with Continental-Scale Hydrologic Models: A Data Assimilation Approach for Improving Accuracy in Flood Depth Predictions"
+  image: 
+  description: 
+  authors: Javaheri, A., Nabatian, M., Omranian, E., Babbar-Sebens, M., Noh, S. J. 
+  link:
+    url: https://doi.org/10.3390/hydrology5010009
+    display: Hydrology 5(1), 9 (2018)
+  highlight: 0
+  news2:
+  
+- title: "Flow vector analysis methods for a pressure sensor network on a steep hillslope"
+  image: 
+  description: 
+  authors: Gwak, Y., Kim, S., Lee, K., Noh, S. J., An, H. 
+  link:
+    url: https://doi.org/10.2136/vzj2016.12.0122
+    display: Vadose Zone Journal 16(8) (2017)
+  highlight: 0
+  news2:
+  
+- title: "Ensemble urban flood simulation in comparison with laboratory-scale experiments: Impact of interaction models for manhole, sewer pipe, and surface flow"
+  image: 
+  description: 
+  authors: Noh, S. J., Lee, S., An, H., Kawaike, K., Nakagawa, H. 
+  link:
+    url: https://doi.org/10.1016/j.advwatres.2016.08.015 
+    display: Adv. Water Resour. 97, 25 (2016)
+  highlight: 0
+  news2:
+  
+- title: "A weakly-constrained data assimilation approach to address rainfall-runoff model structural inadequacy in streamflow prediction"
+  image: 
+  description: 
+  authors: Lee, H., Seo, D.-J., Noh, S. J.  
+  link:
+    url: https://doi.org/10.1016/j.jhydrol.2016.09.009
+    display: J. Hydrol. 542, 373 (2016)
+  highlight: 0
+  news2:
+  
+- title: "Development of time-variant landslide-prediction software considering three-dimensional subsurface unsaturated flow"
+  image: 
+  description: 
+  authors: An, H., Viet, T., Lee, G., Kim, Y., Kim, M., Noh, S. J., Noh, J. 
+  link:
+    url: https://doi.org/10.1016/j.envsoft.2016.08.009
+    display: Environmental Modelling & Software 85, 172 (2016)
+  highlight: 0
+  news2:
+  
+- title: "Simulation of soil moisture on a hillslope using multiple hydrologic models in comparison to field measurements"
+  image: 
+  description: 
+  authors: Noh, S. J., An, H., Kim, S., Kim, H. J. 
+  link:
+    url: https://doi.org/10.1016/j.jhydrol.2015.01.047
+    display: J. Hydrol. 523, 342 (2015)
+  highlight: 0
+  news2:
+  
+- title: "Performance of a rain barrel sharing network under climate change"
+  image: 
+  description: 
+  authors: Noh, S. J., Chung, E. S., Seo, Y. 
+  link:
+    url: https://doi.org/10.3390/w7073466
+    display: Water 7, 3466 (2015)
+  highlight: 0
+  news2:
 
