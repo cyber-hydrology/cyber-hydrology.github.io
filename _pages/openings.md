@@ -27,6 +27,8 @@ If you are a student at kit looking for a Graduate program, contact me (or any g
 
 If you are interested in working with us as a PhD or Master student, please send me an [email](mailto:seongjin.noh@gmail.com). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Master"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
 
+<br>
+
 <!--
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/DSC_0696.jpg" width="95%">
