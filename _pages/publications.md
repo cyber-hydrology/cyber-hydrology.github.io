@@ -13,6 +13,8 @@ permalink: /publications/
 
 (For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com/citations?user=Q0Z_uB8AAAAJ&hl=en), [ResearcherID])(https://publons.com/researcher/1296422/seong-jin-noh/)
 
+To be update soon..
+
 {% assign number_printed = 0 %}
 
 <!-- for문 시작-->
@@ -63,4 +65,6 @@ permalink: /publications/
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}
+
+To be update soon..
 
