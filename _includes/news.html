@@ -2,6 +2,18 @@
 <div class="well" style ="position:relative; background:none">
     <h4 style= "font-weight:bold;">News</h4>
 
+    {% for article in site.data.fix_news limit:9 %}
+    <div style="display: flex; gap: 5px; margin: 24px 0;">
+        <img src="{{article.img}}" 
+            style="width: 100px; height: 80;">
+        <div style="display: flex; flex-direction: column; /* font-size: 16px; */">
+            <p style="margin: 0; font-weight: bold;">{{article.headline}}</p>
+            <p>{{article.date}}</p>
+        </div>
+    </div>
+    
+    {% endfor %}
+    
     {% for article in site.data.news limit:9 %}
     {{ article.date }}
         <p>{{ article.headline }}</p>
