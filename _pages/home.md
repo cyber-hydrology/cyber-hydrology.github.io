@@ -63,7 +63,7 @@ If you are interested in joining please go to the [contact](contact) page.
 
 
 <h3 style = "font-size:30px; margin-top:40px;"> 연구비 지원 Funding </h3>
-We are grateful for funding from the [National Research Foundation](http://nrf.re.kr), [K-water](https://www.kwater.or.kr/), and [Kumoh National Institute of Technology](https://www.kumoh.ac.kr).
+We are grateful for funding from the [National Research Foundation](http://nrf.re.kr), [K-water](https://www.kwater.or.kr/), [Kumoh National Institute of Technology](https://www.kumoh.ac.kr), [Ministry of Science and ICT](https://www.msit.go.kr), and [National Institute Of Environmental Research](https://www.nier.go.kr)
 
 <dir>
 <figure class="fourth">
@@ -76,6 +76,12 @@ We are grateful for funding from the [National Research Foundation](http://nrf.r
     </div>
     <div>
         <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_kit.jpg" style="width: 180px; height: 40px;">
+    </div>
+    <div>
+        <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_msit.jpg" style="width: 180px; height: 40px;">
+    </div>
+    <div>
+        <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_nier.jpg" style="width: 180px; height: 40px;">
     </div>
   </p>
 </figure>
