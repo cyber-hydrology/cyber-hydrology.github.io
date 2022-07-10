@@ -4,7 +4,7 @@
         <span style="border-bottom: 4.5px solid #000; padding-right: 3px; padding-bottom: 0.5px;">News</span></h4>
 
     {% for article in site.data.fix_news limit:9 %}
-    <a href="https://www.kumoh.ac.kr/ko/sub01_05_02.do?mode=view&articleNo=381121" style="color: #333333">
+    <a href="{{article.link}}" style="color: #333333">
         <div style="display: flex; flex-direction:column; margin: 13px 0 10px;">
             <img src="{{article.img}}" 
                 style="width: 97%; height: 190px;">
