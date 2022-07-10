@@ -63,6 +63,11 @@ firstp {
 	vertical-align: middle;
 }
 
+#newsid {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
 #newsid p {
 	text-align: left;
 	word-break: break-all;
@@ -91,7 +96,6 @@ firstp {
 }
 .news-article:hover {
 	color: #555555;
-	text-decoration:none;
 }
 	
 
