@@ -4,17 +4,16 @@
         <span style="border-bottom: 4.5px solid #000; padding-right: 3px; padding-bottom: 0.5px;">News</span></h4>
 
     {% for article in site.data.fix_news limit:9 %}
-    <div style="display: flex; gap: 15px; margin: 13px 0 10px;">
-        <img src="{{article.img}}" 
-            style="width: 108px; height: 80;">
-        <div style="display: flex; flex-direction: column; flex: 1; justify-content: center;">
-            <a href="https://www.kumoh.ac.kr/ko/sub01_05_02.do?mode=view&articleNo=381121" style="color: #333333">
-               <p style="margin-bottom: 5px; font-weight: bold; font-size: 16px;">{{article.headline}}</p> 
-            </a>
-            <p style="font-size: 14px;">{{article.date}}</p>
+    <a href="https://www.kumoh.ac.kr/ko/sub01_05_02.do?mode=view&articleNo=381121" style="color: #333333">
+        <div style="display: flex; flex-direction:column; margin: 13px 0 10px;">
+            <img src="{{article.img}}" 
+                style="width: 97%; height: 190px;">
+            <div style="padding-top: 3px;">
+                <p style="margin-bottom: 5px; font-weight: bold; font-size: 16px; word-break: break-all;">{{article.headline}}</p> 
+                <!-- <p style="font-size: 14px;">{{article.date}}</p> -->
+            </div>
         </div>
-    </div>
-    
+    </a>
     {% endfor %}
     
     {% for article in site.data.news limit:9 %}
