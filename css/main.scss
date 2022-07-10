@@ -78,7 +78,6 @@ firstp {
 }
 
 .news-plus-button {
-	text-decoration: none;
 	color: #cfcfcf; 
 }
 
@@ -87,6 +86,13 @@ firstp {
 	color: #000000; 
 }
 
+.news-article {
+	color: #555555;
+}
+.news-article:hover {
+	color: #555555;
+	text-decoration:none;
+}
 	
 
 /* Team & Publications */
