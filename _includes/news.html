@@ -18,7 +18,7 @@
     
     {% for article in site.data.news limit:9 %}
     <p>{{ article.date }}</p>
-    <a href="{{ site.url }}{{ site.baseurl }}/allnews.html#{{article.id}}">
+    <a href="{{ site.url }}{{ site.baseurl }}/allnews.html#{{article.id}}" class="news-article">
         <p>{{ article.headline }}</p>
     </a>
     {% endfor %}
