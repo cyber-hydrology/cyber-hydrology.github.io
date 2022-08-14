@@ -43,24 +43,20 @@ To be updated soon..
 
 
 ## Full List
-  {% for year in (2015..2021) reversed %}
-    {{ year }}
-  {% endfor %}
-
-
-<!-- {% assign years = "2021", "2020", "2019", "2018", "2017", "2016", "2015" %}
-{% for year in years %}
-{{ years }}
-{% endfor %} -->
-
-<!-- {% for year in years %}
- <h3>{{ year }}</h3>
- {% for publi in site.data.publist %}
-  {% if publi.year == year %}
+{% for year in (2015..2021) reversed %}
+  <h3>{{ year }}</h3>
+  
+  {% for publi in site.data.publist %}
+   {% if publi.year == year %}
    {{ publi.title }} <br />
-   <em>{{ publi.authors }} </em>
-   <br />
+   <em>{{ publi.authors }} </em> <br />
    <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  {% endif %}
+   {% endif %}
+  {% endfor %}
+  
  {% endfor %}
-{% endfor %} -->
+
+
+
+
+
