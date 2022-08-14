@@ -7,7 +7,7 @@ permalink: /publications/
 ---
 
 
-# Publications
+<!-- # Publications
 
 ## Highlights
 
@@ -17,7 +17,7 @@ To be updated soon..
 
 {% assign number_printed = 0 %}
 
-<!-- for문 시작-->
+
 {% for publi in site.data.publist %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -47,14 +47,14 @@ To be updated soon..
 
 {% endif %}
 {% endfor %}
-<!-- for문 끝-->
+
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<p> &nbsp; </p> -->
 
 
 ## Full List
