@@ -7,7 +7,7 @@ permalink: /publications/
 ---
 
 
-# Publications
+<!-- # Publications
 
 ## Highlights
 
@@ -54,7 +54,7 @@ To be updated soon..
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<p> &nbsp; </p> -->
 
 
 ## Full List
