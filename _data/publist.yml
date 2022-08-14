@@ -18,6 +18,17 @@
 #  highlight: 0
 #  news2:
 
+- title: "Retrospective analysis of the urban inundation and the impact assessment of the flood barrier using H12 model"
+  image: 
+  description: 
+  authors: Kim, B., Noh, S. J., Lee, S.
+  link:
+    url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002843493
+    display:  J.Korea Water Resour. Assoc., 55(5), 345-356 (2022)
+  highlight: 0
+  news2:
+  year: 2022
+  
 - title: "Ensemble streamflow data assimilation using WRF-Hydro and DART: novel localization and inflation techniques applied to Hurricane Florence flooding"
   image: Ensemble_streamflow.png
   description: This study presents a general data assimilation framework that aims to improve flood predictions in channel routing models.
