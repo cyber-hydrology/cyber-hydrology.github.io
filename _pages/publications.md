@@ -43,7 +43,7 @@ To be updated soon..
 
 
 ## Full List
-{% if years = [2015, 2016, 2017, 2018, 2019, 2020, 2021] %}
+{% if years == [2015, 2016, 2017, 2018, 2019, 2020, 2021] %}
   {% for year in years reversed %}
     {{ year }}
   {% endfor %}
