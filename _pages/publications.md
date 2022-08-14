@@ -42,15 +42,17 @@ To be updated soon..
 <p> &nbsp; </p> -->
 
 
-## Full List
+<!-- ## Full List -->
 {% for year in (2015..2022) reversed %}
-  <h3>{{ year }}</h3>
+  <h3 style="font-size: 35px";>{{ year }}</h3>
   
   {% for publi in site.data.publist %}
    {% if publi.year == year %}
-   {{ publi.title }} <br />
-   <em>{{ publi.authors }} </em> <br />
-   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+   <p style="font-size: 18px";>
+    {{ publi.title }} <br />
+    <em>{{ publi.authors }} </em> <br />
+    <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+   </p>
    {% endif %}
   {% endfor %}
   
