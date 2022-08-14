@@ -3,7 +3,7 @@
     <h4 style= "font-weight:bold; font-size: 22px; border-bottom: 2px solid #e7e7e7; padding: 5px 0;">
         <span style="border-bottom: 4.5px solid #000; padding-right: 3px; padding-bottom: 0.5px;">News</span></h4>
 
-    {% for article in site.data.fixed_news limit:9 %}
+    {% for article in site.data.home_fixed_news limit:9 %}
     <a href="{{article.link}}" style="color: #333333">
         <div style="display: flex; flex-direction:column; margin: 13px 0 10px;">
             <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{article.img}}" 
@@ -16,7 +16,7 @@
     </a>
     {% endfor %}
     
-    {% for article in site.data.news limit:9 %}
+    {% for article in site.data.home_news limit:9 %}
     {{ article.date }}
     <a href="{{article.link}}" class="news-article">
         <p>{{ article.headline }}</p>
