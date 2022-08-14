@@ -63,6 +63,8 @@ To be updated soon..
 
 {% for year in years %}
  <h3>{{ year }}</h3>
+{% endfor %}
+ 
  {% for publi in site.data.publist %}
   {% if publi.year == year %}
    {{ publi.title }} <br />
@@ -70,6 +72,7 @@ To be updated soon..
    <br />
    <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
   {% endif %}
- {% endfor %}
+  
+ 
 {% endfor %}
 
