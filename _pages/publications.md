@@ -44,11 +44,11 @@ To be updated soon..
 
 <!-- ## Full List -->
 {% for year in (2015..2022) reversed %}
-  <h3 style="font-size: 35px";>{{ year }}</h3>
+  <h3 style="font-size: 35px;">{{ year }}</h3>
   
   {% for publi in site.data.publist %}
    {% if publi.year == year %}
-   <p style="font-size: 18px";>
+   <p style="font-size: 18px;">
     {{ publi.title }} <br />
     <em>{{ publi.authors }} </em> <br />
     <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
