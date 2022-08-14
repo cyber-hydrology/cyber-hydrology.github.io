@@ -59,12 +59,15 @@ To be updated soon..
 
 ## Full List
 
-{% for publi in site.data.publist %}
-
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
+{% for year in 2021..2015 do %}
+ <h3>{{ year }}</h3>
+ {% for publi in site.data.publist %}
+  {% if publi.year == year %}
+   {{ publi.title }} <br />
+   <em>{{ publi.authors }} </em>
+   <br />
+   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+  {% endif %}
+ {% endfor %}
 {% endfor %}
-
-To be updated soon..
 
