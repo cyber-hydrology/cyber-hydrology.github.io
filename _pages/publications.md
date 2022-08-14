@@ -59,7 +59,7 @@ To be updated soon..
 
 ## Full List
 
-{% for year in 2021..2015 do %}
+{% for year in (2021..2015) %}
  <h3>{{ year }}</h3>
  {% for publi in site.data.publist %}
   {% if publi.year == year %}
