@@ -13,7 +13,7 @@ permalink: /team/
 <br>
 ## Principal Investigator
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in site.data.team_professor %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -76,7 +76,7 @@ permalink: /team/
 <br>
 ## PhD and Master Students
 {% assign number_printed = 0 %}
-{% for member in site.data.students %}
+{% for member in site.data.team_students %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -139,7 +139,7 @@ permalink: /team/
 <br>
 ## Undergraduate Student
 {% assign number_printed = 0 %}
-{% for member in site.data.undergraduate_students %}
+{% for member in site.data.team_undergraduate_students %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
