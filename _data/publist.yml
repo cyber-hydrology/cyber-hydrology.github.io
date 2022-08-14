@@ -27,6 +27,7 @@
     display:  EGU 25, 5315 (2021)
   highlight: 0
   news2:
+  year: 2021
 
 - title: "High-resolution modeling and prediction of urban floods using WRF-Hydro and data assimilation"
   image: 
@@ -37,6 +38,7 @@
     display: Journal of Hydrology 598, 126236 (2021)
   highlight: 0
   news2:
+  year: 2021
   
 - title: "Identification of Inundation Using Low-Resolution Images from Traffic-Monitoring Cameras: Bayes Shrink and Bayesian Segmentation"
   image: 
@@ -47,6 +49,7 @@
     display:  Water 12, 1725 (2020)
   highlight: 0
   news2:
+  year: 2020
 
 - title: "Improving Multisensor Precipitation Estimation via Adaptive Conditional Bias-Penalized Merging of Rain Gauge Data and Remotely-Sensed Quantitative Precipitation Estimates"
   image: 
@@ -57,6 +60,7 @@
     display:  Journal of Hydrometeorology 20, 2347 (2019)
   highlight: 0
   news2:
+  year: 2020
   
 - title: "Improving flood forecasting using conditional bias-penalized ensemble Kalman filter"
   image: 
@@ -67,6 +71,7 @@
     display:  J. Hydrol. 575, 596 (2019)
   highlight: 0
   news2:
+  year: 2019
   
 - title: "Retrospective dynamic inundation mapping of Hurricane Harvey flooding in the Houston metropolitan area using high-resolution modelling"
   image: 
@@ -77,6 +82,7 @@
     display: Water 11(3), 597 (2019)
   highlight: 0
   news2:
+  year: 2019
   
 - title: "Toward parsimonious modeling of frequency of areal runoff from heavy-to-extreme precipitation in large urban areas under changing conditions: a derived moment approach"
   image: 
@@ -87,6 +93,7 @@
     display: SERRA 33, 1263 (2019)
   highlight: 0
   news2:
+  year: 2019
   
 - title: "High-Resolution Hydrologic Forecasting for Very Large Urban Areas"
   image: 
@@ -97,6 +104,7 @@
     display: Journal of Hydroinformatics 21(3), 441 (2019)
   highlight: 0
   news2:
+  year: 2019
   
 - title: "Hyper-resolution 1D-2D urban flood modelling using LiDAR data and hybrid parallelization"
   image: 
@@ -107,6 +115,7 @@
     display: Environmental Modelling and Software 103, 131 (2018)
   highlight: 0
   news2:
+  year: 2018
   
 - title: "Hybrid numerical scheme of Preissmann Slot Model for Transient Mixed Flows"
   image: 
@@ -117,6 +126,7 @@
     display: Water 10(7), 899 (2018)
   highlight: 0
   news2:
+  year: 2018
   
 - title: "Real-time assimilation of streamflow observations into a hydrologic routing model: Effects of model structures and updating methods"
   image: 
@@ -127,6 +137,7 @@
     display: Hydrological Sciences Journal 63, 385 (2018)
   highlight: 0
   news2:
+  year: 2018
   
 - title: "Data assimilation in hydrologic routing: impact of model error and sensor placement on flood forecasting"
   image: 
@@ -137,6 +148,7 @@
     display: J. Hydrol. Eng. 23(6), 1943 (2018)
   highlight: 0
   news2:
+  year: 2018
   
 - title: "Improving multisensor estimation of heavy-to-extreme precipitation via conditional bias-penalized optimal estimation"
   image: 
@@ -147,6 +159,7 @@
     display: J. Hydrol. 556, 1096 (2018)
   highlight: 0
   news2:
+  year: 2018
   
 - title: "Merging Real-Time Channel Sensor Networks with Continental-Scale Hydrologic Models: A Data Assimilation Approach for Improving Accuracy in Flood Depth Predictions"
   image: 
@@ -157,6 +170,7 @@
     display: Hydrology 5(1), 9 (2018)
   highlight: 0
   news2:
+  year: 2018
   
 - title: "Flow vector analysis methods for a pressure sensor network on a steep hillslope"
   image: 
@@ -167,6 +181,7 @@
     display: Vadose Zone Journal 16(8) (2017)
   highlight: 0
   news2:
+  year: 2017
   
 - title: "Ensemble urban flood simulation in comparison with laboratory-scale experiments: Impact of interaction models for manhole, sewer pipe, and surface flow"
   image: 
@@ -177,6 +192,7 @@
     display: Adv. Water Resour. 97, 25 (2016)
   highlight: 0
   news2:
+  year: 2016
   
 - title: "A weakly-constrained data assimilation approach to address rainfall-runoff model structural inadequacy in streamflow prediction"
   image: 
@@ -187,6 +203,7 @@
     display: J. Hydrol. 542, 373 (2016)
   highlight: 0
   news2:
+  year: 2016
   
 - title: "Development of time-variant landslide-prediction software considering three-dimensional subsurface unsaturated flow"
   image: 
@@ -197,6 +214,7 @@
     display: Environmental Modelling & Software 85, 172 (2016)
   highlight: 0
   news2:
+  year: 2016
   
 - title: "Simulation of soil moisture on a hillslope using multiple hydrologic models in comparison to field measurements"
   image: 
@@ -207,6 +225,7 @@
     display: J. Hydrol. 523, 342 (2015)
   highlight: 0
   news2:
+  year: 2015
   
 - title: "Performance of a rain barrel sharing network under climate change"
   image: 
@@ -217,5 +236,6 @@
     display: Water 7, 3466 (2015)
   highlight: 0
   news2:
+  year: 2015
 
 # 21번 부터
