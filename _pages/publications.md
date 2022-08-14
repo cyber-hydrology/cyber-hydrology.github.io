@@ -43,11 +43,17 @@ To be updated soon..
 
 
 ## Full List
+{% if years == [2015, 2016, 2017, 2018, 2019, 2020, 2021] %}
+  {% for year in years reversed %}
+    {{ year }}
+  {% endfor %}
+{% endif %}
 
-{% assign years = "2021", "2020", "2019", "2018", "2017", "2016", "2015" %}
+
+<!-- {% assign years = "2021", "2020", "2019", "2018", "2017", "2016", "2015" %}
 {% for year in years %}
 {{ years }}
-{% endfor %}
+{% endfor %} -->
 
 <!-- {% for year in years %}
  <h3>{{ year }}</h3>
