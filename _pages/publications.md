@@ -72,7 +72,5 @@ To be updated soon..
    <br />
    <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
   {% endif %}
-  
- 
 {% endfor %}
 
