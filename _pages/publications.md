@@ -7,26 +7,17 @@ permalink: /publications/
 ---
 
 
-# Publications
-
+<!-- # Publications
 ## Highlights
-
 (For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com/citations?user=Q0Z_uB8AAAAJ&hl=en), [ResearcherID](https://publons.com/researcher/1296422/seong-jin-noh/))
-
 To be updated soon..
-
 {% assign number_printed = 0 %}
-
-
 {% for publi in site.data.publist %}
-
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if publi.highlight == 1 %}
-
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
-
 <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
@@ -38,32 +29,25 @@ To be updated soon..
   <p> {{ publi.news2 }}</p>
  </div>
 </div>
-
 {% assign number_printed = number_printed | plus: 1 %}
-
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
 {% endif %}
 {% endfor %}
-
-
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-<p> &nbsp; </p>
+<p> &nbsp; </p> -->
 
 
 ## Full List
 
-<!-- {% assign years = "2021,2020,2019,2018,2017,2016,2015" | split: "," % }
+{% assign years = ["2021", "2020", "2019", "2018", "2017", "2016", "2015"] %}
+
 {% for year in years %}
  <h3>{{ year }}</h3>
-{% endfor %} -->
- 
  {% for publi in site.data.publist %}
   {% if publi.year == year %}
    {{ publi.title }} <br />
@@ -71,5 +55,5 @@ To be updated soon..
    <br />
    <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
   {% endif %}
+ {% endfor %}
 {% endfor %}
-
