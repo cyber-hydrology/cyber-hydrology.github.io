@@ -24,15 +24,17 @@ permalink: /projects/
 {% endif %}
  
 <div class="col-sm-6 clearfix">
- <div class="well fixedHeight">
+  <div class="well flex-design shadow-none">
   <protit>{{ project.title }}</protit>
+  <div>
   <img src="{{ site.url }}{{ site.baseurl }}/images/propic/{{ project.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ project.description }}</p>
   <p><em>{{ project.authors }}</em></p>
+  </div>
   <p><strong><a href="{{ project.link.url }}">{{ project.link.display }}</a></strong></p>
   <p class="text-danger"><strong> {{ project.news1 }}</strong></p>
   <p> {{ project.news2 }}</p>
- </div>
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
