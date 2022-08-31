@@ -120,13 +120,19 @@ firstp {
 
 // Projects
 
-protit {
-    font-weight: bold;
-    background-color: #eeeeee;
+.flex-design {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
 }
 
-.fixedHeight {
-    height: 360px;
+protit {
+    font-weight: bold;
+}
+
+.shadow-none {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
 }
 
 /* Grid overrides */
