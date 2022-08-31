@@ -15,3 +15,31 @@
     url: https://cyber-hydrology.github.io/images/propic/2022_KWRA_GR4J_poster.jpg
     display: Proceedings of the Korea Water Resources Association Conference (2022)
   highlight: 1
+
+- title: "Applying ensemble data assimilation into urban flood modeling"
+  image: 2021_ksce_Ensemble-Urban-Flood-DA_poster.jpg
+  description: 
+  authors: Noh, S. J., Lee, S., Kim, B., Choi, H. J., Lee, G., and Lee, S.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2021_ksce_Ensemble-Urban-Flood-DA_poster.jpg
+    display: Proceedings of the Korean Society of Civil Engineers (2021)
+  highlight: 1
+
+- title: "Ensemble data assimilation using WRF-Hydro and DART"
+  image: 2021_KWRA_WRF-hydro-DART_poster.jpg
+  description: Using WRF-Hydro and DART, the distributed hydrological models, the applicability of Along-The-Stream localization and inflation data assimilation techniques was evaluated through large-scale regional simulation.
+  authors: Noh, S. J., Choi, H. J., Kim, B., Lee, G., and Lee, S.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2021_KWRA_WRF-hydro-DART_poster.jpg
+    display: Proceedings of the Korea Water Resources Association Conference (2021)
+  highlight: 1
+
+- title: "Spatial resolution effects in hyper-resolution urban flood modeling"
+  image: 2021_KWRA_urban_flooding_modeling_poster.jpg
+  description: The characteristics of spatial resolution on flood analysis were analyzed using the integrated 1D-2D urban flood model, H12, and ultra-high resolution information.
+  authors: Noh, S. J., Kim, B., Lee, S., Lee, J. H., and Choi, H. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2021_KWRA_urban_flooding_modeling_poster.jpg
+    display: Proceedings of the Korea Water Resources Association Conference (2021)
+  highlight: 1
+
