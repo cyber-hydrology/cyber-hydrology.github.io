@@ -2,17 +2,17 @@
 ---
 
 /* css 파일 */
-    
+
 @import "bootstrap";
 
-img { margin-bottom: 24px; 
-     margin-top: 17px; 
-    border-radius:2%;
+img {
+    margin-bottom: 24px;
+    margin-top: 17px;
+    border-radius: 2%;
 }
 
-
 body {
-	padding-top: 70px;
+    padding-top: 70px;
 }
 
 figcaption {
@@ -21,114 +21,135 @@ figcaption {
     margin-bottom: 20px;
 }
 
-
-
 /* Top navigation bar */
 
-
 p.byline {
-	text-align: center;
-	font-size: 18px;
-	line-height: 36px;
-	margin-top: -24px;
-	margin-bottom: 48px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: -24px;
+    margin-bottom: 48px;
 }
-
 
 pubtit {
-	font-weight: bold;
-}
-
-protit {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 firstp {
 }
 
 .container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1000px; /* or 950px */
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px; /* or 950px */
 }
 
 /* Home, News */
 #homeid dir {
-	padding: 0px;
+    padding: 0px;
 }
-#homeid figure div:nth-child(n + 2){
-	display:inline-block; 
-	height: 100px; 
-	width: 200px;
-	line-height: 100px;
-	text-align: center;
+#homeid figure div:nth-child(n + 2) {
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    line-height: 100px;
+    text-align: center;
 }
-#homeid figure div img{
-	vertical-align: middle;
+#homeid figure div img {
+    vertical-align: middle;
 }
 
 #newsid {
-	padding-left: 23px;
-	padding-right: 23px;
+    padding-left: 23px;
+    padding-right: 23px;
 }
 
 #newsid p {
-	text-align: left;
-	word-break: break-all;
+    text-align: left;
+    word-break: break-all;
 }
 
 #homeidtmp h1 {
-	text-align: center;
+    text-align: center;
 }
 
 #newsid img {
-	margin-top: 6px;
-	margin-bottom: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 .news-plus-button {
-	color: #cfcfcf; 
+    color: #cfcfcf;
 }
 
 .news-plus-button:hover {
-	text-decoration: none;
-	color: #000000; 
+    text-decoration: none;
+    color: #000000;
 }
 
 .news-article {
-	color: #555555;
+    color: #555555;
 }
 .news-article:hover {
-	color: #555555;
-	text-decoration: underline;
+    color: #555555;
+    text-decoration: underline;
 }
-	
 
 /* Team & Publications */
-#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
-#homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
-#picid img { margin: 6px 3px 60px 6px; border-radius:1%;}
-#picid .col-sm-3 {
-	padding-left: 10px;
-	padding-right: 10px;
-
+#gridid img {
+    margin: 16px 22px 6px 0;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px #888888;
 }
-#gridid .row { margin-bottom: 24px; }
+#homeid img {
+    margin: 0 0 0 0;
+    border-radius: 5%;
+    box-shadow: 0px 0px 0px #888888;
+}
+#picid img {
+    margin: 6px 3px 60px 6px;
+    border-radius: 1%;
+}
+#picid .col-sm-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#gridid .row {
+    margin-bottom: 24px;
+}
 
+// Projects
+
+protit {
+    font-weight: bold;
+    background-color: #eeeeee;
+}
+
+.fixedHeight {
+    height: 360px;
+}
 
 /* Grid overrides */
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
-.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-	padding-left: 16px;
-	padding-right: 16px;
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12 {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 /* Grid overrides */
 .col-sm-4 {
-	padding-left: 26px;
-	padding-right: 26px;
+    padding-left: 26px;
+    padding-right: 26px;
 }
-
 
 /* Carusel */
 
@@ -140,16 +161,16 @@ firstp {
     margin-right: 30px;
 }
 
-@media screen and (max-width: 768px){
-	#homeid p:nth-child(3) {
-		margin-bottom: 20px;
-	}
-	#homeid dir{
-		padding: 0;
-	}
-	.carousel {
-		padding: 0;
-		margin: 0px;
-		margin-bottom: 20px;
-	}
+@media screen and (max-width: 768px) {
+    #homeid p:nth-child(3) {
+        margin-bottom: 20px;
+    }
+    #homeid dir {
+        padding: 0;
+    }
+    .carousel {
+        padding: 0;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
 }
