@@ -3,7 +3,7 @@ title: "Noh Lab - Presentations"
 layout: gridlay
 excerpt: "Noh Lab -- Presentations."
 sitemap: false
-permalink: /Presentations/
+permalink: /presentations/
 ---
 
 # Presentations
