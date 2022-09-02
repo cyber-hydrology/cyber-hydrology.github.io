@@ -18,6 +18,28 @@
 #  highlight: 0
 #  news2:
 
+- title: "Comparative assessment and uncertainty analysis of ensemble-based hydrologic data assimilation using airGRdatassim"
+  image: 
+  description: 
+  authors: Lee, G., Kim, B., Lee, S., Woo, D. K., Noh, S. J.
+  link:
+    url: 
+    display: J.Korea Water Resour. Assoc. (2022)
+  highlight: 0
+  news2:
+  year: 2022
+  
+- title: "Assessing the sensitivity of runoff projections under precipitation and temperature variability using lumped runoff-rainfall models: IHACRES and GR4J"
+  image: 
+  description: 
+  authors: Woo, D. K., Jo, J., Kang, B., Lee, S., Lee, G., Noh, S. J.
+  link:
+    url: 
+    display:  KSCE Journal of Civil and Environmental Engineering Research (2022)
+  highlight: 0
+  news2:
+  year: 2022
+  
 - title: "Retrospective analysis of the urban inundation and the impact assessment of the flood barrier using H12 model"
   image: 
   description: 
