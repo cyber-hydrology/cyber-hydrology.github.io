@@ -51,6 +51,17 @@
   news2:
   year: 2022
   
+- title: "Improving flood forecasting using conditional bias-aware assimilation of streamflow observations and dynamic assessment of flow-dependent information content"
+  image: 
+  description: 
+  authors: Shen, H., Seo, D.-J., Lee, H., Liu, Y., Noh, S. J.
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S002216942101297X#!
+    display: Journal of Hydrology 605, 127247 (2022)
+  highlight: 0
+  news2:
+  year: 2022
+  
 - title: "Ensemble streamflow data assimilation using WRF-Hydro and DART: novel localization and inflation techniques applied to Hurricane Florence flooding"
   image: Ensemble_streamflow.png
   description: This study presents a general data assimilation framework that aims to improve flood predictions in channel routing models.
