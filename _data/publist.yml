@@ -17,7 +17,17 @@
 #    display:  
 #  highlight: 0
 #  news2:
-
+- title: "A review on urban inundation modeling research in South Korea: 2001-2022"
+  image: 
+  description: 
+  authors: Lee, S., Kim, B., Choi, H., Noh, S. J.
+  link:
+    url: 
+    display: in review
+  highlight: 0
+  news2:
+  year: 2022
+  
 - title: "Comparative assessment and uncertainty analysis of ensemble-based hydrologic data assimilation using airGRdatassim"
   image: 
   description: 
