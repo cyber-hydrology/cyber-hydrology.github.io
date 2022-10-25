@@ -1,3 +1,21 @@
+- title: "Urban Flood Simulation in Oncheon-cheon Catchment using Cellular Automata-based CADDIES Model"
+  image: 2022_ksce_caddies_poster.jpg
+  description: A CADDIES-2D model based on cellular automata is applied to the Oncheon-cheon basin to verify the applicability of the model and assess the risk of flooding using a future climate change scenario.
+  authors: Choi, H., Lee, S., Woo, H., and Noh, S. J. 
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2022_ksce_caddies_poster.jpg
+    display: Proceedings of the Korean Society of Civil Engineers (2022)
+  highlight: 1
+ 
+ - title: "High-resolution water cycle analysis at Nakdong River basin using WRF-Hydro"
+  image: 2022_ksce_wrfhydro_poster.jpg
+  description: A high-resolution 100m water circulation analysis model based on WRF-Hydro was constructed for the Nakdonggang River basin and various spatial resolution combinations were simulated.
+  authors: Kim, B., Kim, S. H., Lee, G. R., Lee, Y. W., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2022_ksce_wrfhydro_poster.jpg
+    display: Proceedings of the Korean Society of Civil Engineers (2022)
+  highlight: 1
+  
 - title: "Development of a cellular automata-based water cycle and inundation analysis technology"
   image: 2022_KWRA_CA_poster.jpg
   description: The CA prototype model is applied to slopes and test beds in urban areas to evaluate the advantages and disadvantages of the model and verify its applicability.
