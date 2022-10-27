@@ -18,7 +18,16 @@
 #  highlight: 0
 #  news2:
 
-  
+- title: "Enhancing tidal wave predictions at the estuary of the Nakdong-River using fixed-lag smoother"
+  image: 
+  description: 
+  authors: Choi, H., Kim, B., Lee, G., Noh, S. J.
+  link:
+    url: 
+    display: in review
+  highlight: 0
+  news2:
+  year: 2022
 
 - title: "A review on urban inundation modeling research in South Korea: 2001-2022"
   image: 
@@ -53,7 +62,7 @@
   news2:
   year: 2022
   
-  - title: "Development and application of integrated indicators for assessing the water resources performance of multi-purpose and water supply dams"
+- title: "Development and application of integrated indicators for assessing the water resources performance of multi-purpose and water supply dams"
   image: 
   description: 
   authors: Sung, J., Kang, B., Kim, B., Noh, S. J.
