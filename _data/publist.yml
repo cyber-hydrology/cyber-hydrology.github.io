@@ -17,6 +17,9 @@
 #    display:  
 #  highlight: 0
 #  news2:
+
+  
+
 - title: "A review on urban inundation modeling research in South Korea: 2001-2022"
   image: 
   description: 
@@ -46,6 +49,17 @@
   link:
     url: 
     display:  in review
+  highlight: 0
+  news2:
+  year: 2022
+  
+  - title: "Development and application of integrated indicators for assessing the water resources performance of multi-purpose and water supply dams"
+  image: 
+  description: 
+  authors: Sung, J., Kang, B., Kim, B., Noh, S. J.
+  link:
+    url: https://jkwra.or.kr/articles/article/OzXa/
+    display: J.Korea Water Resour. Assoc., 55(9), 687-700 (2022)
   highlight: 0
   news2:
   year: 2022
