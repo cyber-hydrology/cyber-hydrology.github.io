@@ -18,6 +18,17 @@
 #  highlight: 0
 #  news2:
 
+- title: "High-resolution Urban Flood Modeling using Cellular Automata-based 6 CADDIES-2D in the Oncheon-cheon Catchment in Busan, South Korea"
+  image: 
+  description: 
+  authors: Choi, H., Lee, S., Woo, H., Noh, S. J.
+  link:
+    url: 
+    display: in review
+  highlight: 0
+  news2:
+  year: 2023
+  
 - title: "Enhancing tidal wave predictions at the estuary of the Nakdong-River using fixed-lag smoother"
   image: 
   description: 
