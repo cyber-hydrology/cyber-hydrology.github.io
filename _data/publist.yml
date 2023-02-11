@@ -29,6 +29,17 @@
   news2:
   year: 2023
   
+- title: "Assessing the sensitivity of runoff projections under precipitation and temperature variability using lumped runoff-rainfall models: IHACRES and GR4J"
+  image: 
+  description: 
+  authors: Woo, D. K., Jo, J., Kang, B., Lee, S., Lee, G., Noh, S. J.
+  link:
+    url: 
+    display:  in review
+  highlight: 0
+  news2:
+  year: 2023
+  
 - title: "Enhancing tidal wave predictions at the estuary of the Nakdong-River using fixed-lag smoother"
   image: 
   description: 
@@ -58,17 +69,6 @@
   link:
     url: https://jkwra.or.kr/articles/article/GvMX/
     display: J.Korea Water Resour. Assoc., 55(10), 761-774 (2022)
-  highlight: 0
-  news2:
-  year: 2022
-  
-- title: "Assessing the sensitivity of runoff projections under precipitation and temperature variability using lumped runoff-rainfall models: IHACRES and GR4J"
-  image: 
-  description: 
-  authors: Woo, D. K., Jo, J., Kang, B., Lee, S., Lee, G., Noh, S. J.
-  link:
-    url: 
-    display:  in review
   highlight: 0
   news2:
   year: 2022
