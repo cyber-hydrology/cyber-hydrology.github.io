@@ -1,3 +1,30 @@
+- title: "Development and Evaluation of Cellular Automata-based Urban Inundation Model CA-Urban"
+  image: 2023_KOSHAM_caurban_poster.jpg
+  description: The effect of spatial resolution of numerical surface data (DSM) on urban flooding analysis was analyzed by solving the vibration problem of CA-Urban model using cellular automata and physical basis expressions and applying it to urban watersheds.
+  authors: Lee, S., Choi, H., Woo, H., Noh, S. J., Lee, E. H., and Kim, S. H.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2023_KOSHAM_caurban_poster.jpg
+    display: Proceedings of the Korean Society Of Hazard Mitigation (2023)
+  highlight: 1
+  
+- title: "Impact assessment of multiple weather forcings on distributed hydrologic simulation : application of WRF-Hydro to the Kumho River catchment"
+  image: 2023_KOSHAM_WRFhydro_poster.jpg
+  description: To evaluate the effect of meteorological external force data on distributed hydrological simulation, various meteorological external force data are simulated and the prediction accuracy of domestic and foreign meteorological external force data is examined through comparison and analysis of the data.
+  authors: Kim, S., Kim, B., Lee, G., Lee, Y., Choi, J., and Noh, S. J. 
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2023_KOSHAM_WRFhydro_poster.jpg
+    display: Proceedings of the Korean Society Of Hazard Mitigation (2023)
+  highlight: 1
+  
+- title: "Comparison of ensemble-based hydrologic data assimilation methods for daily discharge simulation using airGRdatassim"
+  image: 2023_KOSHAM_airgrdatassim_poster.jpg
+  description: The airGRdatassim model was applied to the Yongdam Dam basin to compare and analyze the characteristics of the daily hydrological simulation by ensemble-based sequential data assimilation technique, Ensemble Kalman filter and Particle filter technique.
+  authors: Lee, G., Kim, B., Lee, S., Oh, S., and Noh, S. J. 
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2023_KOSHAM_airgrdatassim_poster.jpg
+    display: Proceedings of the Korean Society Of Hazard Mitigation (2023)
+  highlight: 1
+  
 - title: "Urban Flood Simulation in Oncheon-cheon Catchment using Cellular Automata-based CADDIES Model"
   image: 2022_ksce_caddies_poster.jpg
   description: A CADDIES-2D model based on cellular automata is applied to the Oncheon-cheon basin to verify the applicability of the model and assess the risk of flooding using a future climate change scenario.
@@ -10,7 +37,7 @@
 - title: "High-resolution water cycle analysis at Nakdong River basin using WRF-Hydro"
   image: 2022_ksce_wrfhydro_poster_1.jpg
   description: A high-resolution 100m water circulation analysis model based on WRF-Hydro was constructed for the Nakdonggang River basin and various spatial resolution combinations were simulated.
-  authors: Kim, B., Kim, S. H., Lee, G. R., Lee, Y. W., and Noh, S. J.
+  authors: Kim, B., Kim, S. H., Lee, G., Lee, Y. W., and Noh, S. J.
   link:
     url: https://cyber-hydrology.github.io/images/propic/2022_ksce_wrfhydro_poster_1.jpg
     display: Proceedings of the Korean Society of Civil Engineers (2022)
