@@ -9,7 +9,7 @@
   
 - title: "Impact assessment of multiple weather forcings on distributed hydrologic simulation : application of WRF-Hydro to the Kumho River catchment"
   image: 2023_KOSHAM_WRFhydro_poster.jpg
-  description: To evaluate the effect of meteorological external force data on distributed hydrological simulation, various meteorological external force data are simulated and the prediction accuracy of domestic and foreign meteorological external force data is examined through comparison and analysis of the data.
+  description: The effect of meteorological external force data on distributed hydrological simulation is evaluated, and the prediction accuracy of domestic and foreign meteorological external force data is investigated through data comparative analysis.
   authors: Kim, S., Kim, B., Lee, G., Lee, Y., Choi, J., and Noh, S. J. 
   link:
     url: https://cyber-hydrology.github.io/images/propic/2023_KOSHAM_WRFhydro_poster.jpg
@@ -18,7 +18,7 @@
   
 - title: "Comparison of ensemble-based hydrologic data assimilation methods for daily discharge simulation using airGRdatassim"
   image: 2023_KOSHAM_airgrdatassim_poster.jpg
-  description: The airGRdatassim model was applied to the Yongdam Dam basin to compare and analyze the characteristics of the daily hydrological simulation by ensemble-based sequential data assimilation technique, Ensemble Kalman filter and Particle filter technique.
+  description: We compare and analyze the characteristics of daily hydrological simulations with ensemble-based sequential data assimilation techniques, ensemble Kalman filter, and particle filter techniques.
   authors: Lee, G., Kim, B., Lee, S., Oh, S., and Noh, S. J. 
   link:
     url: https://cyber-hydrology.github.io/images/propic/2023_KOSHAM_airgrdatassim_poster.jpg
