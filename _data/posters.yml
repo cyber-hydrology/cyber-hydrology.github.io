@@ -1,3 +1,12 @@
+- title: "Analysis and evaluation of water and heat cycle at the Geumho river catchment using WRF-Hydro"
+  image: 2023_KWRA_WRF-Hydro_poster.jpg
+  description: Based on the distributed hydrological analysis model WRF-Hydro, a high-resolution water cycle and heat cycle model was constructed for the Geumho River basin to analyze the hydrological element analysis results.
+  authors: Kim, S., Kim, B., Lee, G., Lee, Y., and Noh, S. J. 
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2023_KWRA_WRF-Hydro_poster.jpg
+    display: Proceedings of the Korea Water Resources Association Conference (2023)
+  highlight: 1
+
 - title: "Climate Change Impact Analysis on Water Supply Reliability and Flood Risk using Combined Rainfall-runoff and Reservoir Modeling"
   image: 2023_KWRA_integrated-climate-modeling.jpg
   description: Based on climate change scenarios, we analyze the impact of climate change on water resource management of multi-purpose dams, and propose a methodology that simultaneously analyzes water supply and flood risk during drought.
