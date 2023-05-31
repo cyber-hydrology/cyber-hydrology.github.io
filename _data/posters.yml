@@ -1,3 +1,21 @@
+- title: "Development and evaluation of Cellular Automata based urban inundation model CA-Urban : City of Portland case"
+  image: 2023_KWRA_CA-Uban_poster.jpg
+  description: In this study, the developed CA-Urban model is introduced, and the effect of Horton's coefficient on infiltration according to soil characteristics and the spatial distribution of various land cover types on urban inundation and water cycle are analyzed.
+  authors: Lee, S., Choi, H., Woo, H., Noh, S. J., and Kim, S. H.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2023_KWRA_CA-Uban_poster.jpg
+    display: Proceedings of the Korea Water Resources Association Conference (2023)
+  highlight: 1
+  
+- title: "Development and application of soil moisture prediction using real-time in-situ observation and machine learning"
+  image: 2023_KWRA_LSTM_Poster.jpg
+  description: This study analyzed the data collected for about a year in real time from soil observation equipment and weather observation equipment installed at Kumoh Institute of Technology and developed a prediction model based on machine learning technology.
+  authors: Woo, H., Lee, Y., Choi, H., Kim, M., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2023_KWRA_LSTM_Poster.jpg
+    display: Proceedings of the Korea Water Resources Association Conference (2023)
+  highlight: 1
+  
 - title: "Analysis and evaluation of water and heat cycle at the Geumho river catchment using WRF-Hydro"
   image: 2023_KWRA_WRF-Hydro_poster.jpg
   description: Based on the distributed hydrological analysis model WRF-Hydro, a high-resolution water cycle and heat cycle model was constructed for the Geumho River basin to analyze the hydrological element analysis results.
