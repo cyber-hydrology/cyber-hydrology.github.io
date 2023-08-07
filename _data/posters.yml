@@ -9,7 +9,7 @@
   
 - title: "Improvement and uncertainty analysis of streamflow prediction using lumped-hydrologic modeling and ensemble-based data assimilation"
   image: AOGS_airgrdatassim_2023.jpg
-  description: We analyzed two ensemble-based sequential DA techniques, Ensemble Kalman Filter and Particle Filter, for stream flow prediction by a pumped hydrostatic model using airGR datassim, and discussed the effect of DA-related hyperparameters on performance and ensemble distribution.
+  description: We analyzed two ensemble-based sequential DA techniques, Ensemble Kalman Filter and Particle Filter, for stream flow prediction by a pumped hydrostatic model using airGRdatassim, and discussed the effect of DA-related hyperparameters on performance and ensemble distribution.
   authors: Lee, G., Kim, B., Lee, S., and Noh, S. J. 
   link:
     url: https://cyber-hydrology.github.io/images/propic/AOGS_airgrdatassim_2023.jpg
