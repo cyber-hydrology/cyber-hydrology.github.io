@@ -18,7 +18,7 @@
   
 - title: "Uncertainty analysis and high-resolution prediction of soil  moisture and streamflow using WRF-Hydro, PEST, and Deep Learning for digital twins"
   image: AOGS_WRF-Hydro_2023.png
-  description: We develope a system that effectively optimizes high-resolution WRF-Hydro model with limited information data using PEST technique. Also, we discuss challenges and solutions for sensitivity and uncertainty analysis to calibrate distributed hydrologic models with high-resolution land cover and soil information using WRF-Hydro and parameter estimation schemes.
+  description: We develope a system that effectively optimizes high-resolution WRF-Hydro model with limited information data using PEST technique and discuss challenges and solutions for sensitivity and uncertainty analysis to calibrate distributed hydrologic models.
   authors: Kim, B., Lee, G., Kim, S., Lee, Y., and Noh, S. J. 
   link:
     url: https://cyber-hydrology.github.io/images/propic/AOGS_WRF-Hydro_2023.png
