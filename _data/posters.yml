@@ -1,3 +1,12 @@
+- title: "Uncertainty analysis and high-resolution prediction of soil  moisture and streamflow using WRF-Hydro, PEST, and Deep Learning for digital twins"
+  image: AOGS_WRF-Hydro_2023.png
+  description: We develope a system that effectively optimizes high-resolution WRF-Hydro model with limited information data using PEST technique. Also, we discuss challenges and solutions for sensitivity and uncertainty analysis to calibrate distributed hydrologic models with high-resolution land cover and soil information using WRF-Hydro and parameter estimation schemes.
+  authors: Kim, B., Lee, G., Kim, S., Lee, Y., and Noh, S. J. 
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/AOGS_WRF-Hydro_2023.png
+    display:  Asia Oceania Geosciences Society (2023)
+  highlight: 1
+
 - title: "Development and evaluation of Cellular Automata based urban inundation model CA-Urban : City of Portland case"
   image: 2023_KWRA_CA-Uban_poster.jpg
   description: In this study, the developed CA-Urban model is introduced, and the effect of Horton's coefficient on infiltration according to soil characteristics and the spatial distribution of various land cover types on urban inundation and water cycle are analyzed.
