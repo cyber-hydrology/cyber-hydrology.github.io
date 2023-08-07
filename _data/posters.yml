@@ -1,3 +1,21 @@
+- title: "Development and application of a high-resolution urban flood model based on Cellular Automata"
+  image: AOGS_CAW_2023.jpg
+  description: We develop an integrated CA-based flood model, including an  stable inundation and infiltration process, and implement a CA-based model in downtown Portland, U.S. as a high-resolution pluvial flood simulation.
+  authors: Choi, H., Lee, S., Woo, H., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/AOGS_CAW_2023.jpg
+    display:  Asia Oceania Geosciences Society (2023)
+  highlight: 1
+  
+- title: "Improvement and uncertainty analysis of streamflow prediction using lumped-hydrologic modeling and ensemble-based data assimilation"
+  image: AOGS_airgrdatassim_2023.jpg
+  description: In this study, the two ensemble-based sequential DA techniques, ensemble Kalman filter and particle filter were analyzed for the streamflow predictions by a lumped hydrologic model using airGRdatassim. Also, we discuss the impacts of DA-related hyper-parameters such as input forcings uncertainties and updating schemes on the performance and ensemble distributions.
+  authors: Lee, G., Kim, B., Lee, S., and Noh, S. J. 
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/AOGS_airgrdatassim_2023.jpg
+    display:  Asia Oceania Geosciences Society (2023)
+  highlight: 1
+  
 - title: "Uncertainty analysis and high-resolution prediction of soil  moisture and streamflow using WRF-Hydro, PEST, and Deep Learning for digital twins"
   image: AOGS_WRF-Hydro_2023.png
   description: We develope a system that effectively optimizes high-resolution WRF-Hydro model with limited information data using PEST technique. Also, we discuss challenges and solutions for sensitivity and uncertainty analysis to calibrate distributed hydrologic models with high-resolution land cover and soil information using WRF-Hydro and parameter estimation schemes.
