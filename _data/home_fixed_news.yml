@@ -1,9 +1,14 @@
 
   
-- date: 2023-03
-  headline: "Professor Noh Seong Jin won the Minister of Land, Infrastructure and Transport's commendation at the 26th Civil Engineering Day event."
-  img: prof_noh.png
-  link: "https://www.kumoh.ac.kr/ko/sub01_05_02.do?mode=view&articleNo=433073"
+- date: 2023-08
+  headline: "Professor Noh Seong Jin interviewed the future of engineering education through innovative cloud-based digital practices and immersive metaverse experiences."
+  img: snoh.jpg
+  link: "https://m.dnews.co.kr/m_home/view.jsp?idxno=202307311422514310525"
+  
+#- date: 2023-03
+#  headline: "Professor Noh Seong Jin won the Minister of Land, Infrastructure and Transport's commendation at the 26th Civil Engineering Day event."
+#  img: prof_noh.png
+#  link: "https://www.kumoh.ac.kr/ko/sub01_05_02.do?mode=view&articleNo=433073"
   
 #- date: 2023-01
 #  headline: "Professor Noh Seong Jin won an academic award at the 57th regular general meeting of the Korea Water Resources Association."
