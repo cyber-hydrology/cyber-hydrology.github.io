@@ -1,3 +1,4 @@
+
 - title: pic1_description
   image: 2023_KMS_photo.jpg
 - title: pic1_description
@@ -46,9 +47,9 @@
   image: 2021_ksce_poster.jpg
 - title: pic1_description
   image: jecheon_workshop.jpg
-- title: pic1_description
-  image: graduate-workshop.jpg
-- title: pic1_description
-  image: resident_picture1.jpg
-- title: pic1_description
-  image: WinterCamp_Undergraduate_2022.jpg
+#- title: pic1_description
+#  image: graduate-workshop.jpg
+#- title: pic1_description
+#  image: resident_picture1.jpg
+#- title: pic1_description
+#  image: WinterCamp_Undergraduate_2022.jpg
