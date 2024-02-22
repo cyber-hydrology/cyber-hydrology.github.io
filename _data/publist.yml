@@ -18,6 +18,17 @@
 #  highlight: 0
 #  news2:
 
+- title: "Assessment of the Impact of Spatial Variability on Streamflow Predictions Using High-Resolution Modeling and Parameter Estimation: Case Study of Geumho River Catchment, South Korea"
+  image: 
+  description: 
+  authors: Kim, B., Lee, G., Lee, Y., Kim, S., Noh, S. J.
+  link:
+    url: https://www.mdpi.com/2073-4441/16/4/591
+    display: Water, 16(4), 591 (2024)
+  highlight: 0
+  news2:
+  year: 2024
+  
 - title: "Applying deep learning based super-resolution technique for high-resolution urban flood analysis"
   image: 
   description: 
