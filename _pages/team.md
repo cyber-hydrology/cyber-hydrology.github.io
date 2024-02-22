@@ -8,7 +8,8 @@ permalink: /team/
 
 # Group Members
 
- **박사과정, 석사과정, 학부 연구생 모집합니다 We are  looking for new PhD, Master, Bachelor students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **박사과정, 석사과정, 학부 연구생 모집합니다**<br>
+ **We are  looking for new PhD, Master, Bachelor students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 <br>
 ## Principal Investigator
