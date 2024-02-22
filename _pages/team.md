@@ -201,37 +201,27 @@ permalink: /team/
 <br>
 
 ## Alumni Members
-{% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
+{% assign number_printed = 0 %} {% for member in site.data.alumni_members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
-<div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4 style="font-weight: bold;">{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
-  <ul style="overflow: hidden">
-    {% if member.number_educ %}
-      {% for i in (1..member.number_educ) %}
-        <li> {{ member["education" | append: i] }} </li>
-      {% endfor %}
-    {% endif %}
-  </ul>
-</div>
-
+{{ member.name }}
+{{ member.info }}
+email: <{{ member.email }}>
+{% if member.number_educ %}
+  {% for i in (1..member.number_educ) %}
+    {% capture education_field %}education{{i}}{% endcapture %}
+    {{ member[education_field] }}
+  {% endfor %}
+{% endif %}
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
-</div> <!-- Closes the row if the number of printed members is odd -->
 {% endif %}
-
 {% endfor %}
 
 {% if number_printed | modulo: 2 == 1 %}
-</div> <!-- Ensures that the last row is closed if there's an odd number of members -->
 {% endif %}
-<br>
