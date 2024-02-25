@@ -19,8 +19,6 @@ include:
   - .htaccess
   - _pages
 
-paginate: 5 # 한 페이지에 보여질 포스트의 수
-paginate_path: "/presentations/page:num/" # 페이징된 페이지의 경로
 
 sass:
   sass_dir: _sass
