@@ -13,7 +13,7 @@ permalink: /presentations/
 <!-- (For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com/citations?user=Q0Z_uB8AAAAJ&hl=en), [ResearcherID](https://publons.com/researcher/1296422/seong-jin-noh/)) -->
 
 {% assign number_printed = 0 %}
-{% for poster in paginator.posts %}
+{% for poster in paginator.posters %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if poster.highlight == 1 %}
