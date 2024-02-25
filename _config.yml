@@ -17,7 +17,7 @@ url: ""
 
 include:
   - .htaccess
-  - _pages/*
+  - _pages
 
 sass:
   sass_dir: _sass
