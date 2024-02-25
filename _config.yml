@@ -19,6 +19,9 @@ include:
   - .htaccess
   - _pages
 
+paginate: 10
+paginate_path: "/presentations/:num/"
+
 
 sass:
   sass_dir: _sass
