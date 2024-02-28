@@ -57,7 +57,7 @@ There are five main areas of research:
 2. **수문학적 자료 동화 (Hydrologic data assimilation)** : Reducing uncertainty by combining computer simulations of model states and parameters with measurement information
 3. **데이터 기반 수문 해석 (Data-driven hydrologic modeling)** : Data-driven machine learning approaches to solve complex water-related environmental problems
 4. **기후변화 적응 수자원 관리 (Climate-adaptative water resources management)** : Integrated and adaptive water resources management schemes to mitigate impacts of the climate change
-5. **멀티센서 수문 관측 (Measurement and analysis hydrologic variables using Multi-sensors)** : Utilization and analysis of multiple sensors to measure hydrologic variables from precipitation to soil moisture to streamflow
+5. **멀티센서 수문 관측 (Measurement and analysis of hydrologic variables using Multi-sensors)** : Utilization and analysis of multiple sensors to measure hydrologic variables from precipitation to soil moisture to streamflow
 
 <h3 style = "font-size: 30px; margin-top:40px;"> Noh Lab 가입 Joining Noh Lab </h3>
 If you are interested in joining please go to the [contact](contact) page.
