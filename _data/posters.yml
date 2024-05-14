@@ -1,3 +1,21 @@
+- title: "Comparative study of data-driven models for monthly discharge prediction: A case study of Changnyeong·Haman weir, Nakdong river"
+  image: 2024_KWRA_Haman_poster.jpg
+  description: We compare data-driven models integrating meteorological and hydrological variables to optimally predict monthly outflow from river weirs influenced by natural runoff and human regulation, enhancing long-term operational decision accuracy for reliable water resources management.
+  authors: Kim, M., Choi, H., Woo, H., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/AOGS_CAW_2023.jpg
+    display:  Proceedings of the Korea Water Resources Association Conference (2024)
+  highlight: 1
+  
+- title: "Feasibility assessment of GEOGloWS global medium-range streamflow prediction service for Nakdong River watershed"
+  image: 2024KWRA_Geoglows.png
+  description: We introduce GEOGloWS, a global streamflow forecasting system, and analyze its streamflow predictions against observed data.
+  authors: Choi, J., Choi, H., Kim, B., Lee, Y., and Noh, S. J. 
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/AOGS_airgrdatassim_2023.jpg
+    display:  Proceedings of the Korea Water Resources Association Conference (2024)
+  highlight: 1
+  
 - title: "Development and application of a high-resolution urban flood model based on Cellular Automata"
   image: AOGS_CAW_2023.jpg
   description: We develop an integrated CA-based flood model, including an  stable inundation and infiltration process, and implement a CA-based model in downtown Portland, U.S. as a high-resolution pluvial flood simulation.
