@@ -17,6 +17,16 @@
 #    display:  
 #  highlight: 0
 #  news2:
+- title: "Development and application of cellular automata-based urban inundation and water cycle model CAW"
+  image: 
+  description: 
+  authors: Lee, S., Choi, H., Woo, H., Kim, M., Noh, S. J.
+  link:
+    url: https://jkwra.or.kr/articles/article/ym1P/
+    display: KWRA, 57(3), 165-179 (2024)
+  highlight: 0
+  news2:
+  year: 2024
 
 - title: "Assessment of the Impact of Spatial Variability on Streamflow Predictions Using High-Resolution Modeling and Parameter Estimation: Case Study of Geumho River Catchment, South Korea"
   image: 
