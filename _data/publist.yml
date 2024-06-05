@@ -17,6 +17,17 @@
 #    display:  
 #  highlight: 0
 #  news2:
+- title: "High-resolution medium-range streamflow prediction using distributed hydrological model WRF-Hydro and numerical weather forecast GDAPS"
+  image: 
+  description: 
+  authors: Kim, S., Kim, B., Lee, G., Lee, Y., Noh, S. J.
+  link:
+    url: https://jkwra.or.kr/articles/article/mxyg/
+    display: KWRA, 57(5), 333-346 (2024)
+  highlight: 0
+  news2:
+  year: 2024
+
 - title: "Development and application of cellular automata-based urban inundation and water cycle model CAW"
   image: 
   description: 
