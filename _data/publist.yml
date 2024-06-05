@@ -17,13 +17,24 @@
 #    display:  
 #  highlight: 0
 #  news2:
+- title: "Climate change impact assessment on water resources management using a combined multi-model approach in South Korea"
+  image: 
+  description: 
+  authors: Kim, S., Kim, B., Lee, G., Lee, Y., Noh, S. J.
+  link:
+    url: https://doi.org/10.1016/j.ejrh.2024.101842
+    display: Journal of Hydrology, Volume 53, 1018427 (2024)
+  highlight: 0
+  news2:
+  year: 2024
+
 - title: "High-resolution medium-range streamflow prediction using distributed hydrological model WRF-Hydro and numerical weather forecast GDAPS"
   image: 
   description: 
   authors: Kim, S., Kim, B., Lee, G., Lee, Y., Noh, S. J.
   link:
     url: https://jkwra.or.kr/articles/article/mxyg/
-    display: KWRA, 57(5), 333-346 (2024)
+    display: J.Korea Water Resour. Assoc., 57(5), 333-346 (2024)
   highlight: 0
   news2:
   year: 2024
@@ -34,7 +45,7 @@
   authors: Lee, S., Choi, H., Woo, H., Kim, M., Noh, S. J.
   link:
     url: https://jkwra.or.kr/articles/article/ym1P/
-    display: KWRA, 57(3), 165-179 (2024)
+    display: J.Korea Water Resour. Assoc., 57(3), 165-179 (2024)
   highlight: 0
   news2:
   year: 2024
@@ -56,7 +67,7 @@
   authors: Choi, H., Lee, S., Woo, H., Kim, M., Noh, S. J.
   link:
     url: https://jkwra.or.kr/articles/article/GDEP/
-    display: KWRA, 56(10), 641-653 (2023)
+    display: J.Korea Water Resour. Assoc., 56(10), 641-653 (2023)
   highlight: 0
   news2:
   year: 2023
@@ -67,7 +78,7 @@
   authors: Noh, S. J., Lee, G., Kim, B., Jo, J., Woo, D. K.
   link:
     url: https://jkwra.or.kr/articles/article/gY25/
-    display: KWRA, 56(11), 765-774 (2023)
+    display: J.Korea Water Resour. Assoc., 56(11), 765-774 (2023)
   highlight: 0
   news2:
   year: 2023
