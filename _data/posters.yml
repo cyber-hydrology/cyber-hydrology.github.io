@@ -1,3 +1,21 @@
+- title: "Enhancing Urban Flood Predictions with Deep Learning-Based Super Resolution"
+  image: 2024_AOGS_SR_POSTER.jpg
+  description: 
+  authors: Woo, H., Choi, H. ,Kim, M., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2024_AOGS_SR_POSTER.png
+    display:  Asia Oceania Geosciences Society (2024)
+  highlight: 1
+  
+- title: "Evaluation of Stacking Ensemble Application to Improve LDAPS and WRF-Hydro Based High-Resolution Short-Term Streamflow Prediction"
+  image: AOGS2024_Poster_WRF.png
+  description: 
+  authors: Lee, Y., Kim, B., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/AOGS2024_Poster_WRF.png
+    display:  Asia Oceania Geosciences Society (2024)
+  highlight: 1
+  
 - title: "Comparative study of data-driven models for monthly discharge prediction: A case study of Changnyeong·Haman weir, Nakdong river"
   image: 2024_KWRA_Haman_poster.jpg
   description: We compare data-driven models integrating meteorological and hydrological variables to optimally predict monthly outflow from river weirs influenced by natural runoff and human regulation, enhancing long-term operational decision accuracy for reliable water resources management.
