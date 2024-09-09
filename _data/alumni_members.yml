@@ -13,7 +13,7 @@
 - name: 이가림 (Garim Lee)
   photo: Garim_lee_new.jpg
   info: 2022.03 - 2024.08
-  email: im2436@kumoh.ac.kr
+  #email: im2436@kumoh.ac.kr
   number_educ: 1
   education1: Master, Kumoh National Institute of Technology
   education2:
@@ -23,7 +23,7 @@
 - name: 이송희 (Songhee Lee)
   photo: leesonghee.jpg
   info: 2022.03 - 2024.02
-  email: thdgml1103@kumoh.ac.kr
+  #email: thdgml1103@kumoh.ac.kr
   number_educ: 1
   education1: Master, Kumoh National Institute of Technology
   education2:
@@ -33,7 +33,7 @@
 - name: 김소현 (Sohyun Kim)
   photo: kim_sohyun.jpg
   info: 2022.03 - 2024.02
-  email: ddohyomi@kumoh.ac.kr
+  #email: ddohyomi@kumoh.ac.kr
   number_educ: 1
   education1: Master, Kumoh National Institute of Technology
   education2:
