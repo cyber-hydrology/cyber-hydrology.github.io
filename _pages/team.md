@@ -30,46 +30,38 @@ permalink: /team/
 <br>
 
 ## PhD and Master Students
+<div class="row">
 {% for member in site.data.team_students %}
-  {% if forloop.index0 | modulo: 2 == 0 %}
-  <div class="row">
-  {% endif %}
-    <div class="col-sm-6 clearfix">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-      <h4 style="font-weight: bold;">{{ member.name }}</h4>
-      <i>{{ member.info }}<br>email: <{{ member.email }}></i>
-      <ul>
-        {% for i in (1..member.number_educ) %}
-          <li>{{ member["education" | append: i] }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% if forloop.index | modulo: 2 == 0 or forloop.last %}
+  <div class="col-sm-6 clearfix">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+    <h4 style="font-weight: bold;">{{ member.name }}</h4>
+    <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+    <ul>
+      {% for i in (1..member.number_educ) %}
+        <li>{{ member["education" | append: i] }}</li>
+      {% endfor %}
+    </ul>
   </div>
-  {% endif %}
 {% endfor %}
+</div>
 
 <br>
 
 ## Undergraduate Students
+<div class="row">
 {% for member in site.data.team_undergraduate_students %}
-  {% if forloop.index0 | modulo: 2 == 0 %}
-  <div class="row">
-  {% endif %}
-    <div class="col-sm-6 clearfix">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-      <h4 style="font-weight: bold;">{{ member.name }}</h4>
-      <i>{{ member.info }}<br>email: <{{ member.email }}></i>
-      <ul>
-        {% for i in (1..member.number_educ) %}
-          <li>{{ member["education" | append: i] }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% if forloop.index | modulo: 2 == 0 or forloop.last %}
+  <div class="col-sm-6 clearfix">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+    <h4 style="font-weight: bold;">{{ member.name }}</h4>
+    <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+    <ul>
+      {% for i in (1..member.number_educ) %}
+        <li>{{ member["education" | append: i] }}</li>
+      {% endfor %}
+    </ul>
   </div>
-  {% endif %}
 {% endfor %}
+</div>
 
 <br>
 
