@@ -1,18 +1,3 @@
----
-title: "Noh Lab - Team"
-layout: gridlay
-excerpt: "Noh Lab: Team members"
-sitemap: false
-permalink: /team/
----
-
-# Group Members
-
-**박사과정, 석사과정, 학부 연구생 모집합니다**<br>
-**We are looking for new PhD, Master, Bachelor students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
-
-<br>
-
 ## Principal Investigator
 {% for member in site.data.team_professor %}
 <div class="col-sm-6 clearfix">
@@ -26,6 +11,7 @@ permalink: /team/
   </ul>
 </div>
 {% endfor %}
+<p>**End of Principal Investigator**</p> <!-- 디버깅용 -->
 
 <br>
 
@@ -33,6 +19,7 @@ permalink: /team/
 <div class="row">
 {% for member in site.data.team_students %}
   <div class="col-sm-6 clearfix">
+    <p>Debug: {{ member.name }}</p> <!-- 디버깅용 -->
     <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
     <h4 style="font-weight: bold;">{{ member.name }}</h4>
     <i>{{ member.info }}<br>email: <{{ member.email }}></i>
@@ -44,6 +31,7 @@ permalink: /team/
   </div>
 {% endfor %}
 </div>
+<p>**End of PhD and Master Students**</p> <!-- 디버깅용 -->
 
 <br>
 
@@ -51,6 +39,7 @@ permalink: /team/
 <div class="row">
 {% for member in site.data.team_undergraduate_students %}
   <div class="col-sm-6 clearfix">
+    <p>Debug: {{ member.name }}</p> <!-- 디버깅용 -->
     <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
     <h4 style="font-weight: bold;">{{ member.name }}</h4>
     <i>{{ member.info }}<br>email: <{{ member.email }}></i>
@@ -62,12 +51,14 @@ permalink: /team/
   </div>
 {% endfor %}
 </div>
+<p>**End of Undergraduate Students**</p> <!-- 디버깅용 -->
 
 <br>
 
 ## Alumni Members
 <div class="team-section">
 {% for member in site.data.alumni_members %}
+  <p>Debug: {{ member.name }}</p> <!-- 디버깅용 -->
   <p><strong>{{ member.name }}</strong>: {{ member.info }}</p>
   <ul>
     {% for i in (1..member.number_educ) %}
@@ -76,3 +67,4 @@ permalink: /team/
   </ul>
 {% endfor %}
 </div>
+<p>**End of Alumni Members**</p> <!-- 디버깅용 -->
