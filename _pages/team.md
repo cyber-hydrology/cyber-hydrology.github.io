@@ -1,70 +1,138 @@
+---
+title: "Noh Lab - Team"
+layout: gridlay
+excerpt: "Noh Lab: Team members"
+sitemap: false
+permalink: /team/
+---
+
+# Group Members
+
+**박사과정, 석사과정, 학부 연구생 모집합니다**<br>
+**We are looking for new PhD, Master, Bachelor students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+
+<br>
+
 ## Principal Investigator
+{% assign number_printed = 0 %}
 {% for member in site.data.team_professor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4 style="font-weight: bold;">{{ member.name }}</h4>
+  <h4 style="font-weight: bold;">{{ member.name }}</h4> 
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
-  <ul>
+  <ul style="overflow: hidden">
     {% for i in (1..member.number_educ) %}
       <li>{{ member["education" | append: i] }}</li>
     {% endfor %}
   </ul>
 </div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
 {% endfor %}
-<p>**End of Principal Investigator**</p> <!-- 디버깅용 -->
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
 <br>
 
 ## PhD and Master Students
-<div class="row">
+{% assign number_printed = 0 %}
 {% for member in site.data.team_students %}
-  <div class="col-sm-6 clearfix">
-    <p>Debug: {{ member.name }}</p> <!-- 디버깅용 -->
-    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-    <h4 style="font-weight: bold;">{{ member.name }}</h4>
-    <i>{{ member.info }}<br>email: <{{ member.email }}></i>
-    <ul>
-      {% for i in (1..member.number_educ) %}
-        <li>{{ member["education" | append: i] }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <h4 style="font-weight: bold;">{{ member.name }}</h4>
+  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <ul style="overflow: hidden">
+    {% for i in (1..member.number_educ) %}
+      <li>{{ member["education" | append: i] }}</li>
+    {% endfor %}
+  </ul>
 </div>
-<p>**End of PhD and Master Students**</p> <!-- 디버깅용 -->
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
 <br>
 
 ## Undergraduate Students
-<div class="row">
+{% assign number_printed = 0 %}
 {% for member in site.data.team_undergraduate_students %}
-  <div class="col-sm-6 clearfix">
-    <p>Debug: {{ member.name }}</p> <!-- 디버깅용 -->
-    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-    <h4 style="font-weight: bold;">{{ member.name }}</h4>
-    <i>{{ member.info }}<br>email: <{{ member.email }}></i>
-    <ul>
-      {% for i in (1..member.number_educ) %}
-        <li>{{ member["education" | append: i] }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <h4 style="font-weight: bold;">{{ member.name }}</h4>
+  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <ul style="overflow: hidden">
+    {% for i in (1..member.number_educ) %}
+      <li>{{ member["education" | append: i] }}</li>
+    {% endfor %}
+  </ul>
 </div>
-<p>**End of Undergraduate Students**</p> <!-- 디버깅용 -->
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
 <br>
 
 ## Alumni Members
-<div class="team-section">
+{% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
-  <p>Debug: {{ member.name }}</p> <!-- 디버깅용 -->
-  <p><strong>{{ member.name }}</strong>: {{ member.info }}</p>
+
+<div class="col-sm-6 clearfix">
+  <h4 style="font-weight: bold;">{{ member.name }}</h4>
+  <p>{{ member.info }}</p>
   <ul>
     {% for i in (1..member.number_educ) %}
       <li>{{ member["education" | append: i] }}</li>
     {% endfor %}
   </ul>
-{% endfor %}
 </div>
-<p>**End of Alumni Members**</p> <!-- 디버깅용 -->
+
+{% endfor %}
