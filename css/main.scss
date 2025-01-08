@@ -1,3 +1,6 @@
+---
+---
+
 /* css 파일 */
 
 @import "bootstrap";
@@ -17,7 +20,9 @@ figcaption {
     margin-top: -20px;
     margin-bottom: 20px;
 }
+
 /* Top navigation bar */
+
 p.byline {
     text-align: center;
     font-size: 18px;
@@ -25,9 +30,11 @@ p.byline {
     margin-top: -24px;
     margin-bottom: 48px;
 }
+
 pubtit {
     font-weight: bold;
 }
+
 firstp {
 }
 
@@ -36,6 +43,7 @@ firstp {
     margin-left: auto;
     max-width: 1000px; /* or 950px */
 }
+
 /* Home, News */
 #homeid dir {
     padding: 0px;
@@ -50,24 +58,30 @@ firstp {
 #homeid figure div img {
     vertical-align: middle;
 }
+
 #newsid {
     padding-left: 23px;
     padding-right: 23px;
 }
+
 #newsid p {
     text-align: left;
     word-break: break-all;
 }
+
 #homeidtmp h1 {
     text-align: center;
 }
+
 #newsid img {
     margin-top: 6px;
     margin-bottom: 6px;
 }
+
 .news-plus-button {
     color: #cfcfcf;
 }
+
 .news-plus-button:hover {
     text-decoration: none;
     color: #000000;
@@ -80,6 +94,7 @@ firstp {
     color: #555555;
     text-decoration: underline;
 }
+
 /* Team & Publications */
 #gridid img {
     margin: 16px 22px 6px 0;
@@ -102,7 +117,9 @@ firstp {
 #gridid .row {
     margin-bottom: 24px;
 }
+
 // Presentations
+
 .flex-design {
     display: flex;
     flex-direction: column;
@@ -112,10 +129,12 @@ firstp {
 protit {
     font-weight: bold;
 }
+
 .shadow-none {
     box-shadow: none !important;
     -webkit-box-shadow: none !important;
 }
+
 /* Grid overrides */
 .col-sm-1,
 .col-sm-2,
@@ -131,6 +150,7 @@ protit {
     padding-left: 16px;
     padding-right: 16px;
 }
+
 /* Grid overrides */
 .col-sm-4 {
     padding-left: 26px;
@@ -138,6 +158,7 @@ protit {
 }
 
 /* Carusel */
+
 .carousel {
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 20px;
