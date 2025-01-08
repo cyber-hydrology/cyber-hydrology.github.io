@@ -19,10 +19,10 @@ permalink: /pictures/
     <div class="row">
     {% endif %}
 
-    <div class="col-sm-3 clearfix">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="100%" />
+    <div class="col-sm-3 gallery-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" alt="{{ pic.caption }}" />
       {% if pic.caption %}
-        <p>{{ pic.caption }}</p>
+      <p class="gallery-caption">{{ pic.caption }}</p>
       {% endif %}
     </div>
 
