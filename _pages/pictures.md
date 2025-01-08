@@ -20,7 +20,7 @@ permalink: /pictures/
     {% endif %}
 
     <div class="col-sm-3 gallery-item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" alt="{{ pic.caption }}" />
+      <img src="{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" alt="{{ pic.caption }}" />
       {% if pic.caption %}
       <p class="gallery-caption">{{ pic.caption }}</p>
       {% endif %}
