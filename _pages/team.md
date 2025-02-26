@@ -17,15 +17,17 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4 style="font-weight: bold;">{{ member.name }}</h4> 
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
-  <ul style="overflow: hidden">
-    {% for i in (1..member.number_educ) %}
-      <li>{{ member["education" | append: i] }}</li>
-    {% endfor %}
-  </ul>
+<div class="col-sm-6 d-flex align-items-center">
+  <img src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="margin-right: 10px;" alt="{{ member.name }}" />
+  <div>
+    <h4 style="font-weight: bold;">{{ member.name }}</h4>
+    <i>{{ member.info }}<br>Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></i>
+    <ul>
+      {% for i in (1..member.number_educ) %}
+        <li>{{ member["education" | append: i] }}</li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
