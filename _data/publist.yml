@@ -17,6 +17,18 @@
 #    display:  
 #  highlight: 0
 #  news2:
+
+- title: "Estimating urban inundation using physics-informed deep learning: a case study of the Oncheon-cheon catchment"
+  image: 
+  description: 
+  authors: Woo, H., Choi, H., Kim, M., Noh, S. J.
+  link:
+    url: https://doi.org/10.3741/JKWRA.2024.57.12.989
+    display: "J. Korea Water Resour. Assoc. 57(12), 989-1001 (2024)"
+  highlight: 0
+  news2:
+  year: 2024
+
 - title: "Comparative assessment of sequential data assimilation-based streamflow predictions using semi-distributed and lumped GR4J hydrologic models: a case study of Namgang Dam basin"
   image: 
   description: 
