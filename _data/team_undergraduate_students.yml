@@ -1,17 +1,17 @@
-- name: 김학성 (Hakseong Kim)
-  photo: 
+- name: 한세웅 (seung Han)
+  photo: seung_han.jpg
   info: 학부연구생 (Undergraduate Student), started January 2025
-  email: rlagkrtjd0405@naver.com
+  email: hansewoog@naver.com
   number_educ: 0
   education1: 
   education2: 
   education3:
   education4:
-
-- name: 한세웅 (seung Han)
-  photo: seung_han.jpg
+  
+- name: 김학성 (Hakseong Kim)
+  photo: 
   info: 학부연구생 (Undergraduate Student), started January 2025
-  email: hansewoog@naver.com
+  email: rlagkrtjd0405@naver.com
   number_educ: 0
   education1: 
   education2: 
