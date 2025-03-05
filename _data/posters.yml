@@ -1,10 +1,10 @@
-- title: "Enhancing Urban Flood Predictions with Deep Learning-Based Super Resolution"
-  image: 2024_AOGS_SR_POSTER-min.png
+- title: "Integration of urban flood risk information using high-resolution modeling and citizen observation: synthetic experiment on an open platform"
+  image: 2024_AGU_Poster_kriging_print.jpg
   description: 
-  authors: Woo, H., Choi, H. ,Kim, M., and Noh, S. J.
+  authors: Noh,S., Choi, H., Kim, M., Kim, B., Lee, Y., Kum, J., and Lee, M. H.
   link:
-    url: https://cyber-hydrology.github.io/images/propic/2024_AOGS_SR_POSTER-min.png
-    display:  Asia Oceania Geosciences Society (2024)
+    url: https://cyber-hydrology.github.io/images/propic/2024_AGU_Poster_kriging_print.jpg
+    display:  Advancing Earth and space science (2024)
   highlight: 1
   
 - title: "Evaluation of Stacking Ensemble Application to Improve LDAPS and WRF-Hydro Based High-Resolution Short-Term Streamflow Prediction"
