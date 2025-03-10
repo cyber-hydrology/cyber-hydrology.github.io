@@ -17,6 +17,17 @@
 #    display:  
 #  highlight: 0
 #  news2:
+- title: "High-resolution ensemble streamflow predictions using WRF-Hydro and LDAPS: a case study of the Geumho River catchment"
+  image: 
+  description: 
+  authors: Woo, H., Choi, H., Kim, M., Noh, S. J.
+  link:
+    url: 
+    display: "J. Korea Water Resour. Assoc. accepted"
+  highlight: 0
+  news2:
+  year: 2025
+
 
 - title: "Estimating urban inundation using physics-informed deep learning: a case study of the Oncheon-cheon catchment"
   image: 
