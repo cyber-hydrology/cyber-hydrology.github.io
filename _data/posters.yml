@@ -1,3 +1,39 @@
+- title: "Deep Learning-Based Urban Pluvial Flood Modeling using High-resolution Physical Information"
+  image: 2025_EGU_hwoo.jpg
+  description: 
+  authors: Woo, H., Kim, B., Choi, H., Kim, M., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_hwoo.jpg
+    display:  European Geosciences Union (2025)
+  highlight: 1
+
+- title: "Exploring the Role of Multivariate Observations in Urban Flood Prediction: A Data Assimilation Approach"
+  image: 2025_EGU_Poster_H12_DA_bkim_submitted.jpg
+  description: 
+  authors: Kim, B.,  Lee, Y., Lee, S., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_Poster_H12_DA_bkim_submitted.jpg
+    display:  European Geosciences Union (2025)
+  highlight: 1
+
+- title: "Integrating Citizen Data in Urban Flood Risk Modeling: Insights from Synthetic Experiments"
+  image: 2025_EGU_Poster_kriging_myk.jpg
+  description: 
+  authors: Kim, M., Choi, H., Kim, B., Lee, Y., Lee, H., Kum, J.,  Lee, M., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_Poster_kriging_myk.jpg
+    display:  European Geosciences Union (2025)
+  highlight: 1
+
+- title: "Developing a Deep Learning-Based Super-Resolution Urban Flood Model: Towards Scalable and Reliable Hydrological Predictions"
+  image: 2025_EGU_SR_hchoi_Poster.jpg
+  description: 
+  authors: Choi, H., Woo, H.,  Kim, M., Ryu, H., Lee, J., Lee, S., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_SR_hchoi_Poster.jpg
+    display:  European Geosciences Union (2025)
+  highlight: 1
+
 - title: "Impact assessmant of ensemble data assimilation of multivariate observations in integrated urban flood modeling: synthetic experiments"
   image: 2024_AGU_Poster_H12_DA_bkim_submitted.jpg
   description: 
