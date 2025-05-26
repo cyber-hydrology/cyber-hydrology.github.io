@@ -1,36 +1,36 @@
 - title: "Deep Learning-Based Urban Pluvial Flood Modeling using High-resolution Physical Information"
-  image: 2025_EGU_hwoo.jpg
+  image: 2025_EGU_hwoo.png
   description: 
   authors: Woo, H., Kim, B., Choi, H., Kim, M., and Noh, S. J.
   link:
-    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_hwoo.jpg
+    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_hwoo.png
     display:  European Geosciences Union (2025)
   highlight: 1
 
 - title: "Exploring the Role of Multivariate Observations in Urban Flood Prediction: A Data Assimilation Approach"
-  image: 2025_EGU_Poster_H12_DA_bkim_submitted.jpg
+  image: 2025_EGU_Poster_H12_DA_bkim_submitted.png
   description: 
   authors: Kim, B.,  Lee, Y., Lee, S., and Noh, S. J.
   link:
-    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_Poster_H12_DA_bkim_submitted.jpg
+    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_Poster_H12_DA_bkim_submitted.png
     display:  European Geosciences Union (2025)
   highlight: 1
 
 - title: "Integrating Citizen Data in Urban Flood Risk Modeling: Insights from Synthetic Experiments"
-  image: 2025_EGU_Poster_kriging_myk.jpg
+  image: 2025_EGU_Poster_kriging_myk.png
   description: 
   authors: Kim, M., Choi, H., Kim, B., Lee, Y., Lee, H., Kum, J.,  Lee, M., and Noh, S. J.
   link:
-    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_Poster_kriging_myk.jpg
+    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_Poster_kriging_myk.png
     display:  European Geosciences Union (2025)
   highlight: 1
 
 - title: "Developing a Deep Learning-Based Super-Resolution Urban Flood Model: Towards Scalable and Reliable Hydrological Predictions"
-  image: 2025_EGU_SR_hchoi_Poster.jpg
+  image: 2025_EGU_SR_hchoi_Poster.png
   description: 
   authors: Choi, H., Woo, H.,  Kim, M., Ryu, H., Lee, J., Lee, S., and Noh, S. J.
   link:
-    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_SR_hchoi_Poster.jpg
+    url: https://cyber-hydrology.github.io/images/propic/2025_EGU_SR_hchoi_Poster.png
     display:  European Geosciences Union (2025)
   highlight: 1
 
