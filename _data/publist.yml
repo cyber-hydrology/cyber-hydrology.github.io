@@ -21,7 +21,7 @@
 - title: "Impacts of Climate Change on Tropical Cyclones and Associated Rainfall over South Korea: Storyline and Risk-based Approaches"
   image: 
   description: 
-  authors: Hiraga, Y., Hokson, JA., Kim, B., Lee, Y., and Noh, S. J.
+  authors: Hiraga, Y., Hokson, JA., Kim, B., Lee, Y., Noh, S. J.
   link:
     url: 
     display:  "in review"
@@ -32,7 +32,7 @@
 - title: "Evaluating the effects of spatial resolution on 2D pluvial flood modelling in urban built environments"
   image: 
   description: 
-  authors: Lee, J., Lee, S., Kim, B., Choi, H., and Noh, S. J.
+  authors: Lee, J., Lee, S., Kim, B., Choi, H., Noh, S. J.
   link:
     url: 
     display:  "in review"
@@ -43,7 +43,7 @@
 - title: "FLO-SR: Deep learning-based urban flood super-resolution model"
   image: 
   description: 
-  authors: Choi, H., Woo, H., Kim, M., Ryu, H., Lee, J., Lee, S., and Noh, S. J.
+  authors: Choi, H., Woo, H., Kim, M., Ryu, H., Lee, J., Lee, S., Noh, S. J.
   link:
     url: https://doi.org/10.1016/j.jhydrol.2025.133529
     display:  "Journal of Hydrology, 661, 133529 (2025)"
@@ -54,7 +54,7 @@
 - title: "Physics-Guided Deep Learning for Spatiotemporal Evolution of Urban Pluvial Flooding"
   image: 
   description: 
-  authors: Woo, H., Choi, H., Kim, M., and Noh, S. J.
+  authors: Woo, H., Choi, H., Kim, M., Noh, S. J.
   link:
     url: https://www.mdpi.com/2073-4441/17/8/1239
     display:  "Water, 17(8), 1239 (2025)"
