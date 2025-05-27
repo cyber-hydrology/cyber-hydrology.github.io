@@ -18,6 +18,28 @@
 #  highlight: 0
 #  news2:
 
+- title: "FLO-SR: Deep learning-based urban flood super-resolution model"
+  image: 
+  description: 
+  authors: Choi, H., Woo, H., Kim, M., Ryu, H., Lee, J., Lee, S., and Noh, S. J.
+  link:
+    url: https://doi.org/10.1016/j.jhydrol.2025.133529
+    display:  "Journal of Hydrology, 661, 133529 (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Physics-Guided Deep Learning for Spatiotemporal Evolution of Urban Pluvial Flooding"
+  image: 
+  description: 
+  authors: Woo, H., Choi, H., Kim, M., and Noh, S. J.
+  link:
+    url: https://www.mdpi.com/2073-4441/17/8/1239
+    display:  "Water, 17(8), 1239 (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
 - title: "High-resolution ensemble streamflow predictions using WRF-Hydro and LDAPS: a case study of the Geumho River catchment"
   image: 
   description: 
