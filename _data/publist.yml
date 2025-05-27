@@ -18,6 +18,28 @@
 #  highlight: 0
 #  news2:
 
+- title: "Impacts of Climate Change on Tropical Cyclones and Associated Rainfall over South Korea: Storyline and Risk-based Approaches"
+  image: 
+  description: 
+  authors: Hiraga, Y., Hokson, JA., Kim, B., Lee, Y., and Noh, S. J.
+  link:
+    url: 
+    display:  "in review"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Evaluating the effects of spatial resolution on 2D pluvial flood modelling in urban built environments"
+  image: 
+  description: 
+  authors: Lee, J., Lee, S., Kim, B., Choi, H., and Noh, S. J.
+  link:
+    url: 
+    display:  "in review"
+  highlight: 0
+  news2:
+  year: 2025
+
 - title: "FLO-SR: Deep learning-based urban flood super-resolution model"
   image: 
   description: 
