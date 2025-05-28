@@ -18,13 +18,24 @@
 #  highlight: 0
 #  news2:
 
+- title: "Enhancing Short-Range Streamflow Prediction in WRF-Hydro through a Time-Lagged Ensemble Approach"
+  image: 
+  description: 
+  authors: Lee, Y., Kim, B., Noh, S. J.
+  link:
+    url: 
+    display:  "In prep"
+  highlight: 0
+  news2:
+  year: 2025
+
 - title: "Enhancing street-level urban flood risk information by integrating observations with physical modeling using indicator cokriging: a synthetic experiment"
   image: 
   description: 
   authors: Choi, H., Kim, M., Kim, B., Kum, J., Lee, H., Lee, M., Noh, S. J.
   link:
     url: 
-    display:  "in review"
+    display:  "In review"
   highlight: 0
   news2:
   year: 2025
@@ -35,7 +46,7 @@
   authors: Hiraga, Y., Hokson, JA., Kim, B., Lee, Y., Noh, S. J.
   link:
     url: 
-    display:  "in review"
+    display:  "In review"
   highlight: 0
   news2:
   year: 2025
@@ -46,7 +57,7 @@
   authors: Lee, J., Lee, S., Kim, B., Choi, H., Noh, S. J.
   link:
     url: 
-    display:  "in review"
+    display:  "In review"
   highlight: 0
   news2:
   year: 2025
