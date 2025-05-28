@@ -18,24 +18,35 @@
 #  highlight: 0
 #  news2:
 
-- title: "Evaluating Observation Impacts in Urban Flood Modeling: A Synthetic Experiment Using a Coupled 1D–2D Particle Filter Framework"
+- title: "FLO-SR: Deep learning-based urban flood super-resolution model"
   image: 
   description: 
-  authors: Kim, B., Lee, Y., Lee, S., Noh, S. J.
+  authors: Choi, H., Woo, H., Kim, M., Ryu, H., Lee, J., Lee, S., Noh, S. J.
   link:
-    url: 
-    display:  "In prep"
+    url: https://doi.org/10.1016/j.jhydrol.2025.133529
+    display:  "Journal of Hydrology, 661, 133529 (2025)"
   highlight: 0
   news2:
   year: 2025
 
-- title: "Enhancing Short-Range Streamflow Prediction in WRF-Hydro through a Time-Lagged Ensemble Approach"
+- title: "Physics-Guided Deep Learning for Spatiotemporal Evolution of Urban Pluvial Flooding"
+  image: 
+  description: 
+  authors: Woo, H., Choi, H., Kim, M., Noh, S. J.
+  link:
+    url: https://www.mdpi.com/2073-4441/17/8/1239
+    display:  "Water, 17(8), 1239 (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "High-resolution ensemble streamflow predictions using WRF-Hydro and LDAPS: a case study of the Geumho River catchment"
   image: 
   description: 
   authors: Lee, Y., Kim, B., Noh, S. J.
   link:
-    url: 
-    display:  "In prep"
+    url: https://jkwra.or.kr/articles/xml/jDwv/
+    display:  "J. Korea Water Resour. 58(3), 263-275 (2025)"
   highlight: 0
   news2:
   year: 2025
@@ -73,39 +84,27 @@
   news2:
   year: 2025
 
-- title: "FLO-SR: Deep learning-based urban flood super-resolution model"
+- title: "Evaluating Observation Impacts in Urban Flood Modeling: A Synthetic Experiment Using a Coupled 1D–2D Particle Filter Framework"
   image: 
   description: 
-  authors: Choi, H., Woo, H., Kim, M., Ryu, H., Lee, J., Lee, S., Noh, S. J.
+  authors: Kim, B., Lee, Y., Lee, S., Noh, S. J.
   link:
-    url: https://doi.org/10.1016/j.jhydrol.2025.133529
-    display:  "Journal of Hydrology, 661, 133529 (2025)"
+    url: 
+    display:  "In prep"
   highlight: 0
   news2:
   year: 2025
 
-- title: "Physics-Guided Deep Learning for Spatiotemporal Evolution of Urban Pluvial Flooding"
+- title: "Evaluating Observation Impacts in Urban Flood Modeling: A Synthetic Experiment Using a Coupled 1D–2D Particle Filter Framework"
   image: 
   description: 
-  authors: Woo, H., Choi, H., Kim, M., Noh, S. J.
+  authors: Kim, B., Lee, Y., Lee, S., Noh, S. J.
   link:
-    url: https://www.mdpi.com/2073-4441/17/8/1239
-    display:  "Water, 17(8), 1239 (2025)"
+    url: 
+    display:  "In prep"
   highlight: 0
   news2:
   year: 2025
-
-- title: "High-resolution ensemble streamflow predictions using WRF-Hydro and LDAPS: a case study of the Geumho River catchment"
-  image: 
-  description: 
-  authors: Lee, Y., Kim, B., Noh, S. J.
-  link:
-    url: https://jkwra.or.kr/articles/xml/jDwv/
-    display:  "J. Korea Water Resour. 58(3), 263-275 (2025)"
-  highlight: 0
-  news2:
-  year: 2025
-
 
 - title: "Estimating urban inundation using physics-informed deep learning: a case study of the Oncheon-cheon catchment"
   image: 
