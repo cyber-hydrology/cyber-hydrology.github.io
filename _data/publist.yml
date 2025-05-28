@@ -18,6 +18,17 @@
 #  highlight: 0
 #  news2:
 
+- title: "Evaluating Observation Impacts in Urban Flood Modeling: A Synthetic Experiment Using a Coupled 1D–2D Particle Filter Framework"
+  image: 
+  description: 
+  authors: Kim, B., Lee, Y., Lee, S., Noh, S. J.
+  link:
+    url: 
+    display:  "In prep"
+  highlight: 0
+  news2:
+  year: 2025
+
 - title: "Enhancing Short-Range Streamflow Prediction in WRF-Hydro through a Time-Lagged Ensemble Approach"
   image: 
   description: 
