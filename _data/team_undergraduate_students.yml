@@ -27,7 +27,27 @@
   education2:  
   education3:
   education4:
- 
+
+ - name: 최지원 (Jiwon Choi)
+  photo: Empty_image.png
+  info: 학부연구생 (Undergraduate Student), started June 2025
+  email: jwchoi3306@naver.com
+  number_educ: 0
+  education1: 
+  education2:  
+  education3:
+  education4:
+
+ - name: 표지은 (Jieun Pyo)
+  photo: Empty_image.png
+  info: 학부연구생 (Undergraduate Student), started July 2025
+  email: 20231219@kumoh.ac.kr
+  number_educ: 0
+  education1: 
+  education2:  
+  education3:
+  education4:
+  
 #- name:
 #  photo: rock.jpg
 #  info:
