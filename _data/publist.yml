@@ -18,6 +18,17 @@
 #  highlight: 0
 #  news2:
 
+- title: "Evaluating the Effects of Spatial Resolution on 2D Pluvial Flood Modeling in Urban Built Environments"
+  image: 
+  description: 
+  authors: Lee, J., Lee, S., Kim, B., Choi, H., Noh, S. J.
+  link:
+    url: https://doi.org/10.1111/jfr3.70105
+    display:  "Journal of Flood Risk Management, 18(3), 70105 (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
 - title: "FLO-SR: Deep learning-based urban flood super-resolution model"
   image: 
   description: 
