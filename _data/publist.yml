@@ -17,14 +17,17 @@
 #    display:  
 #  highlight: 0
 #  news2:
+# ========================
+# 2025 Publications
+# ========================
 
-- title: "Evaluating the Effects of Spatial Resolution on 2D Pluvial Flood Modeling in Urban Built Environments"
+- title: "Physics-Guided Deep Learning for Spatiotemporal Evolution of Urban Pluvial Flooding"
   image: 
   description: 
-  authors: Lee, J., Lee, S., Kim, B., Choi, H., Noh, S. J.
+  authors: Woo, H., Choi, H., Kim, M., Noh, S. J.
   link:
-    url: https://doi.org/10.1111/jfr3.70105
-    display:  "Journal of Flood Risk Management, 18(3), 70105 (2025)"
+    url: https://doi.org/10.3390/w17081239
+    display:  "Water, 17(8), 1239 (2025)"
   highlight: 0
   news2:
   year: 2025
@@ -35,18 +38,73 @@
   authors: Choi, H., Woo, H., Kim, M., Ryu, H., Lee, J., Lee, S., Noh, S. J.
   link:
     url: https://doi.org/10.1016/j.jhydrol.2025.133529
-    display:  "Journal of Hydrology, 661, 133529 (2025)"
+    display:  "Journal of Hydrology, 661, Part A, 133529 (2025)"
   highlight: 0
   news2:
   year: 2025
 
-- title: "Physics-Guided Deep Learning for Spatiotemporal Evolution of Urban Pluvial Flooding"
+- title: "Evaluating the Effects of Spatial Resolution on 2D Pluvial Flood Modeling in Urban Built Environments"
   image: 
   description: 
-  authors: Woo, H., Choi, H., Kim, M., Noh, S. J.
+  authors: Lee, J., Lee, S., Kim, B., Choi, H., Noh, S. J.
   link:
-    url: https://www.mdpi.com/2073-4441/17/8/1239
-    display:  "Water, 17(8), 1239 (2025)"
+    url: https://doi.org/10.1111/jfr3.70105
+    display:  "Journal of Flood Risk Management, 18(3), e70105 (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "High-resolution urban flood risk mapping using indicator cokriging integrated with physical modelling and observational data"
+  image: 
+  description: 
+  authors: Choi, H., Kim, M., Kim, B., Kum, J., Lee, H., Lee, M., Noh, S. J.
+  link:
+    url: 
+    display:  "Under Review (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Comparative Evaluation of Deep Learning-Based Super-Resolution Models for Urban Flood Mapping"
+  image: 
+  description: 
+  authors: Choi, H., Woo, H., Ryu, H., Rhee, D. S., Noh, S. J.
+  link:
+    url: 
+    display:  "Accepted (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Adaptive Time-Lagged Ensemble for Short-Range Streamflow Prediction using WRF-Hydro and LDAPS"
+  image: 
+  description: 
+  authors: Lee, Y., Kim, B., Kim, H. T., Noh, S. J.
+  link:
+    url: 
+    display:  "Under Review (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Probabilistic urban flood prediction with multivariate assimilation of sewer and surface observations"
+  image: 
+  description: 
+  authors: Kim, B., Lee, Y., Lee, S., Noh, S. J.
+  link:
+    url: 
+    display:  "Under Review (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Portable multi-GPU urban flood modelling via MPI-OpenACC: evaluating acceleration, scaling, and workload-per-GPU"
+  image: 
+  description: 
+  authors: Kim, B., Ryu, H., Lee, S., Lee, J., Noh, S. J.
+  link:
+    url: 
+    display:  "Under Review (2025)"
   highlight: 0
   news2:
   year: 2025
@@ -56,8 +114,52 @@
   description: 
   authors: Lee, Y., Kim, B., Noh, S. J.
   link:
-    url: https://jkwra.or.kr/articles/xml/jDwv/
-    display:  "J. Korea Water Resour. 58(3), 263-275 (2025)"
+    url: https://doi.org/10.3741/JKWRA.2024.57.5.333
+    display:  "J. Korea Water Resour. Assoc., 58(3), 263–275 (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Integrating observed and simulated inundation data for urban flood hazard mapping via Indicator Cokriging"
+  image: 
+  description: 
+  authors: Kim, M., Choi, H., Kim, B., Song, C., Noh, S. J.
+  link:
+    url: 
+    display:  "Accepted (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Urban Inundation Prediction with an HC‑SURF‑Trained Gated‑CNN Surrogate: The Sillim Drainage District Case Study "
+  image: 
+  description: 
+  authors: Woo, H., Sim, S., Kim, H., Kim, H., Noh, S. J.
+  link:
+    url: 
+    display:  "Accepted (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "FLO-SRNet: A Deep-Learning Super-Resolution Model for 1D–2D Urban Flood Simulations"
+  image: 
+  description: 
+  authors: Choi, H., Noh, S. J.
+  link:
+    url: 
+    display:  "Under Review (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Evaluating the Effects of Spatial Resolution on 2D Pluvial Flood Modeling in Urban Built Environments"
+  image: 
+  description: 
+  authors: Lee, J., Lee, S., Kim, B., Choi, H., Noh, S. J.
+  link:
+    url: https://doi.org/10.1111/jfr3.70105
+    display:  "Journal of Flood Risk Management, 18(3), 70105 (2025)"
   highlight: 0
   news2:
   year: 2025
@@ -80,28 +182,6 @@
   link:
     url: 
     display:  "In review"
-  highlight: 0
-  news2:
-  year: 2025
-
-- title: "Enhancing Short-Range Streamflow Prediction in WRF-Hydro through a Time-Lagged Ensemble Approach"
-  image: 
-  description: 
-  authors: Lee, Y., Kim, B., Noh, S. J.
-  link:
-    url: 
-    display:  "In prep"
-  highlight: 0
-  news2:
-  year: 2025
-
-- title: "Evaluating Observation Impacts in Urban Flood Modeling: A Synthetic Experiment Using a Coupled 1D–2D Particle Filter Framework"
-  image: 
-  description: 
-  authors: Kim, B., Lee, Y., Lee, S., Noh, S. J.
-  link:
-    url: 
-    display:  "In prep"
   highlight: 0
   news2:
   year: 2025
