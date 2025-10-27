@@ -21,7 +21,97 @@
 # 2025 Publications
 # ========================
 
-- title: "High-resolution urban flood risk mapping using indicator cokriging integrated with physical modelling and observational data"
+
+
+- title: "Comparative Evaluation of Deep Learning–Based Super–Resolution Models for Urban Flood Mapping"
+  image: 
+  description: 
+  authors: Choi, H., Woo, H., Ryu, H., Rhee, D. S., Noh, S. J.
+  link:
+    url: https://doi.org/10.1111/jfr3.70144
+    display:  "Journal of Flood Risk Management, 18(4), e70144 (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "FLO-SR: Deep learning-based urban flood super-resolution model"
+  image: 
+  description: 
+  authors: Choi, H., Woo, H., Kim, M., Ryu, H., Lee, J., Lee, S., Noh, S. J.
+  link:
+    url: https://doi.org/10.1016/j.jhydrol.2025.133529
+    display:  "Journal of Hydrology, 661, Part A, 133529 (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Evaluating the Effects of Spatial Resolution on 2D Pluvial Flood Modeling in Urban Built Environments"
+  image: 
+  description: 
+  authors: Lee, J., Lee, S., Kim, B., Choi, H., Noh, S. J.
+  link:
+    url: https://doi.org/10.1111/jfr3.70105
+    display:  "Journal of Flood Risk Management, 18(3), e70105 (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "High-resolution ensemble streamflow predictions using WRF-Hydro and LDAPS: a case study of the Geumho River catchment"
+  image: 
+  description: 
+  authors: Lee, Y., Kim, B., Noh, S. J.
+  link:
+    url: https://doi.org/10.3741/JKWRA.2024.57.5.333
+    display:  "J. Korea Water Resour. Assoc., 58(3), 263–275 (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Impacts of Climate Change on Tropical Cyclones and Associated Rainfall over South Korea: Storyline and Risk-based Approaches"
+  image: 
+  description: 
+  authors: Hiraga, Y., Hokson, JA., Kim, B., Lee, Y., Noh, S. J.
+  link:
+    url: https://essopenarchive.org/users/877883/articles/1297234-impacts-of-climate-change-on-tropical-cyclones-and-associated-rainfall-over-south-korea-storyline-and-risk-based-approaches
+    display:  "preprint (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Physics-Guided Deep Learning for Spatiotemporal Evolution of Urban Pluvial Flooding"
+  image: 
+  description: 
+  authors: Woo, H., Choi, H., Kim, M., Noh, S. J.
+  link:
+    url: https://doi.org/10.3390/w17081239
+    display:  "Water, 17(8), 1239 (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Integrating observed and simulated inundation data for urban flood hazard mapping via Indicator Cokriging"
+  image: 
+  description: 
+  authors: Kim, M., Choi, H., Kim, B., Song, C., Noh, S. J.
+  link:
+    url: 
+    display:  "Accepted (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "Urban Inundation Prediction with an HC‑SURF‑Trained Gated‑CNN Surrogate: The Sillim Drainage District Case Study "
+  image: 
+  description: 
+  authors: Woo, H., Sim, S., Kim, H., Kim, H., Noh, S. J.
+  link:
+    url: 
+    display:  "Accepted (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+  - title: "High-resolution urban flood risk mapping using indicator cokriging integrated with physical modelling and observational data"
   image: 
   description: 
   authors: Choi, H., Kim, M., Kim, B., Kum, J., Lee, H., Lee, M., Noh, S. J.
@@ -83,107 +173,6 @@
   link:
     url: 
     display:  "In Review"
-  highlight: 0
-  news2:
-  year: 2025
-
-- title: "Comparative Evaluation of Deep Learning-Based Super-Resolution Models for Urban Flood Mapping"
-  image: 
-  description: 
-  authors: Choi, H., Woo, H., Ryu, H., Rhee, D. S., Noh, S. J.
-  link:
-    url: 
-    display:  "Accepted (2025)"
-  highlight: 0
-  news2:
-  year: 2025
-
-
-- title: "Integrating observed and simulated inundation data for urban flood hazard mapping via Indicator Cokriging"
-  image: 
-  description: 
-  authors: Kim, M., Choi, H., Kim, B., Song, C., Noh, S. J.
-  link:
-    url: 
-    display:  "Accepted (2025)"
-  highlight: 0
-  news2:
-  year: 2025
-
-- title: "Urban Inundation Prediction with an HC‑SURF‑Trained Gated‑CNN Surrogate: The Sillim Drainage District Case Study "
-  image: 
-  description: 
-  authors: Woo, H., Sim, S., Kim, H., Kim, H., Noh, S. J.
-  link:
-    url: 
-    display:  "Accepted (2025)"
-  highlight: 0
-  news2:
-  year: 2025
-
-
-- title: "FLO-SR: Deep learning-based urban flood super-resolution model"
-  image: 
-  description: 
-  authors: Choi, H., Woo, H., Kim, M., Ryu, H., Lee, J., Lee, S., Noh, S. J.
-  link:
-    url: https://doi.org/10.1016/j.jhydrol.2025.133529
-    display:  "Journal of Hydrology, 661, Part A, 133529 (2025)"
-  highlight: 0
-  news2:
-  year: 2025
-
-- title: "Evaluating the Effects of Spatial Resolution on 2D Pluvial Flood Modeling in Urban Built Environments"
-  image: 
-  description: 
-  authors: Lee, J., Lee, S., Kim, B., Choi, H., Noh, S. J.
-  link:
-    url: https://doi.org/10.1111/jfr3.70105
-    display:  "Journal of Flood Risk Management, 18(3), e70105 (2025)"
-  highlight: 0
-  news2:
-  year: 2025
-
-- title: "High-resolution ensemble streamflow predictions using WRF-Hydro and LDAPS: a case study of the Geumho River catchment"
-  image: 
-  description: 
-  authors: Lee, Y., Kim, B., Noh, S. J.
-  link:
-    url: https://doi.org/10.3741/JKWRA.2024.57.5.333
-    display:  "J. Korea Water Resour. Assoc., 58(3), 263–275 (2025)"
-  highlight: 0
-  news2:
-  year: 2025
-
-- title: "Evaluating the Effects of Spatial Resolution on 2D Pluvial Flood Modeling in Urban Built Environments"
-  image: 
-  description: 
-  authors: Lee, J., Lee, S., Kim, B., Choi, H., Noh, S. J.
-  link:
-    url: https://doi.org/10.1111/jfr3.70105
-    display:  "Journal of Flood Risk Management, 18(3), 70105 (2025)"
-  highlight: 0
-  news2:
-  year: 2025
-
-- title: "Impacts of Climate Change on Tropical Cyclones and Associated Rainfall over South Korea: Storyline and Risk-based Approaches"
-  image: 
-  description: 
-  authors: Hiraga, Y., Hokson, JA., Kim, B., Lee, Y., Noh, S. J.
-  link:
-    url: https://essopenarchive.org/users/877883/articles/1297234-impacts-of-climate-change-on-tropical-cyclones-and-associated-rainfall-over-south-korea-storyline-and-risk-based-approaches
-    display:  "preprint (2025)"
-  highlight: 0
-  news2:
-  year: 2025
-
-- title: "Physics-Guided Deep Learning for Spatiotemporal Evolution of Urban Pluvial Flooding"
-  image: 
-  description: 
-  authors: Woo, H., Choi, H., Kim, M., Noh, S. J.
-  link:
-    url: https://doi.org/10.3390/w17081239
-    display:  "Water, 17(8), 1239 (2025)"
   highlight: 0
   news2:
   year: 2025
