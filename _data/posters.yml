@@ -1,3 +1,57 @@
+- title: "MULTI-DIMENSIONAL PARAMETER CALIBRATION AND SENSITIVITY ANALYSIS FOR WRF-HYDRO USING PEST : A CASE STUDY OF THE NAKDONG RIVER BASIN"
+  image: 2025_ksce_cjw.jpg
+  description: 
+  authors: Choi, J., Lee, Y., Kim, B., Kim, H., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2025_ksce_cjw.jpg
+    display:  Proceedings of the Korean Society of Civil Engineers Convention (2025)
+  highlight: 1
+
+- title: "Development of Urban Flood Mapping Super-Resolution Models Using Convolutional Neural Networks(CNN) and Generative Adversarial Networks(GAN)"
+  image: 2025_ksce_pje.jpg
+  description: 
+  authors: Pyo, J., Choi, H., Kim, M., Lee, D., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2025_ksce_pje.jpg
+    display:  Proceedings of the Korean Society of Civil Engineers Convention (2025)
+  highlight: 1
+
+- title: "SENSITIVITY ANALYSIS OF DEEP LEARNING-BASED URBAN FLOOD PREDICTION MODELS:EVALUATION OF PREDICTION PERFORMANCE WITH VARYING RAINFALL TIME SERIES LENGTH"
+  image: 2025_ksce_khs.jpg
+  description: 
+  authors: Kim, H., Woo, H., Choi, H., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2025_ksce_khs.jpg
+    display:  Proceedings of the Korean Society of Civil Engineers Convention (2025)
+  highlight: 1
+
+- title: "Retrospective Analysis of the 2022 Banpo Stream Urban Flooding Using the High-Resolution H12 Model"
+  image: 2025_ksce_hsw.jpg
+  description: 
+  authors: Han, S., Kim, B., Lee, Y., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2025_ksce_hsw.jpg
+    display:  Proceedings of the Korean Society of Civil Engineers Convention (2025)
+  highlight: 1
+
+- title: "Urban Flood Characteristics Analysis of the Gyeongpocheon Basin in Gunsan City Using the H12 Model"
+  image: 2025_ksce_jdb.jpg
+  description: 
+  authors: Jeong, D., Woo, H., Kim, M., Kim, B., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2025_ksce_jdb.jpg
+    display:  Proceedings of the Korean Society of Civil Engineers Convention (2025)
+  highlight: 1
+
+- title: "LISSA: Development of an R-based Integrated Levee Safety Assessment and Simulation System"
+  image: 2025_ksce_cap.jpg
+  description: 
+  authors: Kim, H., Han, S., Choi, J., Woo, H., Choi, H., and Noh, S. J.
+  link:
+    url: https://cyber-hydrology.github.io/images/propic/2025_ksce_cap.jpg
+    display:  Proceedings of the Korean Society of Civil Engineers Convention (2025)
+  highlight: 1
+  
 - title: "Deep Learning-Based Urban Pluvial Flood Modeling using High-resolution Physical Information"
   image: 2025_EGU_hwoo.png
   description: 
