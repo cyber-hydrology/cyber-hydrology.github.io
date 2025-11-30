@@ -1,33 +1,3 @@
-- name: 한세웅 (Seung Han)
-  photo: seung_han.jpg
-  info: 학부연구생 (Undergraduate Student), started January 2025
-  email: hansewoog@naver.com
-  number_educ: 0
-  education1: 
-  education2: 
-  education3:
-  education4:
-  
-- name: 김학성 (Hakseong Kim)
-  photo: Hakseong_kim.jpg
-  info: 학부연구생 (Undergraduate Student), started January 2025
-  email: rlagkrtjd0405@naver.com
-  number_educ: 0
-  education1: 
-  education2: 
-  education3:
-  education4:
-
-- name: 정다빈 (Dabin Jeong)
-  photo: Dabin_jeong.jpg
-  info: 학부연구생 (Undergraduate Student), started July 2024
-  email: wjdekqls510@gmail.com
-  number_educ: 0
-  education1: 
-  education2:  
-  education3:
-  education4:
-
 - name: 최지원 (Jiwon Choi)
   photo: jiwon_choi.jpg
   info: 학부연구생 (Undergraduate Student), started June 2025
@@ -38,16 +8,6 @@
   education3:
   education4:
 
-- name: 표지은 (Jieun Pyo)
-  photo: Jieun_pyo.jpg
-  info: 학부연구생 (Undergraduate Student), started July 2025
-  email: 20231219@kumoh.ac.kr
-  number_educ: 0
-  education1: 
-  education2:  
-  education3:
-  education4:
-  
 #- name:
 #  photo: rock.jpg
 #  info:
