@@ -70,8 +70,8 @@
   description: 
   authors: Hiraga, Y., Hokson, JA., Kim, B., Lee, Y., Noh, S. J.
   link:
-    url: https://essopenarchive.org/users/877883/articles/1297234-impacts-of-climate-change-on-tropical-cyclones-and-associated-rainfall-over-south-korea-storyline-and-risk-based-approaches
-    display: "preprint (2025)"
+    url: https://doi.org/10.1016/j.atmosres.2025.108685
+    display: "Atmospheric Research, 331, 108685 (2025)"
   highlight: 0
   news2:
   year: 2025
@@ -168,6 +168,17 @@
   image: 
   description: 
   authors: Choi, H., Kim, M., Kim, B., Kum, J., Lee, H., Lee, M., Noh, S. J.
+  link:
+    url: 
+    display:  "In review"
+  highlight: 0
+  news2:
+  year: 2025
+  
+- title: "Scale-dependent flood hazard amplification under warming climates: a tropical cyclone Hinnamnor storyline in South Korea"
+  image: 
+  description: 
+  authors: Lee, Y., Kim, B., Hiraga, Y., Hokson, JA., Noh, S. J.
   link:
     url: 
     display:  "In review"
