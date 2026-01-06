@@ -92,8 +92,8 @@
   description: 
   authors: Kim, M., Choi, H., Kim, B., Song, C., Noh, S. J.
   link:
-    url: 
-    display: "Accepted (2025)"
+    url: https://jkwra.or.kr/articles/article/oeW9/
+    display: "J. Korea Water Resour. Assoc., 58(11), 1113–1126 (2025)"
   highlight: 0
   news2:
   year: 2025
@@ -103,19 +103,8 @@
   description: 
   authors: Woo, H., Sim, S., Kim, H., Kim, H., Noh, S. J.
   link:
-    url: 
-    display:  "Accepted (2025)"
-  highlight: 0
-  news2:
-  year: 2025
-  
-- title: "FLO-SRNet: A Deep-Learning Super-Resolution Model for 1D–2D Urban Flood Simulations"
-  image: 
-  description: 
-  authors: Choi, H., Noh, S. J.
-  link:
-    url: 
-    display:  "Accepted (2025)"
+    url: https://jkwra.or.kr/articles/article/MNJ1/
+    display:  "J. Korea Water Resour. Assoc., 58(11), 1099–1111 (2025)"
   highlight: 0
   news2:
   year: 2025
@@ -125,8 +114,19 @@
   description: 
   authors: Choi, H., Kim, M., Kim, B., Kum, J., Lee, H., Lee, M., Noh, S. J.
   link:
+    url: https://doi.org/10.2166/hydro.2025.078
+    display:  "Journal of Hydroinformatics (2025)"
+  highlight: 0
+  news2:
+  year: 2025
+
+- title: "FLO-SRNet: A Deep-Learning Super-Resolution Model for 1D–2D Urban Flood Simulations"
+  image: 
+  description: 
+  authors: Choi, H., Noh, S. J.
+  link:
     url: 
-    display:  "In Review"
+    display:  "Accepted (2025)"
   highlight: 0
   news2:
   year: 2025
