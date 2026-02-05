@@ -146,12 +146,12 @@
   image: 
   description: 
   authors: Lee, Y., Kim, B., Kim, H. T., Noh, S. J.
-  link:
+  link: https://www.mdpi.com/2073-4441/18/3/356
     url: 
-    display:  "In Review"
+    display:  "Water (2026)"
   highlight: 0
   news2:
-  year: 2025
+  year: 2026
 
 - title: "Probabilistic urban flood prediction with multivariate assimilation of sewer and surface observations"
   image: 
