@@ -43,7 +43,7 @@ To be updated soon..
 
 
 <!-- ## Full List -->
-{% for year in (2015..2025) reversed %}
+{% for year in (2015..2026) reversed %}
   <h3 style="font-size: 35px;">{{ year }}</h3>
   
   {% for publi in site.data.publist %}
