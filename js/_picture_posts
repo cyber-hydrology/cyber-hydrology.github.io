@@ -1,19 +1,1 @@
----
-layout: picture_post
-title: "AGU 2025"
-date: 2025-12-01
-hero: /images/picpic/Gallery/2025_AGU.jpg
-gallery:
-  - /images/picpic/Gallery/2025_AGU.jpg
-  - /images/picpic/Post_picture/2025_AGU/Seongjin_PR.jpg
-  - /images/picpic/Post_picture/2025_AGU/Bomi_PR.jpg
-  - /images/picpic/Post_picture/2025_AGU/Bomi_PR2.jpg
-  - /images/picpic/Post_picture/2025_AGU/Hyuna_PR.jpg
-  - /images/picpic/Post_picture/2025_AGU/Yaewon_PR.jpg
-  - /images/picpic/Post_picture/2025_AGU/Minyoung_PR.jpg
-  - /images/picpic/Post_picture/2025_AGU/NCAR_meetup.jpg
----
 
-This week We attended **AGU 2025** and presented our work
-
-![Poster session — on site]({{ site.baseurl }}/images/picpic/Post_picture/2025_AGU/Seongjin_PR.jpg)
