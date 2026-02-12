@@ -1,6 +1,37 @@
 ---
 layout: default
 ---
+<style>
+  /* 모든 사진을 같은 박스 크기로 통일 */
+  .pic-box {
+    width: 100%;
+    max-width: 900px;      /* 페이지에서 너무 커지지 않게 */
+    height: 320px;         /* ★ 여기 숫자만 바꾸면 전체 크기 조절됨 */
+    margin: 14px auto;     /* 가운데 정렬 */
+    overflow: hidden;
+    border-radius: 8px;    /* 선택: 모서리 */
+  }
+  .pic-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     /* 꽉 채우면서 잘라내기(크롭) */
+    display: block;
+  }
+
+  /* 아래쪽 갤러리 그리드도 동일 규격 */
+  .pic-grid-box {
+    width: 100%;
+    height: 220px;         /* 그리드는 조금 작게 */
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .pic-grid-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+</style>
 
 <div class="container">
   <h1>{{ page.title }}</h1>
@@ -10,11 +41,9 @@ layout: default
   {% endif %}
 
   {% if page.hero %}
-  <p>
-    <img src="{{ site.baseurl }}{{ page.hero }}"
-     class="img-responsive"
-     style="width:100%; max-width:900px; height:auto; display:block; margin: 0 auto;">
-  </p>
+  <div class="pic-box">
+    <img src="{{ site.baseurl }}{{ page.hero }}" alt="">
+  </div>
   {% endif %}
 
   <div class="post-content">
@@ -22,13 +51,14 @@ layout: default
   </div>
 
   {% if page.gallery %}
-  <hr>
-  <div class="row">
-    {% for img in page.gallery %}
-    <div class="col-sm-4" style="margin-bottom:15px;">
-      <img src="{{ site.baseurl }}{{ img }}" class="img-responsive" style="width:100%; height:auto;">
-    </div>
-    {% endfor %}
-  </div>
-  {% endif %}
+    <hr>
+    <div class="row">
+      {% for img in page.gallery %}
+      <div class="col-sm-4" style="margin-bottom:15px;">
+        <div class="pic-grid-box">
+          <img src="{{ site.baseurl }}{{ img }}" alt="">
+        </div>
+      </div>
+  {% endfor %}
 </div>
+{% endif %}
