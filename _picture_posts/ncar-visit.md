@@ -16,7 +16,7 @@ gallery:
 ---
 
 This week, we visited the **National Center for Atmospheric Research (NCAR)** in Boulder, Colorado.
-From 2026-02-01 to 2026-02-08, we spent time with NCAR colleagues for research discussions and meetings.
+We spent time with NCAR colleagues for research discussions and meetings.
 
 <img src="{{ site.baseurl }}/images/picpic/Post_picture/NCAR_visit/NCAR_sign.jpg"
      alt="NCAR sign"
