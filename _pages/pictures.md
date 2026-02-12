@@ -30,10 +30,10 @@ permalink: /pictures/
 <div class="col-sm-3 clearfix">
 {% if pic.slug %}
 <a href="{{ site.baseurl }}/pictures/{{ pic.slug }}/">
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}"class="img-responsive" width="95%" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
 </a>
 {% else %}
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}"class="img-responsive" width="95%" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
 {% endif %}
 
 {% if pic.title %}
