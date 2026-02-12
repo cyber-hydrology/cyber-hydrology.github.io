@@ -28,30 +28,26 @@ permalink: /pictures/
 {% endif %}
 
 <div class="col-sm-3 clearfix">
-  {% if pic.slug %}
-    <a href="{{ site.baseurl }}/pictures/{{ pic.slug }}/">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}"
-           class="img-responsive" style="width:100%; height:auto;" />
-    </a>
-  {% else %}
-    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}"
-         class="img-responsive" style="width:100%; height:auto;" />
-  {% endif %}
+{% if pic.slug %}
+<a href="{{ site.baseurl }}/pictures/{{ pic.slug }}/">
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" style="width:100%; height:auto;" />
+</a>
+{% else %}
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" style="width:100%; height:auto;" />
+{% endif %}
 
-  {% if pic.title %}
-    <div style="font-size:12px; margin-top:4px; opacity:0.8; text-align:center;">
-      {% if pic.slug %}
-        <a href="{{ site.baseurl }}/pictures/{{ pic.slug }}/"
-           style="text-decoration:underline; color:inherit;">
-          {{ pic.title }}
-        </a>
-      {% else %}
-        {{ pic.title }}
-      {% endif %}
-    </div>
-  {% endif %}
+{% if pic.title %}
+<div style="font-size:12px; margin-top:4px; opacity:0.8; text-align:center;">
+{% if pic.slug %}
+<a href="{{ site.baseurl }}/pictures/{{ pic.slug }}/" style="text-decoration:underline; color:inherit;">
+{{ pic.title }}
+</a>
+{% else %}
+{{ pic.title }}
+{% endif %}
 </div>
-
+{% endif %}
+</div>
 
 {% assign number_printed = number_printed | plus: 1 %}
 
