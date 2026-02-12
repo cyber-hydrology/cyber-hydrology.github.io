@@ -1,8 +1,16 @@
+---
+layout: default
+---
+
 <div class="container">
   <h1>{{ page.title }}</h1>
 
-  {% if page.date %}
-  <p style="opacity:0.7;">{{ page.date | date: "%Y-%m-%d" }}</p>
+  {% if page.start_date and page.end_date %}
+    <p style="opacity:0.7;">
+      {{ page.start_date | date: "%Y-%m-%d" }} – {{ page.end_date | date: "%m-%d" }}
+    </p>
+  {% elsif page.date %}
+    <p style="opacity:0.7;">{{ page.date | date: "%Y-%m-%d" }}</p>
   {% endif %}
 
   {% if page.hero %}
