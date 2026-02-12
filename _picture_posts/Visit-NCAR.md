@@ -3,7 +3,7 @@ layout: picture_post
 title: "Visit NCAR"
 start_date: 2026-02-01
 end_date: 2026-02-08
-hero: /images/picpic/Post_picture/NCAR_visit/NCAR_sign.jpg
+hero: /images/picpic/Gallery/NCAR_sign.jpg
 gallery:
   - /images/picpic/Post_picture/NCAR_visit/NCAR_sign.jpg
   - /images/picpic/Post_picture/NCAR_visit/Cafeteria_meetup.jpg
