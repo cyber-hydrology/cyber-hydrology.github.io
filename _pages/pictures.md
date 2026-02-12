@@ -30,14 +30,14 @@ permalink: /pictures/
 <div class="col-sm-3 clearfix">
 {% if pic.slug %}
 <a href="{{ site.baseurl }}/pictures/{{ pic.slug }}/">
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="95%" height: auto;" />
 </a>
 {% else %}
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="95%" height: auto;" />
 {% endif %}
 
 {% if pic.title %}
-<div style="font-size: 12px; margin-top: 6px; opacity: 0.8; text-align: center; clear: both;">
+<div style="font-size: 12px; margin-top: 6px; opacity: 0.8; text-align: center;">
 {% if pic.slug %}
 <a href="{{ site.baseurl }}/pictures/{{ pic.slug }}/" style="text-decoration: underline;">
 {{ pic.title }}
