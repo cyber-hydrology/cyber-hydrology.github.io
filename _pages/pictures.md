@@ -37,7 +37,7 @@ permalink: /pictures/
 {% endif %}
 
 {% if pic.title %}
-<div style="font-size: 12px; margin-top: 6px; opacity: 0.8; text-align: center;">
+<div style="font-size: 12px; margin-top: 6px; opacity: 0.8; text-align: center;" clear: both;">
 {% if pic.slug %}
 <a href="{{ site.baseurl }}/pictures/{{ pic.slug }}/" style="text-decoration: underline;">
 {{ pic.title }}
