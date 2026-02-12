@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h1>{{ page.title }}</h1>
+
+  {% if page.date %}
+  <p style="opacity:0.7;">{{ page.date | date: "%Y-%m-%d" }}</p>
+  {% endif %}
+
+  {% if page.hero %}
+  <p>
+    <img src="{{ site.baseurl }}{{ page.hero }}" class="img-responsive" style="max-width:100%; height:auto;">
+  </p>
+  {% endif %}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if page.gallery %}
+  <hr>
+  <div class="row">
+    {% for img in page.gallery %}
+    <div class="col-sm-4" style="margin-bottom:15px;">
+      <img src="{{ site.baseurl }}{{ img }}" class="img-responsive" style="width:100%; height:auto;">
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
