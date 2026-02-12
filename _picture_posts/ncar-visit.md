@@ -3,7 +3,7 @@ layout: picture_post
 title: "Visit NCAR"
 start_date: 2026-02-01
 end_date: 2026-02-08
-hero: /images/picpic/Gallery/NCAR_sign.jpg
+hero:
 gallery:
   - /images/picpic/Post_picture/NCAR_visit/NCAR_sign.jpg
   - /images/picpic/Post_picture/NCAR_visit/Cafeteria_meetup.jpg
@@ -22,7 +22,7 @@ From 2026-02-01 to 2026-02-08, we spent time with NCAR colleagues for research d
      alt="NCAR sign"
      style="max-width: 700px; width: 100%; height: auto; display: block; margin: 12px auto;">
 
-NCAR cafeteria meetup 
+Cafeteria meetup 
 
 <img src="{{ site.baseurl }}/images/picpic/Post_picture/NCAR_visit/Cafeteria_meetup.jpg"
      alt="Cafeteria meetup"
