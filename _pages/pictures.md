@@ -28,9 +28,27 @@ permalink: /pictures/
 {% endif %}
 
 <div class="col-sm-3 clearfix">
-<a href="{{ site.baseurl }}/pictures/{{ pic.slug }}/">
- <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
-</a>
+  {% if pic.slug %}
+    <a href="{{ site.baseurl }}/pictures/{{ pic.slug }}/">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}"
+           class="img-responsive" width="95%" style="float: left" />
+    </a>
+  {% else %}
+    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}"
+         class="img-responsive" width="95%" style="float: left" />
+  {% endif %}
+
+  {% if pic.title %}
+    <div style="font-size: 12px; margin-top: 6px; opacity: 0.8; text-align: center;">
+      {% if pic.slug %}
+        <a href="{{ site.baseurl }}/pictures/{{ pic.slug }}/" style="text-decoration: underline;">
+          {{ pic.title }}
+        </a>
+      {% else %}
+        {{ pic.title }}
+      {% endif %}
+    </div>
+  {% endif %}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
