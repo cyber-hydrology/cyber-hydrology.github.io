@@ -26,8 +26,19 @@
   number_educ: 2
   education1: Bachelor, Kumoh National Institute of Technology
   education2: Master, Kumoh National Institute of Technology
-  education3:
-  education4:
+  detail_bio: >
+
+  intl_journal_title: International Journal Papers
+  intl_journal_items:
+
+  domestic_journal_title: Domestic Journal Papers
+  domestic_journal_items:
+
+  intl_title: International Conference Journal
+  intl_items:
+
+  domestic_title: Domestic Conference Journal
+  domestic_items:
 
 - name: 김민영 (Minyoung Kim)
   photo: kim_minyoung3.jpg
