@@ -8,79 +8,41 @@ permalink: /team/
 
 # Group Members
 
-## Principal Investigator
+{% assign groups = "Principal Investigator:team_professor,POST DOC:team_postdoc,PhD and Master Students:team_students,Undergraduate Students:team_undergraduate_students,Alumni Members:alumni_members" | split: "," %}
 
-<div class="team-grid">
-{% for member in site.data.team_professor %}
+{% for group in groups %}
+{% assign group_info = group | strip | split: ":" %}
+{% assign group_title = group_info[0] %}
+{% assign group_data = group_info[1] %}
+
+## {{ group_title }}
+
+<div class="row team-section">
+
+{% for member in site.data[group_data] %}
+
+<div class="col-sm-6 team-member-col">
 <div class="team-card">
+
 {% if member.photo %}
-<img class="team-photo" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
+<img class="team-photo" src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
 {% endif %}
-<div class="team-basic">
+
+<div class="team-card-body">
+
 <div class="team-name-row">
-<h3>{{ member.name }}</h3>
+<h3 class="team-name">{{ member.name }}</h3>
 <button class="team-toggle-btn" type="button" aria-label="show detail">+</button>
 </div>
+
 {% if member.info %}
 <p class="team-info">{{ member.info }}</p>
 {% endif %}
+
 {% if member.education1 %}
 <p class="team-education">{{ member.education1 }}</p>
 {% endif %}
-</div>
-<div class="team-detail">
-{% include team_member_detail.html member=member %}
-</div>
-</div>
-{% endfor %}
-</div>
 
-## POST DOC
-
-<div class="team-grid">
-{% for member in site.data.team_postdoc %}
-<div class="team-card">
-{% if member.photo %}
-<img class="team-photo" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
-{% endif %}
-<div class="team-basic">
-<div class="team-name-row">
-<h3>{{ member.name }}</h3>
-<button class="team-toggle-btn" type="button" aria-label="show detail">+</button>
-</div>
-{% if member.info %}
-<p class="team-info">{{ member.info }}</p>
-{% endif %}
-{% if member.education1 %}
-<p class="team-education">{{ member.education1 }}</p>
-{% endif %}
-</div>
-<div class="team-detail">
-{% include team_member_detail.html member=member %}
-</div>
-</div>
-{% endfor %}
-</div>
-
-## PhD and Master Students
-
-<div class="team-grid">
-{% for member in site.data.team_students %}
-<div class="team-card">
-{% if member.photo %}
-<img class="team-photo" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
-{% endif %}
-<div class="team-basic">
-<div class="team-name-row">
-<h3>{{ member.name }}</h3>
-<button class="team-toggle-btn" type="button" aria-label="show detail">+</button>
-</div>
-{% if member.info %}
-<p class="team-info">{{ member.info }}</p>
-{% endif %}
-{% if member.education1 %}
-<p class="team-education">{{ member.education1 }}</p>
-{% endif %}
 {% if member.research %}
 <ul class="team-research-short">
 {% for item in member.research limit:2 %}
@@ -88,74 +50,115 @@ permalink: /team/
 {% endfor %}
 </ul>
 {% endif %}
-</div>
+
 <div class="team-detail">
-{% include team_member_detail.html member=member %}
-</div>
-</div>
-{% endfor %}
-</div>
 
-## Undergraduate Students
+{% if member.email %}
+<p class="team-email">
+Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+</p>
+{% endif %}
 
-<div class="team-grid">
-{% for member in site.data.team_undergraduate_students %}
-<div class="team-card">
-{% if member.photo %}
-<img class="team-photo" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
-{% endif %}
-<div class="team-basic">
-<div class="team-name-row">
-<h3>{{ member.name }}</h3>
-<button class="team-toggle-btn" type="button" aria-label="show detail">+</button>
-</div>
-{% if member.info %}
-<p class="team-info">{{ member.info }}</p>
-{% endif %}
+{% if member.education1 or member.education2 or member.education3 or member.education4 or member.education5 %}
+<h4>Education</h4>
+<ul>
 {% if member.education1 %}
-<p class="team-education">{{ member.education1 }}</p>
+<li>{{ member.education1 }}</li>
 {% endif %}
+{% if member.education2 %}
+<li>{{ member.education2 }}</li>
+{% endif %}
+{% if member.education3 %}
+<li>{{ member.education3 }}</li>
+{% endif %}
+{% if member.education4 %}
+<li>{{ member.education4 }}</li>
+{% endif %}
+{% if member.education5 %}
+<li>{{ member.education5 }}</li>
+{% endif %}
+</ul>
+{% endif %}
+
+{% if member.research_intro %}
+<h4>Research Introduction</h4>
+<p>{{ member.research_intro }}</p>
+{% endif %}
+
 {% if member.research %}
-<ul class="team-research-short">
-{% for item in member.research limit:2 %}
+<h4>Research Interests</h4>
+<ul>
+{% for item in member.research %}
 <li>{{ item }}</li>
 {% endfor %}
 </ul>
 {% endif %}
-</div>
-<div class="team-detail">
-{% include team_member_detail.html member=member %}
-</div>
-</div>
+
+{% if member.international_journal_papers %}
+<h4>International Journal Papers</h4>
+<ul>
+{% for paper in member.international_journal_papers %}
+<li>{{ paper }}</li>
 {% endfor %}
+</ul>
+{% endif %}
+
+{% if member.international_conference_papers %}
+<h4>International Conference Papers</h4>
+<ul>
+{% for paper in member.international_conference_papers %}
+<li>{{ paper }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if member.domestic_journal_papers %}
+<h4>Domestic Journal Papers</h4>
+<ul>
+{% for paper in member.domestic_journal_papers %}
+<li>{{ paper }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if member.domestic_conference_papers %}
+<h4>Domestic Conference Papers</h4>
+<ul>
+{% for paper in member.domestic_conference_papers %}
+<li>{{ paper }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if member.patents %}
+<h4>Patents</h4>
+<ul>
+{% for patent in member.patents %}
+<li>{{ patent }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if member.awards %}
+<h4>Awards</h4>
+<ul>
+{% for award in member.awards %}
+<li>{{ award }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
 </div>
 
-## Alumni Members
+</div>
+</div>
+</div>
 
-<div class="team-grid">
-{% for member in site.data.alumni_members %}
-<div class="team-card">
-{% if member.photo %}
-<img class="team-photo" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
-{% endif %}
-<div class="team-basic">
-<div class="team-name-row">
-<h3>{{ member.name }}</h3>
-<button class="team-toggle-btn" type="button" aria-label="show detail">+</button>
-</div>
-{% if member.info %}
-<p class="team-info">{{ member.info }}</p>
-{% endif %}
-{% if member.education1 %}
-<p class="team-education">{{ member.education1 }}</p>
-{% endif %}
-</div>
-<div class="team-detail">
-{% include team_member_detail.html member=member %}
-</div>
-</div>
 {% endfor %}
+
 </div>
+
+{% endfor %}
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
