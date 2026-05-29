@@ -38,10 +38,17 @@ permalink: /team/
 
 <div class="member-info-box">
 
-<h3 class="member-toggle-name" onclick="toggleMemberDetail(this)">
-  {{ member.name }}
-  <span class="toggle-arrow">▾</span>
-</h3>
+{% assign has_pubs = false %}
+{% if member.intl_journal_items %}{% assign has_pubs = true %}{% endif %}
+{% if member.domestic_journal_items %}{% assign has_pubs = true %}{% endif %}
+{% if member.intl_items %}{% assign has_pubs = true %}{% endif %}
+{% if member.domestic_items %}{% assign has_pubs = true %}{% endif %}
+
+{% if has_pubs %}
+<h3 class="member-toggle-name" onclick="toggleMemberDetail(this)">{{ member.name }} <span class="toggle-arrow">▾</span></h3>
+{% else %}
+<h3>{{ member.name }}</h3>
+{% endif %}
 
 {% if member.info %}
 <p>{{ member.info }}</p>
@@ -58,59 +65,70 @@ permalink: /team/
 {% if member.education4 %}<li>{{ member.education4 }}</li>{% endif %}
 {% if member.education5 %}<li>{{ member.education5 }}</li>{% endif %}
 {% if member.research %}
-{% for item in member.research %}<li>{{ item }}</li>{% endfor %}
+{% for item in member.research %}
+<li>{{ item }}</li>
+{% endfor %}
 {% endif %}
 </ul>
 
-<!-- 토글로 숨겨지는 논문 영역 -->
-{% if member.intl_journal_items or member.domestic_journal_items or member.intl_items or member.domestic_items %}
+{% if has_pubs %}
 <div class="member-detail-panel">
 
-  {% if member.intl_journal_title and member.intl_journal_items %}
-  <div class="pub-section">
-    <h5>{{ member.intl_journal_title }}</h5>
-    <ul>
-    {% for pub in member.intl_journal_items %}
-      <li>{{ pub }}</li>
-    {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
+{% if member.intl_journal_items %}
+<div class="pub-section">
+<h5>{{ member.intl_journal_title | default: "International Journal Papers" }}</h5>
+<ul>
+{% for pub in member.intl_journal_items %}<li>{{ pub }}</li>{% endfor %}
+</ul>
+</div>
+{% endif %}
 
-  {% if member.domestic_journal_title and member.domestic_journal_items %}
-  <div class="pub-section">
-    <h5>{{ member.domestic_journal_title }}</h5>
-    <ul>
-    {% for pub in member.domestic_journal_items %}
-      <li>{{ pub }}</li>
-    {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
+{% if member.domestic_journal_items %}
+<div class="pub-section">
+<h5>{{ member.domestic_journal_title | default: "Domestic Journal Papers" }}</h5>
+<ul>
+{% for pub in member.domestic_journal_items %}<li>{{ pub }}</li>{% endfor %}
+</ul>
+</div>
+{% endif %}
 
-  {% if member.intl_title and member.intl_items %}
-  <div class="pub-section">
-    <h5>{{ member.intl_title }}</h5>
-    <ul>
-    {% for pub in member.intl_items %}
-      <li>{{ pub }}</li>
-    {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
+{% if member.intl_items %}
+<div class="pub-section">
+<h5>{{ member.intl_title | default: "International Conference Papers" }}</h5>
+<ul>
+{% for pub in member.intl_items %}<li>{{ pub }}</li>{% endfor %}
+</ul>
+</div>
+{% endif %}
 
-  {% if member.domestic_title and member.domestic_items %}
-  <div class="pub-section">
-    <h5>{{ member.domestic_title }}</h5>
-    <ul>
-    {% for pub in member.domestic_items %}
-      <li>{{ pub }}</li>
-    {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
+{% if member.domestic_items %}
+<div class="pub-section">
+<h5>{{ member.domestic_title | default: "Domestic Conference Papers" }}</h5>
+<ul>
+{% for pub in member.domestic_items %}<li>{{ pub }}</li>{% endfor %}
+</ul>
+</div>
+{% endif %}
 
 </div>
 {% endif %}
+
+</div>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
 
 </div>
