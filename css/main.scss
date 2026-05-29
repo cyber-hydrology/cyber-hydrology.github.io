@@ -286,3 +286,12 @@ protit {
   margin-bottom: 5px;
   line-height: 1.5;
 }
+
+.member-detail-panel a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.member-detail-panel a:hover {
+  text-decoration: underline;
+}
