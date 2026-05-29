@@ -14,7 +14,19 @@
     </div>
 
     {% include footer.html %}
-
+    
+    <script>
+    function toggleMemberDetail(nameEl) {
+      const infoBox = nameEl.closest('.member-info-box');
+      const panel = infoBox.querySelector('.member-detail-panel');
+      if (!panel) return;
+      
+      const isOpen = panel.classList.contains('open');
+      panel.classList.toggle('open', !isOpen);
+      nameEl.classList.toggle('open', !isOpen);
+    }
+    </script>
+    
   </body>
 
 </html>
