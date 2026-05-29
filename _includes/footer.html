@@ -20,8 +20,8 @@
 
 <script>
 function toggleMemberDetail(nameEl) {
-  var infoBox = nameEl.parentNode;
-  var panel = infoBox.querySelector('.member-detail-panel');
+  var col = nameEl.closest('.col-sm-6');
+  var panel = col.querySelector('.member-detail-panel');
   if (!panel) return;
   if (panel.classList.contains('open')) {
     panel.classList.remove('open');
