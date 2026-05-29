@@ -10,7 +10,7 @@ permalink: /team/
 
 # Group Members
 
-{% assign groups = "Principal Investigator:team_professor, POST DOC:team_postdoc, PhD and Master Students:team_students, Undergraduate Students:team_undergraduate_students, Alumni Members:alumni_members" | split: "," %}
+{% assign groups = "Principal Investigator:team_professor,POST DOC:team_postdoc,PhD and Master Students:team_students,Undergraduate Students:team_undergraduate_students,Alumni Members:alumni_members" | split: "," %}
 
 {% for group in groups %}
 {% assign group_info = group | strip | split: ":" %}
@@ -28,43 +28,51 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-6 memberbox">
 
+<div class="member-photo-box">
 {% if member.photo %}
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive member-photo" />
 {% endif %}
+</div>
+
+<div class="member-info-box">
 
 ### {{ member.name }}
 
 {% if member.info %}
-{{ member.info }}
+<p>{{ member.info }}</p>
 {% endif %}
 
 {% if member.email %}
-Email: <{{ member.email }}>
+<p>Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
 {% endif %}
 
+<ul>
 {% if member.education1 %}
-- {{ member.education1 }}
+<li>{{ member.education1 }}</li>
 {% endif %}
 {% if member.education2 %}
-- {{ member.education2 }}
+<li>{{ member.education2 }}</li>
 {% endif %}
 {% if member.education3 %}
-- {{ member.education3 }}
+<li>{{ member.education3 }}</li>
 {% endif %}
 {% if member.education4 %}
-- {{ member.education4 }}
+<li>{{ member.education4 }}</li>
 {% endif %}
 {% if member.education5 %}
-- {{ member.education5 }}
+<li>{{ member.education5 }}</li>
 {% endif %}
 
 {% if member.research %}
-{% for item in member.research limit:2 %}
-- {{ item }}
+{% for item in member.research %}
+<li>{{ item }}</li>
 {% endfor %}
 {% endif %}
+</ul>
+
+</div>
 
 </div>
 
