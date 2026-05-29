@@ -186,7 +186,7 @@ protit {
 .memberbox {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 34px;
+  margin-bottom: 8px;
   min-height: 170px;
 }
 
@@ -253,8 +253,7 @@ protit {
 }
 .member-detail-panel {
   display: none;
-  margin-top: 12px;
-  margin-left: -124px;
+  margin-top: 0;
   padding: 12px 14px;
   background: #f8f9fa;
   border-left: 3px solid #438ab6;
