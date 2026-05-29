@@ -28,7 +28,8 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 memberbox">
+<div class="col-sm-6">
+<div class="memberbox">
 
 <div class="member-photo-box">
 {% if member.photo %}
@@ -70,6 +71,9 @@ permalink: /team/
 {% endfor %}
 {% endif %}
 </ul>
+
+</div>
+</div>
 
 {% if has_pubs %}
 <div class="member-detail-panel">
@@ -113,7 +117,6 @@ permalink: /team/
 </div>
 {% endif %}
 
-</div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
