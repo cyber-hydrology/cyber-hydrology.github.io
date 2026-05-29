@@ -24,34 +24,25 @@ permalink: /team/
 <div class="col-sm-6 team-member-col">
 <div class="team-card">
 
+<div class="team-summary-row">
+
 {% if member.photo %}
-<img class="team-photo" src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
+<img class="team-thumb" src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
 {% endif %}
 
-<div class="team-card-body">
-
-<div class="team-name-row">
+<div class="team-summary-text">
 <h3 class="team-name">{{ member.name }}</h3>
-<button class="team-toggle-btn" type="button" aria-label="show detail">+</button>
 </div>
+
+<button class="team-toggle-btn" type="button" aria-label="show detail">+</button>
+
+</div>
+
+<div class="team-detail">
 
 {% if member.info %}
 <p class="team-info">{{ member.info }}</p>
 {% endif %}
-
-{% if member.education1 %}
-<p class="team-education">{{ member.education1 }}</p>
-{% endif %}
-
-{% if member.research %}
-<ul class="team-research-short">
-{% for item in member.research limit:2 %}
-<li>{{ item }}</li>
-{% endfor %}
-</ul>
-{% endif %}
-
-<div class="team-detail">
 
 {% if member.email %}
 <p class="team-email">
@@ -150,7 +141,6 @@ Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a>
 
 </div>
 
-</div>
 </div>
 </div>
 
