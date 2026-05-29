@@ -10,13 +10,14 @@
 
   intl_journal_title: International Journal Papers
   intl_journal_items:
-    - "Choi, H., **<u>Kim, B.</u>**, Lee, G., Noh, S. J. \"Enhancing tidal wave predictions at the estuary of the Nakdong-River using fixed-lag smoother\", Energies, 16(1), 237 (2023)"
-
+    - text: "Choi, H., **<u>Kim, B.</u>**, Lee, G., Noh, S. J. \"Enhancing tidal wave predictions at the estuary of the Nakdong-River using fixed-lag smoother\", Energies, 16(1), 237 (2023)"
+      url: "https://www.mdpi.com/1996-1073/16/1/237"
   domestic_journal_title: Domestic Journal Papers
   domestic_journal_items:
-    - "Sung, J., Kang, B., **<u>Kim, B.</u>**, Noh, S. J. \"Development and application of integrated indicators for assessing the water resources performance of multi-purpose and water supply dams\", J.Korea Water Resour. Assoc., 55(9), 687-700 (2022)."
-    - "**<u>Kim, B.</u>**, Noh, S. J., Lee, S. \"Retrospective analysis of the urban inundation and the impact assessment of the flood barrier using H12 model\", J. Korea Water Resour. Assoc., 55(5), 345-356 (2022)."
-
+    - text: "Sung, J., Kang, B., **<u>Kim, B.</u>**, Noh, S. J. \"Development and application of integrated indicators for assessing the water resources performance of multi-purpose and water supply dams\", J.Korea Water Resour. Assoc., 55(9), 687-700 (2022)."
+      url: "https://jkwra.or.kr/articles/article/OzXa/"
+    - text: "**<u>Kim, B.</u>**, Noh, S. J., Lee, S. \"Retrospective analysis of the urban inundation and the impact assessment of the flood barrier using H12 model\", J. Korea Water Resour. Assoc., 55(5), 345-356 (2022)."
+      url: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002843493"
 
 - name: 최현진 (Hyeonjin Choi)
   photo: Choi_hyeonjin.jpg
