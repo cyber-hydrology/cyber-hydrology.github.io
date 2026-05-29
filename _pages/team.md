@@ -78,7 +78,7 @@ permalink: /team/
 <div class="pub-section">
 <h5>{{ member.intl_journal_title | default: "International Journal Papers" }}</h5>
 <ul>
-{% for pub in member.intl_journal_items %}<li>{{ pub }}</li>{% endfor %}
+{% for pub in member.intl_journal_items %}<li>{{ pub | markdownify }}</li>{% endfor %}
 </ul>
 </div>
 {% endif %}
@@ -87,7 +87,7 @@ permalink: /team/
 <div class="pub-section">
 <h5>{{ member.domestic_journal_title | default: "Domestic Journal Papers" }}</h5>
 <ul>
-{% for pub in member.domestic_journal_items %}<li>{{ pub }}</li>{% endfor %}
+{% for pub in member.domestic_journal_items %}<li>{{ pub | markdownify }}</li>{% endfor %}
 </ul>
 </div>
 {% endif %}
@@ -96,7 +96,7 @@ permalink: /team/
 <div class="pub-section">
 <h5>{{ member.intl_title | default: "International Conference Papers" }}</h5>
 <ul>
-{% for pub in member.intl_items %}<li>{{ pub }}</li>{% endfor %}
+{% for pub in member.intl_items %}<li>{{ pub | markdownify }}</li>{% endfor %}
 </ul>
 </div>
 {% endif %}
@@ -105,7 +105,7 @@ permalink: /team/
 <div class="pub-section">
 <h5>{{ member.domestic_title | default: "Domestic Conference Papers" }}</h5>
 <ul>
-{% for pub in member.domestic_items %}<li>{{ pub }}</li>{% endfor %}
+{% for pub in member.domestic_items %}<li>{{ pub | markdownify }}</li>{% endfor %}
 </ul>
 </div>
 {% endif %}
