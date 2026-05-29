@@ -17,13 +17,16 @@
     
     <script>
     function toggleMemberDetail(nameEl) {
-      const infoBox = nameEl.closest('.member-info-box');
+      const infoBox = nameEl.closest('.col-sm-6');
       const panel = infoBox.querySelector('.member-detail-panel');
       if (!panel) return;
-      
-      const isOpen = panel.classList.contains('open');
-      panel.classList.toggle('open', !isOpen);
-      nameEl.classList.toggle('open', !isOpen);
+      if (panel.classList.contains('open')) {
+        panel.classList.remove('open');
+        nameEl.classList.remove('open');
+      } else {
+        panel.classList.add('open');
+        nameEl.classList.add('open');
+      }
     }
     </script>
     
