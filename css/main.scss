@@ -253,7 +253,7 @@ protit {
 }
 .member-detail-panel {
   display: none;
-  margin-top: 0;
+  margin-top: -10px;
   margin-bottom: 24px;
   margin-left: 124px;
   padding: 12px 14px;
@@ -284,8 +284,4 @@ protit {
   font-size: 0.85em;
   margin-bottom: 5px;
   line-height: 1.5;
-}
-
-#gridid h2 {
-  margin-bottom: 10px;
 }
