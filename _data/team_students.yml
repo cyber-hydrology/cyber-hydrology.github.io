@@ -17,8 +17,8 @@
   education1: Bachelor, Kumoh National Institute of Technology
   education2: Master, Kumoh National Institute of Technology
 
-  intl_title: International Conference Journal
-  intl_items:
+  intl_journal_title: International Journal Papers
+  intl_journal_items:
     - text: "Choi, H., **<u>Woo, H.</u>**, Ryu, H., Rhee, D. S., Noh, S. J. \"Comparative Evaluation of Deep Learning–Based Super–Resolution Models for Urban Flood Mapping\", Journal of Flood Risk Management, 18(4), e70144 (2025)"
       url: "https://doi.org/10.1111/jfr3.70144"
     - text: "Choi, H., **<u>Woo, H.</u>**, Kim, M., Ryu, H., Lee, J., Lee, S., Noh, S. J. \"FLO-SR: Deep learning-based urban flood super-resolution model\", Journal of Hydrology, 661, Part A, 133529 (2025)"
@@ -26,8 +26,8 @@
     - text: "**<u>Woo, H.</u>**, Choi, H., Kim, M., Noh, S. J. \"Physics-Guided Deep Learning for Spatiotemporal Evolution of Urban Pluvial Flooding\", Water, 17(8), 1239 (2025)"
       url: "https://doi.org/10.3390/w17081239"
 
-  domestic_title: Domestic Conference Journal
-  domestic_items:
+  domestic_journal_title: Domestic Journal Papers
+  domestic_journal_items:
     - text: "**<u>Woo, H.</u>**, Sim, S., Kim, H., Kim, H., Noh, S. J. \"Urban Inundation Prediction with an HC‑SURF‑Trained Gated‑CNN Surrogate: The Sillim Drainage District Case Study\", J. Korea Water Resour. Assoc., 58(11), 1099–1111 (2025)"
       url: "https://jkwra.or.kr/articles/article/MNJ1/"
     - text: "Choi, H., **<u>Woo, H.</u>**, Pyo, J., Ryu, H., Lee, D. S., Noh, S. J. \"FLO-SRNet: A Deep-Learning Super-Resolution Model for 1D–2D Urban Flood Simulations\", J. Korea Water Resour. Assoc., 58(12S-4), 1589-1603 (2025)"
