@@ -18,6 +18,12 @@
   education2: Master, Kumoh National Institute of Technology
   education3:
   education4:
+
+  intl_title: International Conference Journal
+  intl_items:
+
+  domestic_title: Domestic Conference Journal
+  domestic_items:
   
 - name: 이예원 (Yaewon Lee) 
   photo: lee_yaewon_new.jpg
@@ -26,20 +32,18 @@
   number_educ: 2
   education1: Bachelor, Kumoh National Institute of Technology
   education2: Master, Kumoh National Institute of Technology
-  detail_bio: >
 
   intl_journal_title: International Journal Papers
   intl_journal_items:
+    - text: "**<u>Kim, B.</u>**, Lee, Y., Lee, S., Noh, S. J. \"Probabilistic urban flood prediction with multivariate assimilation of sewer and surface observations\", Water Research, 301, 126065 (2026)"
+      url: "https://www.sciencedirect.com/science/article/pii/S0043135426007463"
 
   domestic_journal_title: Domestic Journal Papers
   domestic_journal_items:
+    - text: "**<u>Kim, B.</u>**, Lee, Y., Lee, S., Noh, S. J. \"Probabilistic urban flood prediction with multivariate assimilation of sewer and surface observations\", Water Research, 301, 126065 (2026)"
+      url: "https://www.sciencedirect.com/science/article/pii/S0043135426007463"
 
-  intl_title: International Conference Journal
-  intl_items:
-
-  domestic_title: Domestic Conference Journal
-  domestic_items:
-
+      
 - name: 김민영 (Minyoung Kim)
   photo: kim_minyoung3.jpg
   info: 석사과정 (Master Student), started March 2024
