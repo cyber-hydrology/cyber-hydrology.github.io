@@ -20,17 +20,17 @@
 # ========================
 # 2026 Publications
 # ========================
-- title: "Adaptive Time-Lagged Ensemble for Short-Range Streamflow Prediction using WRF-Hydro and LDAPS"
+- title: "Probabilistic urban flood prediction with multivariate assimilation of sewer and surface observations"
   image: 
   description: 
-  authors: Lee, Y., Kim, B., Kim, H. T., Noh, S. J.
+  authors: Kim, B., Lee, Y., Lee, S., Noh, S. J.
   link:
-    url: https://www.mdpi.com/2073-4441/18/3/356
-    display:  "Water,18(3), 356 (2026)"
+    url: https://www.sciencedirect.com/science/article/pii/S0043135426007463
+    display:  "Water Research, 301, 126065 (2026)"
   highlight: 0
   news2:
   year: 2026
-
+  
 - title: "Portable multi-GPU urban flood modelling via MPI-OpenACC: evaluating acceleration, scaling, and workload-per-GPU"
   image: 
   description: 
@@ -38,6 +38,17 @@
   link:
     url: https://doi.org/10.1016/j.envsoft.2026.106957
     display:  "Environmental Modelling & Software, 600, 106957 (2026)"
+  highlight: 0
+  news2:
+  year: 2026
+  
+- title: "Adaptive Time-Lagged Ensemble for Short-Range Streamflow Prediction using WRF-Hydro and LDAPS"
+  image: 
+  description: 
+  authors: Lee, Y., Kim, B., Kim, H. T., Noh, S. J.
+  link:
+    url: https://www.mdpi.com/2073-4441/18/3/356
+    display:  "Water,18(3), 356 (2026)"
   highlight: 0
   news2:
   year: 2026
@@ -53,17 +64,6 @@
   news2:
   year: 2026
 
-- title: "Probabilistic urban flood prediction with multivariate assimilation of sewer and surface observations"
-  image: 
-  description: 
-  authors: Kim, B., Lee, Y., Lee, S., Noh, S. J.
-  link:
-    url: https://www.sciencedirect.com/science/article/pii/S0043135426007463
-    display:  "Water Research, 301, 126065 (2026)"
-  highlight: 0
-  news2:
-  year: 2026
-  
 - title: "Scale-dependent flood hazard amplification under warming climates: a tropical cyclone Hinnamnor storyline in South Korea"
   image: 
   description: 
