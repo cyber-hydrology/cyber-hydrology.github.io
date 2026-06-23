@@ -75,6 +75,61 @@
   news2:
   year: 2026
 
+- title: "Linking PMP-like Rainfall Extremes to Urban Inundation Risk under Climate Change"
+  image: 
+  description: 
+  authors: Kim, B., Hiraga, Y., Noh, S. J.
+  link:
+    url: 
+    display:  "In Prep"
+  highlight: 0
+  news2:
+  year: 2026
+
+- title: "Deep learning super-resolution downscaling of daily precipitation from ERA5 to observation-based high-resolution targets"
+  image: 
+  description: 
+  authors: Choi, H., Hiraga, Y., Rakovec, O., Noh, S. J.
+  link:
+    url: 
+    display:  "In Prep"
+  highlight: 0
+  news2:
+  year: 2026
+
+- title: "Assessing Downstream Hydrological Response Through Upstream-Focused Calibration in a Highly Regulated Basin: A Case Study in the Nakdong River Basin, South Korea"
+  image: 
+  description: 
+  authors: Lee, Y., Kim, B., Choi, J., Noh, S. J.
+  link:
+    url: 
+    display:  "In Prep"
+  highlight: 0
+  news2:
+  year: 2026
+
+- title: "Observation-Constrained Urban Flood Mapping by Kriging with External Drift Using Point-Scale Flood Observations and Hydrodynamic Simulations"
+  image: 
+  description: 
+  authors: Kim, M., Choi, H., Woo, H., Shin, E. T., Song, C. G., Noh, S. J.
+  link:
+    url: 
+    display:  "In Prep"
+  highlight: 0
+  news2:
+  year: 2026
+
+- title: "An interpretable deep learning surrogate for dynamic 2D urban pluvial flood prediction"
+  image: 
+  description: 
+  authors: Woo, H., Kim, B., Choi, H., Noh, S. J.
+  link:
+    url: 
+    display:  "In Prep"
+  highlight: 0
+  news2:
+  year: 2026
+
 - title: "Comparative Evaluation of Deep Learning–Based Super–Resolution Models for Urban Flood Mapping"
   image: 
   description: 
