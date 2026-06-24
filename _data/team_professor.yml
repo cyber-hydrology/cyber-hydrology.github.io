@@ -1,10 +1,27 @@
 - name: 노성진 (Seong Jin Noh)
   photo: seongjin_noh.JPG
-  info: 부교수 (Associate professor)
+  info: 'Associate Professor, School of Architecture, Civil and Environmental Engineering, Kumoh National Institute of Technology &middot; <a href="https://scholar.google.com/citations?user=Q0Z_uB8AAAAJ&hl=en" target="_blank">Google Scholar</a>'
   email: seongjin.noh@kumoh.ac.kr
-  number_educ: 5
-  education1: Bachelor, Seoul National University
-  education2: Master, Seoul National University
-  education3: PhD, Kyoto University
-  education4: Research Assistant Professor, University of Texas at Arlington
-  education5: 수석연구원 한국건설기술연구원 (KICT)
+  number_educ: 3
+  education1: "2009–2013 · Ph.D., Urban and Environmental Engineering, Kyoto University"
+  education2: "1999–2001 · M.S., Civil, Urban and Geosystem Engineering, Seoul National University"
+  education3: "1994–1999 · B.S., Civil Engineering, Seoul National University"
+
+  appointment_title: Appointments
+  appointment_items:
+    - text: "2024–present · Associate Professor, School of Architecture, Civil and Environmental Engineering, Kumoh National Institute of Technology"
+    - text: "2019–2024 · Assistant Professor, Department of Civil Engineering, Kumoh National Institute of Technology"
+    - text: "2015–2019 · Assistant Professor of Research (non-tenure) / Postdoctoral Research Associate, Department of Civil Engineering, University of Texas at Arlington"
+
+  domestic_journal_title: Awards & Honors
+  domestic_journal_items:
+    - text: "2025 · 논문상, 한국수자원학회"
+    - text: "2024 · 환경부 장관상"
+    - text: "2024 · 올해의 논문상, 한국수자원학회"
+    - text: "2023 · 국토교통부 장관상"
+    - text: "2023 · 학술상, 한국수자원학회"
+    - text: "2022 · K-water Tech Conference 최우수상"
+    - text: "2018 · 우수발표논문상, 한국수자원학회"
+    - text: "2013 · 우수박사학위논문상, 대한토목학회"
+    - text: "2011 · Best Poster Presentation Award (Gold Prize), Japan Society of Hydrology and Water Resources"
+    - text: "2009–2012 · MEXT Scholarship for International Doctoral Program, Kyoto University (Government of Japan)"
