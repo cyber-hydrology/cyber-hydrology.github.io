@@ -83,6 +83,17 @@ permalink: /team/
 </div>
 {% endif %}
 
+{% if member.research_items %}
+<div class="research-section">
+<h5>{{ member.research_title | default: "Research Interests" }}</h5>
+<ul>
+{% for item in member.research_items %}
+<li>{{ item.text | markdownify }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
 </div>
 </div>
 
