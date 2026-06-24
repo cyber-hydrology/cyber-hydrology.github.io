@@ -3,16 +3,20 @@
   info: 'Associate Professor, School of Architecture, Civil and Environmental Engineering, Kumoh National Institute of Technology &middot; <a href="https://scholar.google.com/citations?user=Q0Z_uB8AAAAJ&hl=en" target="_blank">Google Scholar</a>'
   email: seongjin.noh@kumoh.ac.kr
   number_educ: 3
-  education1: "2009–2013 · Ph.D., Urban and Environmental Engineering, Kyoto University"
-  education2: "1999–2001 · M.S., Civil, Urban and Geosystem Engineering, Seoul National University"
-  education3: "1994–1999 · B.S., Civil Engineering, Seoul National University"
+  education1: "2013 · Ph.D., Urban and Environmental Engineering, Kyoto University"
+  education2: "2001 · M.S., Civil, Urban and Geosystem Engineering, Seoul National University"
+  education3: "1999 · B.S., Civil Engineering, Seoul National University"
 
   appointment_title: Appointments
   appointment_items:
-    - text: "2024–present · Associate Professor, School of Architecture, Civil and Environmental Engineering, Kumoh National Institute of Technology"
-    - text: "2019–2024 · Assistant Professor, Department of Civil Engineering, Kumoh National Institute of Technology"
-    - text: "2015–2019 · Assistant Professor of Research (non-tenure) / Postdoctoral Research Associate, Department of Civil Engineering, University of Texas at Arlington"
+    - text: "2024–present · Associate Professor, Kumoh National Institute of Technology"
+    - text: "2019–2024 · Assistant Professor, Kumoh National Institute of Technology"
+    - text: "2015–2019 · Assistant Professor of Research (non-tenure) / Postdoctoral Research Associate, University of Texas at Arlington"
     - text: "2003–2015 · 수석연구원/연구원, 한국건설기술연구원 (KICT)"
+
+  research_title: Research Interests
+  research_items:
+    - text: "Urban water modeling and sensing, Deep learning for hydrology, Hydrologic data assimilation, Parallel HPC and GPU computing, Climate change adaptation, Radar-based precipitation estimation, Water sensitive urban design"
 
   domestic_journal_title: Awards & Honors
   domestic_journal_items:
