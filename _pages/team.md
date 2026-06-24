@@ -72,6 +72,17 @@ permalink: /team/
 {% endif %}
 </ul>
 
+{% if member.appointment_items %}
+<div class="appointment-section">
+<h5>{{ member.appointment_title | default: "Appointments" }}</h5>
+<ul>
+{% for item in member.appointment_items %}
+<li>{{ item.text | markdownify }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
 </div>
 </div>
 
