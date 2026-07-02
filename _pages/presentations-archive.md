@@ -1,22 +1,22 @@
 ---
-title: "Noh Lab - Presentations"
+title: "Noh Lab - Presentations (Archive)"
 layout: gridlay
-excerpt: "Noh Lab -- Presentations."
+excerpt: "Noh Lab -- Presentations archive (2021-2024)."
 sitemap: false
-permalink: /presentations/
+permalink: /presentations/archive/
 ---
 
-# Presentations
+# Presentations &mdash; Archive
 
-## Posters
+## Posters (2021&ndash;2024)
 
-<p><em>Recent posters (2025&ndash;2026). Click any poster to open the full-resolution image.</em><br/>
-<a href="{{ site.url }}{{ site.baseurl }}/presentations/archive/"><strong>&rarr; View earlier posters (2021&ndash;2024)</strong></a></p>
+<p><a href="{{ site.url }}{{ site.baseurl }}/presentations/"><strong>&larr; Back to recent posters (2025&ndash;2026)</strong></a><br/>
+<em>Click any poster to open the full-resolution image.</em></p>
 
 {% assign number_printed = 0 %}
 {% for poster in site.data.posters %}
 
-{% if poster.highlight == 1 and poster.year >= 2025 %}
+{% if poster.highlight == 1 and poster.year <= 2024 %}
 {% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
@@ -56,4 +56,4 @@ permalink: /presentations/
 {% endif %}
 
 <p>&nbsp;</p>
-<p><a href="{{ site.url }}{{ site.baseurl }}/presentations/archive/"><strong>&rarr; View earlier posters (2021&ndash;2024)</strong></a></p>
+<p><a href="{{ site.url }}{{ site.baseurl }}/presentations/"><strong>&larr; Back to recent posters (2025&ndash;2026)</strong></a></p>

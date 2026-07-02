@@ -1,5 +1,6 @@
 - title: "Hybrid Physics-AI Approaches for Urban Flood Prediction: GPU Hydrodynamics, Data Assimilation, and AI Surrogates"
   image: 2026_EGU_hybrid_sjnoh.png
+  year: 2026
   description:
   authors: Noh, S. J., Kim, B., Choi, H., Woo, H., Lee, Y., Kim, M., and Choi, J.
   link:
@@ -9,6 +10,7 @@
 
 - title: "Accelerating Urban Flood Data Assimilation: Coupling Physics-Guided AI Emulators with Real-Time Observations"
   image: 2026_EGU_AIemulator_DA_hwoo.png
+  year: 2026
   description:
   authors: Woo, H., Kim, B., Choi, H., Kim, M., Shin, E. T., Song, C. G., and Noh, S. J.
   link:
@@ -18,6 +20,7 @@
 
 - title: "Scale-Aware Machine Learning for Precipitation Downscaling: Impact on Regional Applications in Europe"
   image: 2026_EGU_SR_hchoi.png
+  year: 2026
   description:
   authors: Choi, H., Rakovec, O., Nguyen, Q. T., Ryu, H., and Noh, S. J.
   link:
@@ -27,6 +30,7 @@
 
 - title: "Multi-GPU Acceleration of High-Resolution and Large-Scale Urban Flood Modeling Using MPI-OpenACC"
   image: 2026_EGU_multiGPU_bkim.png
+  year: 2026
   description:
   authors: Kim, B., Ryu, H., Lee, S., Lee, J., and Noh, S. J.
   link:
@@ -36,6 +40,7 @@
 
 - title: "Multi-Dimensional Parameter Calibration and Sensitivity Analysis for WRF-Hydro Using PEST: A Case Study of the Nakdong River Basin"
   image: 2025_ksce_cjw.jpg
+  year: 2025
   description:
   authors: Choi, J., Lee, Y., Kim, B., Kim, H., and Noh, S. J.
   link:
@@ -45,6 +50,7 @@
 
 - title: "Development of Urban Flood Mapping Super-Resolution Models Using Convolutional Neural Networks(CNN) and Generative Adversarial Networks(GAN)"
   image: 2025_ksce_pje.jpg
+  year: 2025
   description:
   authors: Pyo, J., Choi, H., Kim, M., Lee, D., and Noh, S. J.
   link:
@@ -54,6 +60,7 @@
 
 - title: "Sensitivity Analysis of Deep Learning-Based Urban Flood Prediction Models : Evaluation of Prediction Performance With Varying Rainfall Time Series Length"
   image: 2025_ksce_khs.jpg
+  year: 2025
   description:
   authors: Kim, H., Woo, H., Choi, H., and Noh, S. J.
   link:
@@ -63,6 +70,7 @@
 
 - title: "Retrospective Analysis of the 2022 Banpo Stream Urban Flooding Using the High-Resolution H12 Model"
   image: 2025_ksce_hsw.jpg
+  year: 2025
   description:
   authors: Han, S., Kim, B., Lee, Y., and Noh, S. J.
   link:
@@ -72,6 +80,7 @@
 
 - title: "Urban Flood Characteristics Analysis of the Gyeongpocheon Basin in Gunsan City Using the H12 Model"
   image: 2025_ksce_jdb.jpg
+  year: 2025
   description:
   authors: Jeong, D., Woo, H., Kim, M., Kim, B., and Noh, S. J.
   link:
@@ -81,6 +90,7 @@
 
 - title: "LISSA: Development of an R-based Integrated Levee Safety Assessment and Simulation System"
   image: 2025_ksce_cap.jpg
+  year: 2025
   description:
   authors: Kim, H., Han, S., Choi, J., Woo, H., Choi, H., and Noh, S. J.
   link:
@@ -90,6 +100,7 @@
 
 - title: "Deep Learning-Based Urban Pluvial Flood Modeling using High-resolution Physical Information"
   image: 2025_EGU_hwoo.png
+  year: 2025
   description:
   authors: Woo, H., Kim, B., Choi, H., Kim, M., and Noh, S. J.
   link:
@@ -99,6 +110,7 @@
 
 - title: "Exploring the Role of Multivariate Observations in Urban Flood Prediction: A Data Assimilation Approach"
   image: 2025_EGU_Poster_H12_DA_bkim_submitted.png
+  year: 2025
   description:
   authors: Kim, B.,  Lee, Y., Lee, S., and Noh, S. J.
   link:
@@ -108,6 +120,7 @@
 
 - title: "Integrating Citizen Data in Urban Flood Risk Modeling: Insights from Synthetic Experiments"
   image: 2025_EGU_Poster_kriging_myk.png
+  year: 2025
   description:
   authors: Kim, M., Choi, H., Kim, B., Lee, Y., Lee, H., Kum, J.,  Lee, M., and Noh, S. J.
   link:
@@ -117,6 +130,7 @@
 
 - title: "Developing a Deep Learning-Based Super-Resolution Urban Flood Model: Towards Scalable and Reliable Hydrological Predictions"
   image: 2025_EGU_SR_hchoi_Poster.png
+  year: 2025
   description:
   authors: Choi, H., Woo, H.,  Kim, M., Ryu, H., Lee, J., Lee, S., and Noh, S. J.
   link:
@@ -126,6 +140,7 @@
 
 - title: "Impact assessmant of ensemble data assimilation of multivariate observations in integrated urban flood modeling: synthetic experiments"
   image: 2024_AGU_Poster_H12_DA_bkim_submitted.jpg
+  year: 2024
   description:
   authors: Kim, B., Lee, Y., Lee, S., and Noh, S. J.
   link:
@@ -135,6 +150,7 @@
 
 - title: "Integration Deep Learning with Physical Information for Advances Urban Pluvial Flood Modeling"
   image: 2024_AGU_Poster_mykim.jpg
+  year: 2024
   description:
   authors: Kim, M., Woo, H., Choi, H., Kim, B., Lee, Y., Lee, S., Lee, J., and Noh, S. J.
   link:
@@ -144,6 +160,7 @@
 
 - title: "Enhancing Urban Flood Modeling With a Deep Learning-Based Super-Resolution Framework"
   image: 2024_AGU_hchoi_v3_print.jpg
+  year: 2024
   description:
   authors: Choi, H., Woo, H., Kim, M., and Noh, S. J.
   link:
@@ -153,6 +170,7 @@
 
 - title: "Integration of urban flood risk information using high-resolution modeling and citizen observation: synthetic experiment on an open platform"
   image: 2024_AGU_Poster_kriging_print.jpg
+  year: 2024
   description:
   authors: Noh,S., Choi, H., Kim, M., Kim, B., Lee, Y., Kum, J., and Lee, M. H.
   link:
@@ -162,6 +180,7 @@
 
 - title: "Evaluation of Stacking Ensemble Application to Improve LDAPS and WRF-Hydro Based High-Resolution Short-Term Streamflow Prediction"
   image: AOGS2024_Poster_WRF.png
+  year: 2024
   description:
   authors: Lee, Y., Kim, B., and Noh, S. J.
   link:
@@ -171,6 +190,7 @@
 
 - title: "Comparative study of data-driven models for monthly discharge prediction: A case study of Changnyeong·Haman weir, Nakdong river"
   image: 2024_KWRA_Haman_poster.jpg
+  year: 2024
   description: We compare data-driven models integrating meteorological and hydrological variables to optimally predict monthly outflow from river weirs influenced by natural runoff and human regulation, enhancing long-term operational decision accuracy for reliable water resources management.
   authors: Kim, M., Choi, H., Woo, H., and Noh, S. J.
   link:
@@ -180,6 +200,7 @@
 
 - title: "Feasibility assessment of GEOGloWS global medium-range streamflow prediction service for Nakdong River watershed"
   image: 2024KWRA_Geoglows.png
+  year: 2024
   description: We introduce GEOGloWS, a global streamflow forecasting system, and analyze its streamflow predictions against observed data.
   authors: Choi, J., Choi, H., Kim, B., Lee, Y., and Noh, S. J.
   link:
@@ -189,6 +210,7 @@
 
 - title: "Development and application of a high-resolution urban flood model based on Cellular Automata"
   image: AOGS_CAW_2023.jpg
+  year: 2023
   description: We develop an integrated CA-based flood model, including an  stable inundation and infiltration process, and implement a CA-based model in downtown Portland, U.S. as a high-resolution pluvial flood simulation.
   authors: Choi, H., Lee, S., Woo, H., and Noh, S. J.
   link:
@@ -198,6 +220,7 @@
 
 - title: "Improvement and uncertainty analysis of streamflow prediction using lumped-hydrologic modeling and ensemble-based data assimilation"
   image: AOGS_airgrdatassim_2023.jpg
+  year: 2023
   description: We analyzed two ensemble-based sequential DA techniques, Ensemble Kalman Filter and Particle Filter, for stream flow prediction by a pumped hydrostatic model using airGRdatassim, and discussed the effect of DA-related hyperparameters on performance and ensemble distribution.
   authors: Lee, G., Kim, B., Lee, S., and Noh, S. J.
   link:
@@ -207,6 +230,7 @@
 
 - title: "Uncertainty analysis and high-resolution prediction of soil  moisture and streamflow using WRF-Hydro, PEST, and Deep Learning for digital twins"
   image: AOGS_WRF-Hydro_2023.png
+  year: 2023
   description: We develope a system that effectively optimizes high-resolution WRF-Hydro model with limited information data using PEST technique and discuss challenges and solutions for sensitivity and uncertainty analysis to calibrate distributed hydrologic models.
   authors: Kim, B., Lee, G., Kim, S., Lee, Y., and Noh, S. J.
   link:
@@ -216,6 +240,7 @@
 
 - title: "Development and evaluation of Cellular Automata based urban inundation model CA-Urban : City of Portland case"
   image: 2023_KWRA_CA-Uban_poster.jpg
+  year: 2023
   description: In this study, the developed CA-Urban model is introduced, and the effect of Horton's coefficient on infiltration according to soil characteristics and the spatial distribution of various land cover types on urban inundation and water cycle are analyzed.
   authors: Lee, S., Choi, H., Woo, H., Noh, S. J., and Kim, S. H.
   link:
@@ -225,6 +250,7 @@
 
 - title: "Development and application of soil moisture prediction using real-time in-situ observation and machine learning"
   image: 2023_KWRA_LSTM_Poster.jpg
+  year: 2023
   description: This study analyzed the data collected for about a year in real time from soil observation equipment and weather observation equipment installed at Kumoh Institute of Technology and developed a prediction model based on machine learning technology.
   authors: Woo, H., Lee, Y., Choi, H., Kim, M., and Noh, S. J.
   link:
@@ -234,6 +260,7 @@
 
 - title: "Analysis and evaluation of water and heat cycle at the Geumho river catchment using WRF-Hydro"
   image: 2023_KWRA_WRF-Hydro_poster.jpg
+  year: 2023
   description: Based on the distributed hydrological analysis model WRF-Hydro, a high-resolution water cycle and heat cycle model was constructed for the Geumho River basin to analyze the hydrological element analysis results.
   authors: Kim, S., Kim, B., Lee, G., Lee, Y., and Noh, S. J.
   link:
@@ -243,6 +270,7 @@
 
 - title: "Climate Change Impact Analysis on Water Supply Reliability and Flood Risk using Combined Rainfall-runoff and Reservoir Modeling"
   image: 2023_KWRA_integrated-climate-modeling.jpg
+  year: 2023
   description: Based on climate change scenarios, we analyze the impact of climate change on water resource management of multi-purpose dams, and propose a methodology that simultaneously analyzes water supply and flood risk during drought.
   authors: Noh, S. J., Woo, D. K., Jo, J., Lee, G., Lee, S.
   link:
@@ -252,6 +280,7 @@
 
 - title: "Development and Evaluation of Cellular Automata-based Urban Inundation Model CA-Urban"
   image: 2023_KOSHAM_caurban_poster.jpg
+  year: 2023
   description: The effect of spatial resolution of numerical surface data (DSM) on urban flooding analysis was analyzed by solving the vibration problem of CA-Urban model using cellular automata and physical basis expressions and applying it to urban watersheds.
   authors: Lee, S., Choi, H., Woo, H., Noh, S. J., Lee, E. H., and Kim, S. H.
   link:
@@ -261,6 +290,7 @@
 
 - title: "Impact assessment of multiple weather forcings on distributed hydrologic simulation : application of WRF-Hydro to the Kumho River catchment"
   image: 2023_KOSHAM_WRFhydro_poster.jpg
+  year: 2023
   description: The effect of meteorological external force data on distributed hydrological simulation is evaluated, and the prediction accuracy of domestic and foreign meteorological external force data is investigated through data comparative analysis.
   authors: Kim, S., Kim, B., Lee, G., Lee, Y., Choi, J., and Noh, S. J.
   link:
@@ -270,6 +300,7 @@
 
 - title: "Comparison of ensemble-based hydrologic data assimilation methods for daily discharge simulation using airGRdatassim"
   image: 2023_KOSHAM_airgrdatassim_poster.jpg
+  year: 2023
   description: We compare and analyze the characteristics of daily hydrological simulations with ensemble-based sequential data assimilation techniques, ensemble Kalman filter, and particle filter techniques.
   authors: Lee, G., Kim, B., Lee, S., Oh, S., and Noh, S. J.
   link:
@@ -279,6 +310,7 @@
 
 - title: "Urban Flood Simulation in Oncheon-cheon Catchment using Cellular Automata-based CADDIES Model"
   image: 2022_ksce_caddies_poster.jpg
+  year: 2022
   description: A CADDIES-2D model based on cellular automata is applied to the Oncheon-cheon basin to verify the applicability of the model and assess the risk of flooding using a future climate change scenario.
   authors: Choi, H., Lee, S., Woo, H., and Noh, S. J.
   link:
@@ -288,6 +320,7 @@
 
 - title: "High-resolution water cycle analysis at Nakdong River basin using WRF-Hydro"
   image: 2022_ksce_wrfhydro_poster_1.jpg
+  year: 2022
   description: A high-resolution 100m water circulation analysis model based on WRF-Hydro was constructed for the Nakdonggang River basin and various spatial resolution combinations were simulated.
   authors: Kim, B., Kim, S. H., Lee, G., Lee, Y. W., and Noh, S. J.
   link:
@@ -297,6 +330,7 @@
 
 - title: "Development of a cellular automata-based water cycle and inundation analysis technology"
   image: 2022_KWRA_CA_poster.jpg
+  year: 2022
   description: The CA prototype model is applied to slopes and test beds in urban areas to evaluate the advantages and disadvantages of the model and verify its applicability.
   authors: Choi, H. J., Noh, S. J., Lee, E. H., and Kim, S. H.
   link:
@@ -306,6 +340,7 @@
 
 - title: "Sensitivity assessment of rainfall-runoff modeling under precipitation and temperature variability"
   image: 2022_KWRA_GR4J_poster.jpg
+  year: 2022
   description: Analysis of the sensitivity of spillover analysis to climate variability by applying a centralized hydrological model (GR4J, IHACRES) with different model structures to domestic watersheds.
   authors: Woo, D. K., Jo, J., Lee, S., Lee, G., and Noh, S. J.
   link:
@@ -315,6 +350,7 @@
 
 - title: "Applying ensemble data assimilation into urban flood modeling"
   image: 2021_ksce_Ensemble-Urban-Flood-DA_poster.jpg
+  year: 2021
   description: In order to examine the applicability of the urban flood simulation of the ensemble data fairy tale technique Particle Filter, a data fairy tale experiment based on virtual observation data was conducted.
   authors: Noh, S. J., Lee, S., Kim, B., Choi, H. J., Lee, G., and Lee, S.
   link:
@@ -324,6 +360,7 @@
 
 - title: "Ensemble data assimilation using WRF-Hydro and DART"
   image: 2021_KWRA_WRF-hydro-DART_poster.jpg
+  year: 2021
   description: Using WRF-Hydro and DART, the distributed hydrological models, the applicability of Along-The-Stream localization and inflation data assimilation techniques was evaluated through large-scale regional simulation.
   authors: Noh, S. J., Choi, H. J., Kim, B., Lee, G., and Lee, S.
   link:
@@ -333,9 +370,11 @@
 
 - title: "Spatial resolution effects in hyper-resolution urban flood modeling"
   image: 2021_KWRA_urban_flooding_modeling_poster.jpg
+  year: 2021
   description: The characteristics of spatial resolution on flood analysis were analyzed using the integrated 1D-2D urban flood model, H12, and ultra-high resolution information.
   authors: Noh, S. J., Kim, B., Lee, S., Lee, J. H., and Choi, H. J.
   link:
     url: https://cyber-hydrology.github.io/images/propic/2021_KWRA_urban_flooding_modeling_poster.jpg
     display: Proceedings of the Korea Water Resources Association Conference (2021)
   highlight: 1
+
