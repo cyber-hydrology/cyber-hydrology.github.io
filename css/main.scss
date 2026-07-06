@@ -295,3 +295,70 @@ protit {
 .member-detail-panel a:hover {
   text-decoration: underline;
 }
+
+/* Professor-only layout on Team page */
+.professor-section {
+  margin-bottom: 35px;
+}
+
+.professor-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.professor-photo-box {
+  flex: 0 0 220px;
+}
+
+.professor-photo {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.professor-info-box {
+  flex: 1;
+  max-width: 900px;
+}
+
+.professor-info-box h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.professor-info-box p {
+  line-height: 1.55;
+  margin-bottom: 8px;
+}
+
+.professor-list {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.professor-list li {
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .professor-card {
+    display: block;
+  }
+
+  .professor-photo-box {
+    margin-bottom: 15px;
+  }
+
+  .professor-photo {
+    width: 180px;
+  }
+
+  .professor-info-box {
+    max-width: 100%;
+  }
+}
