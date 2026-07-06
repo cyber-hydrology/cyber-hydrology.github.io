@@ -23,67 +23,65 @@ permalink: /team/
 
 <div class="professor-section">
 {% for member in site.data[group_data] %}
-
 <div class="professor-card">
 
-  {% if member.photo %}
-  <div class="professor-photo-box">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="professor-photo" alt="{{ member.name }}">
-  </div>
-  {% endif %}
+{% if member.photo %}
+<div class="professor-photo-box">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="professor-photo" alt="{{ member.name }}">
+</div>
+{% endif %}
 
-  <div class="professor-info-box">
+<div class="professor-info-box">
 
-    <h3>{{ member.name }}</h3>
+<h3>{{ member.name }}</h3>
 
-    {% if member.info %}
-    <p>{{ member.info }}</p>
-    {% endif %}
+{% if member.info %}
+<p>{{ member.info }}</p>
+{% endif %}
 
-    {% if member.email %}
-    <p>Email: {{ member.email }}</p>
-    {% endif %}
+{% if member.email %}
+<p>Email: {{ member.email }}</p>
+{% endif %}
 
-    {% if member.education1 %}
-    <ul class="professor-list">
-      <li>{{ member.education1 }}</li>
-      {% if member.education2 %}
-      <li>{{ member.education2 }}</li>
-      {% endif %}
-      {% if member.education3 %}
-      <li>{{ member.education3 }}</li>
-      {% endif %}
-      {% if member.education4 %}
-      <li>{{ member.education4 }}</li>
-      {% endif %}
-      {% if member.education5 %}
-      <li>{{ member.education5 }}</li>
-      {% endif %}
-    </ul>
-    {% endif %}
+{% if member.education1 %}
+<ul class="professor-list">
+<li>{{ member.education1 }}</li>
+{% if member.education2 %}
+<li>{{ member.education2 }}</li>
+{% endif %}
+{% if member.education3 %}
+<li>{{ member.education3 }}</li>
+{% endif %}
+{% if member.education4 %}
+<li>{{ member.education4 }}</li>
+{% endif %}
+{% if member.education5 %}
+<li>{{ member.education5 }}</li>
+{% endif %}
+</ul>
+{% endif %}
 
-    {% if member.appointment_items %}
-    <h5>{{ member.appointment_title | default: "Appointments" }}</h5>
-    <ul class="professor-list">
-      {% for item in member.appointment_items %}
-      <li>{{ item.text | markdownify }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %}
+{% if member.appointment_items %}
+<h5>{{ member.appointment_title | default: "Appointments" }}</h5>
+<ul class="professor-list">
+{% for item in member.appointment_items %}
+<li>{{ item.text }}</li>
+{% endfor %}
+</ul>
+{% endif %}
 
-    {% if member.research_items %}
-    <h5>{{ member.research_title | default: "Research Interests" }}</h5>
-    <ul class="professor-list">
-      {% for item in member.research_items %}
-      <li>{{ item.text | markdownify }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %}
-
-  </div>
+{% if member.research_items %}
+<h5>{{ member.research_title | default: "Research Interests" }}</h5>
+<ul class="professor-list">
+{% for item in member.research_items %}
+<li>{{ item.text }}</li>
+{% endfor %}
+</ul>
+{% endif %}
 
 </div>
 
+</div>
 {% endfor %}
 </div>
 
