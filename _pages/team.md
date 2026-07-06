@@ -19,6 +19,76 @@ permalink: /team/
 
 ## {{ group_title }}
 
+{% if group_data == "team_professor" %}
+
+<div class="professor-section">
+{% for member in site.data[group_data] %}
+
+<div class="professor-card">
+
+  {% if member.photo %}
+  <div class="professor-photo-box">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="professor-photo" alt="{{ member.name }}">
+  </div>
+  {% endif %}
+
+  <div class="professor-info-box">
+
+    <h3>{{ member.name }}</h3>
+
+    {% if member.info %}
+    <p>{{ member.info }}</p>
+    {% endif %}
+
+    {% if member.email %}
+    <p>Email: {{ member.email }}</p>
+    {% endif %}
+
+    {% if member.education1 %}
+    <ul class="professor-list">
+      <li>{{ member.education1 }}</li>
+      {% if member.education2 %}
+      <li>{{ member.education2 }}</li>
+      {% endif %}
+      {% if member.education3 %}
+      <li>{{ member.education3 }}</li>
+      {% endif %}
+      {% if member.education4 %}
+      <li>{{ member.education4 }}</li>
+      {% endif %}
+      {% if member.education5 %}
+      <li>{{ member.education5 }}</li>
+      {% endif %}
+    </ul>
+    {% endif %}
+
+    {% if member.appointment_items %}
+    <h5>{{ member.appointment_title | default: "Appointments" }}</h5>
+    <ul class="professor-list">
+      {% for item in member.appointment_items %}
+      <li>{{ item.text | markdownify }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if member.research_items %}
+    <h5>{{ member.research_title | default: "Research Interests" }}</h5>
+    <ul class="professor-list">
+      {% for item in member.research_items %}
+      <li>{{ item.text | markdownify }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+  </div>
+
+</div>
+
+{% endfor %}
+</div>
+
+{% else %}
+
 {% assign number_printed = 0 %}
 
 {% for member in site.data[group_data] %}
@@ -28,16 +98,11 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6">
-<div class="memberbox">
+<div class="col-sm-6 clearfix">
 
-<div class="member-photo-box">
 {% if member.photo %}
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive member-photo" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left; margin-right: 15px;" />
 {% endif %}
-</div>
-
-<div class="member-info-box">
 
 {% assign has_pubs = false %}
 {% if member.intl_journal_items %}{% assign has_pubs = true %}{% endif %}
@@ -46,105 +111,91 @@ permalink: /team/
 {% if member.domestic_items %}{% assign has_pubs = true %}{% endif %}
 
 {% if has_pubs %}
-<h3 class="member-toggle-name" onclick="toggleMemberDetail(this)">{{ member.name }} <span class="toggle-arrow">▾</span></h3>
+### {{ member.name }} ▾
 {% else %}
-<h3>{{ member.name }}</h3>
+### {{ member.name }}
 {% endif %}
 
 {% if member.info %}
-<p>{{ member.info }}</p>
+{{ member.info }}
 {% endif %}
 
 {% if member.email %}
-<p>Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+Email: {{ member.email }}
 {% endif %}
 
-<ul>
-{% if member.education1 %}<li>{{ member.education1 }}</li>{% endif %}
-{% if member.education2 %}<li>{{ member.education2 }}</li>{% endif %}
-{% if member.education3 %}<li>{{ member.education3 }}</li>{% endif %}
-{% if member.education4 %}<li>{{ member.education4 }}</li>{% endif %}
-{% if member.education5 %}<li>{{ member.education5 }}</li>{% endif %}
+{% if member.education1 %}
+  * {{ member.education1 }}
+{% endif %}
+{% if member.education2 %}
+  * {{ member.education2 }}
+{% endif %}
+{% if member.education3 %}
+  * {{ member.education3 }}
+{% endif %}
+{% if member.education4 %}
+  * {{ member.education4 }}
+{% endif %}
+{% if member.education5 %}
+  * {{ member.education5 }}
+{% endif %}
+
 {% if member.research %}
 {% for item in member.research %}
-<li>{{ item }}</li>
+  * {{ item }}
 {% endfor %}
 {% endif %}
-</ul>
 
 {% if member.appointment_items %}
-<div class="appointment-section">
-<h5>{{ member.appointment_title | default: "Appointments" }}</h5>
-<ul>
+##### {{ member.appointment_title | default: "Appointments" }}
+
 {% for item in member.appointment_items %}
-<li>{{ item.text | markdownify }}</li>
+  * {{ item.text | markdownify }}
 {% endfor %}
-</ul>
-</div>
 {% endif %}
 
 {% if member.research_items %}
-<div class="research-section">
-<h5>{{ member.research_title | default: "Research Interests" }}</h5>
-<ul>
+##### {{ member.research_title | default: "Research Interests" }}
+
 {% for item in member.research_items %}
-<li>{{ item.text | markdownify }}</li>
+  * {{ item.text | markdownify }}
 {% endfor %}
-</ul>
-</div>
 {% endif %}
 
-</div>
-</div>
-
 {% if has_pubs %}
-<div class="member-detail-panel">
 
 {% if member.intl_journal_items %}
-<div class="pub-section">
-<h5>{{ member.intl_journal_title | default: "International Journal Papers" }}</h5>
-<ul>
+##### {{ member.intl_journal_title | default: "International Journal Papers" }}
+
 {% for pub in member.intl_journal_items %}
-<li data-url="{% if pub.url %}{{ pub.url }}{% endif %}" {% if pub.url %}onclick="window.open(this.dataset.url,'_blank')" style="cursor:pointer"{% endif %}>{{ pub.text | markdownify }}</li>
+  * {{ pub.text | markdownify }}
 {% endfor %}
-</ul>
-</div>
 {% endif %}
 
 {% if member.domestic_journal_items %}
-<div class="pub-section">
-<h5>{{ member.domestic_journal_title | default: "Domestic Journal Papers" }}</h5>
-<ul>
+##### {{ member.domestic_journal_title | default: "Domestic Journal Papers" }}
+
 {% for pub in member.domestic_journal_items %}
-<li data-url="{% if pub.url %}{{ pub.url }}{% endif %}" {% if pub.url %}onclick="window.open(this.dataset.url,'_blank')" style="cursor:pointer"{% endif %}>{{ pub.text | markdownify }}</li>
+  * {{ pub.text | markdownify }}
 {% endfor %}
-</ul>
-</div>
 {% endif %}
 
 {% if member.intl_items %}
-<div class="pub-section">
-<h5>{{ member.intl_title | default: "International Conference Papers" }}</h5>
-<ul>
-{% for pub in member.intl_journal_items %}
-<li data-url="{% if pub.url %}{{ pub.url }}{% endif %}" {% if pub.url %}onclick="window.open(this.dataset.url,'_blank')" style="cursor:pointer"{% endif %}>{{ pub.text | markdownify }}</li>
+##### {{ member.intl_title | default: "International Conference Papers" }}
+
+{% for pub in member.intl_items %}
+  * {{ pub.text | markdownify }}
 {% endfor %}
-</ul>
-</div>
 {% endif %}
 
 {% if member.domestic_items %}
-<div class="pub-section">
-<h5>{{ member.domestic_title | default: "Domestic Conference Papers" }}</h5>
-<ul>
-{% for pub in member.domestic_journal_items %}
-<li data-url="{% if pub.url %}{{ pub.url }}{% endif %}" {% if pub.url %}onclick="window.open(this.dataset.url,'_blank')" style="cursor:pointer"{% endif %}>{{ pub.text | markdownify }}</li>
+##### {{ member.domestic_title | default: "Domestic Conference Papers" }}
+
+{% for pub in member.domestic_items %}
+  * {{ pub.text | markdownify }}
 {% endfor %}
-</ul>
-</div>
 {% endif %}
 
-</div>
 {% endif %}
 
 </div>
@@ -162,6 +213,6 @@ permalink: /team/
 </div>
 {% endif %}
 
-{% endfor %}
+{% endif %}
 
-</div>
+{% endfor %}
