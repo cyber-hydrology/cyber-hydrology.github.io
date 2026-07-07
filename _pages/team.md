@@ -208,3 +208,7 @@ permalink: /team/
 {% endif %}
 
 {% endif %}
+
+{% endfor %}
+
+</div>
