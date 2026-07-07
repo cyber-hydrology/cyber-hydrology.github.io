@@ -109,91 +109,87 @@ permalink: /team/
 {% if member.domestic_items %}{% assign has_pubs = true %}{% endif %}
 
 {% if has_pubs %}
-### {{ member.name }} ▾
+<details class="member-toggle">
+<summary><strong>{{ member.name }}</strong></summary>
 {% else %}
-### {{ member.name }}
+<h3>{{ member.name }}</h3>
 {% endif %}
 
 {% if member.info %}
-{{ member.info }}
+<p>{{ member.info }}</p>
 {% endif %}
 
 {% if member.email %}
-Email: {{ member.email }}
+<p>Email: {{ member.email }}</p>
 {% endif %}
 
+{% if member.education1 or member.education2 or member.education3 or member.education4 or member.education5 %}
+<ul>
 {% if member.education1 %}
-  * {{ member.education1 }}
+<li>{{ member.education1 }}</li>
 {% endif %}
 {% if member.education2 %}
-  * {{ member.education2 }}
+<li>{{ member.education2 }}</li>
 {% endif %}
 {% if member.education3 %}
-  * {{ member.education3 }}
+<li>{{ member.education3 }}</li>
 {% endif %}
 {% if member.education4 %}
-  * {{ member.education4 }}
+<li>{{ member.education4 }}</li>
 {% endif %}
 {% if member.education5 %}
-  * {{ member.education5 }}
+<li>{{ member.education5 }}</li>
+{% endif %}
+</ul>
 {% endif %}
 
 {% if member.research %}
+<ul>
 {% for item in member.research %}
-  * {{ item }}
+<li>{{ item }}</li>
 {% endfor %}
-{% endif %}
-
-{% if member.appointment_items %}
-##### {{ member.appointment_title | default: "Appointments" }}
-
-{% for item in member.appointment_items %}
-  * {{ item.text | markdownify }}
-{% endfor %}
-{% endif %}
-
-{% if member.research_items %}
-##### {{ member.research_title | default: "Research Interests" }}
-
-{% for item in member.research_items %}
-  * {{ item.text | markdownify }}
-{% endfor %}
+</ul>
 {% endif %}
 
 {% if has_pubs %}
 
 {% if member.intl_journal_items %}
-##### {{ member.intl_journal_title | default: "International Journal Papers" }}
-
+<h5>{{ member.intl_journal_title | default: "International Journal Papers" }}</h5>
+<ul>
 {% for pub in member.intl_journal_items %}
-  * {{ pub.text | markdownify }}
+<li>{{ pub.text }}</li>
 {% endfor %}
+</ul>
 {% endif %}
 
 {% if member.domestic_journal_items %}
-##### {{ member.domestic_journal_title | default: "Domestic Journal Papers" }}
-
+<h5>{{ member.domestic_journal_title | default: "Domestic Journal Papers" }}</h5>
+<ul>
 {% for pub in member.domestic_journal_items %}
-  * {{ pub.text | markdownify }}
+<li>{{ pub.text }}</li>
 {% endfor %}
+</ul>
 {% endif %}
 
 {% if member.intl_items %}
-##### {{ member.intl_title | default: "International Conference Papers" }}
-
+<h5>{{ member.intl_title | default: "International Conference Papers" }}</h5>
+<ul>
 {% for pub in member.intl_items %}
-  * {{ pub.text | markdownify }}
+<li>{{ pub.text }}</li>
 {% endfor %}
+</ul>
 {% endif %}
 
 {% if member.domestic_items %}
-##### {{ member.domestic_title | default: "Domestic Conference Papers" }}
-
+<h5>{{ member.domestic_title | default: "Domestic Conference Papers" }}</h5>
+<ul>
 {% for pub in member.domestic_items %}
-  * {{ pub.text | markdownify }}
+<li>{{ pub.text }}</li>
 {% endfor %}
+</ul>
 {% endif %}
 
+</details>
 {% endif %}
 
 </div>
@@ -212,5 +208,3 @@ Email: {{ member.email }}
 {% endif %}
 
 {% endif %}
-
-{% endfor %}
