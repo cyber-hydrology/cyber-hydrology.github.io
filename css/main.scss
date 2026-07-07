@@ -367,3 +367,24 @@ protit {
     max-width: 100%;
   }
 }
+
+/* Native details toggle */
+.member-toggle {
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.member-toggle summary {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.member-toggle summary:hover {
+  color: #438ab6;
+}
+
+.member-toggle[open] summary {
+  margin-bottom: 12px;
+}
