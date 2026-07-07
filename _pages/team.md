@@ -98,19 +98,24 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
 
-{% if member.photo %}
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left; margin-right: 15px;" />
-{% endif %}
-
 {% assign has_pubs = false %}
 {% if member.intl_journal_items %}{% assign has_pubs = true %}{% endif %}
 {% if member.domestic_journal_items %}{% assign has_pubs = true %}{% endif %}
 {% if member.intl_items %}{% assign has_pubs = true %}{% endif %}
 {% if member.domestic_items %}{% assign has_pubs = true %}{% endif %}
 
+<div class="memberbox">
+
+{% if member.photo %}
+<div class="member-photo-box">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="member-photo" alt="{{ member.name }}">
+</div>
+{% endif %}
+
+<div class="member-info-box">
+
 {% if has_pubs %}
-<details class="member-toggle">
-<summary><strong>{{ member.name }}</strong></summary>
+<h3 class="member-toggle-name">{{ member.name }} <span class="toggle-arrow">▼</span></h3>
 {% else %}
 <h3>{{ member.name }}</h3>
 {% endif %}
@@ -120,14 +125,12 @@ permalink: /team/
 {% endif %}
 
 {% if member.email %}
-<p>Email: {{ member.email }}</p>
+<p>Email:<br>{{ member.email }}</p>
 {% endif %}
 
-{% if member.education1 or member.education2 or member.education3 or member.education4 or member.education5 %}
-<ul>
 {% if member.education1 %}
+<ul>
 <li>{{ member.education1 }}</li>
-{% endif %}
 {% if member.education2 %}
 <li>{{ member.education2 }}</li>
 {% endif %}
@@ -151,45 +154,57 @@ permalink: /team/
 </ul>
 {% endif %}
 
+</div>
+</div>
+
 {% if has_pubs %}
+<div class="member-detail-panel">
 
 {% if member.intl_journal_items %}
+<div class="pub-section">
 <h5>{{ member.intl_journal_title | default: "International Journal Papers" }}</h5>
 <ul>
 {% for pub in member.intl_journal_items %}
-<li>{{ pub.text }}</li>
+<li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
 {% endfor %}
 </ul>
+</div>
 {% endif %}
 
 {% if member.domestic_journal_items %}
+<div class="pub-section">
 <h5>{{ member.domestic_journal_title | default: "Domestic Journal Papers" }}</h5>
 <ul>
 {% for pub in member.domestic_journal_items %}
-<li>{{ pub.text }}</li>
+<li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
 {% endfor %}
 </ul>
+</div>
 {% endif %}
 
 {% if member.intl_items %}
+<div class="pub-section">
 <h5>{{ member.intl_title | default: "International Conference Papers" }}</h5>
 <ul>
 {% for pub in member.intl_items %}
-<li>{{ pub.text }}</li>
+<li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
 {% endfor %}
 </ul>
+</div>
 {% endif %}
 
 {% if member.domestic_items %}
+<div class="pub-section">
 <h5>{{ member.domestic_title | default: "Domestic Conference Papers" }}</h5>
 <ul>
 {% for pub in member.domestic_items %}
-<li>{{ pub.text }}</li>
+<li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
 {% endfor %}
 </ul>
+</div>
 {% endif %}
 
-</details>
+</div>
 {% endif %}
 
 </div>
@@ -212,3 +227,22 @@ permalink: /team/
 {% endfor %}
 
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleNames = document.querySelectorAll(".member-toggle-name");
+
+  toggleNames.forEach(function (toggleName) {
+    toggleName.addEventListener("click", function () {
+      const memberBox = toggleName.closest(".memberbox");
+      const column = toggleName.closest(".col-sm-6");
+      const detailPanel = column.querySelector(".member-detail-panel");
+
+      if (detailPanel) {
+        toggleName.classList.toggle("open");
+        detailPanel.classList.toggle("open");
+      }
+    });
+  });
+});
+</script>
