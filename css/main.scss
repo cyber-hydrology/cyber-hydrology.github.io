@@ -304,7 +304,6 @@ protit {
 .professor-card {
   display: flex;
   align-items: flex-start;
-  gap: 30px;
   width: 100%;
   margin-bottom: 35px;
 }
@@ -324,8 +323,10 @@ protit {
   border-radius: 10%;
   box-shadow: 2px 2px 5px #888888;
 }
+
 .professor-info-box {
   flex: 1;
+  min-width: 0;
   max-width: 900px;
 }
 
@@ -351,16 +352,20 @@ protit {
 
 @media (max-width: 768px) {
   .professor-card {
-    display: block;
+    display: flex;
+    align-items: flex-start;
   }
 
   .professor-photo-box {
-    margin-bottom: 15px;
+    width: 100px;
+    flex: 0 0 100px;
+    margin-right: 20px;
+    margin-bottom: 0;
   }
 
   #gridid .professor-photo {
-  width: 100px;
-  max-width: 100px;
+    width: 100px;
+    max-width: 100px;
   }
 
   .professor-info-box {
