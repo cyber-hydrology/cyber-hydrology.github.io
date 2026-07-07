@@ -310,16 +310,20 @@ protit {
 }
 
 .professor-photo-box {
-  flex: 0 0 220px;
+  width: 100px;
+  flex: 0 0 100px;
+  flex-shrink: 0;
+  margin-right: 24px;
 }
 
-.professor-photo {
-  width: 220px;
-  max-width: 100%;
+#gridid .professor-photo {
+  width: 100px;
+  max-width: 100px;
+  margin: 0;
   height: auto;
-  border-radius: 4px;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px #888888;
 }
-
 .professor-info-box {
   flex: 1;
   max-width: 900px;
@@ -354,8 +358,9 @@ protit {
     margin-bottom: 15px;
   }
 
-  .professor-photo {
-    width: 180px;
+  #gridid .professor-photo {
+  width: 100px;
+  max-width: 100px;
   }
 
   .professor-info-box {
