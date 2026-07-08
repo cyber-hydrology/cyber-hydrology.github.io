@@ -257,18 +257,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   toggleNames.forEach(function (toggleName) {
     toggleName.addEventListener("click", function () {
-      var detailPanel = null;
+      var parentBox = toggleName.closest(".col-sm-6, .professor-card");
+      if (!parentBox) return;
 
-      var nextElement = toggleName.nextElementSibling;
-      if (nextElement && nextElement.classList.contains("member-detail-panel")) {
-        detailPanel = nextElement;
-      } else {
-        var parentBox = toggleName.closest(".col-sm-6, .professor-card");
-        if (parentBox) {
-          detailPanel = parentBox.querySelector(".member-detail-panel");
-        }
-      }
-
+      var detailPanel = parentBox.querySelector(".member-detail-panel");
       if (!detailPanel) return;
 
       toggleName.classList.toggle("open");
