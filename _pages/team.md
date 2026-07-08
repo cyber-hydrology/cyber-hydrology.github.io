@@ -8,7 +8,7 @@ permalink: /team/
 
 <div id="gridid" class="col-sm-12">
 
-# Group Members
+<h1>Group Members</h1>
 
 {% assign groups = "Principal Investigator:team_professor,POST DOC:team_postdoc,PhD and Master Students:team_students,Undergraduate Students:team_undergraduate_students,Alumni Members:alumni_members" | split: "," %}
 
@@ -17,7 +17,7 @@ permalink: /team/
 {% assign group_title = group_info[0] %}
 {% assign group_data = group_info[1] %}
 
-## {{ group_title }}
+<h2>{{ group_title }}</h2>
 
 {% if group_data == "team_professor" %}
 
@@ -33,7 +33,10 @@ permalink: /team/
 
 <div class="professor-info-box">
 
-<h3>{{ member.name }}</h3>
+<details class="team-toggle professor-toggle">
+<summary><span class="team-toggle-name">{{ member.name }}</span></summary>
+
+<div class="team-toggle-content professor-toggle-content">
 
 {% if member.info %}
 <p>{{ member.info }}</p>
@@ -43,9 +46,11 @@ permalink: /team/
 <p>Email: {{ member.email }}</p>
 {% endif %}
 
+{% if member.education1 or member.education2 or member.education3 or member.education4 or member.education5 %}
+<ul>
 {% if member.education1 %}
-<ul class="professor-list">
 <li>{{ member.education1 }}</li>
+{% endif %}
 {% if member.education2 %}
 <li>{{ member.education2 }}</li>
 {% endif %}
@@ -63,7 +68,7 @@ permalink: /team/
 
 {% if member.appointment_items %}
 <h5>{{ member.appointment_title | default: "Appointments" }}</h5>
-<ul class="professor-list">
+<ul>
 {% for item in member.appointment_items %}
 <li>{{ item.text }}</li>
 {% endfor %}
@@ -72,12 +77,15 @@ permalink: /team/
 
 {% if member.research_items %}
 <h5>{{ member.research_title | default: "Research Interests" }}</h5>
-<ul class="professor-list">
+<ul>
 {% for item in member.research_items %}
 <li>{{ item.text }}</li>
 {% endfor %}
 </ul>
 {% endif %}
+
+</div>
+</details>
 
 </div>
 
@@ -104,7 +112,7 @@ permalink: /team/
 {% if member.intl_items %}{% assign has_pubs = true %}{% endif %}
 {% if member.domestic_items %}{% assign has_pubs = true %}{% endif %}
 
-<div class="memberbox">
+<div class="member-card">
 
 {% if member.photo %}
 <div class="member-photo-box">
@@ -115,7 +123,9 @@ permalink: /team/
 <div class="member-info-box">
 
 {% if has_pubs %}
-<h3 class="member-toggle-name">{{ member.name }} <span class="toggle-arrow">▼</span></h3>
+<details class="team-toggle member-toggle">
+<summary><span class="team-toggle-name">{{ member.name }}</span></summary>
+<div class="team-toggle-content">
 {% else %}
 <h3>{{ member.name }}</h3>
 {% endif %}
@@ -128,9 +138,11 @@ permalink: /team/
 <p>Email:<br>{{ member.email }}</p>
 {% endif %}
 
-{% if member.education1 %}
+{% if member.education1 or member.education2 or member.education3 or member.education4 or member.education5 %}
 <ul>
+{% if member.education1 %}
 <li>{{ member.education1 }}</li>
+{% endif %}
 {% if member.education2 %}
 <li>{{ member.education2 }}</li>
 {% endif %}
@@ -154,58 +166,51 @@ permalink: /team/
 </ul>
 {% endif %}
 
-</div>
-</div>
-
 {% if has_pubs %}
-<div class="member-detail-panel">
 
 {% if member.intl_journal_items %}
-<div class="pub-section">
 <h5>{{ member.intl_journal_title | default: "International Journal Papers" }}</h5>
 <ul>
 {% for pub in member.intl_journal_items %}
 <li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
 {% endfor %}
 </ul>
-</div>
 {% endif %}
 
 {% if member.domestic_journal_items %}
-<div class="pub-section">
 <h5>{{ member.domestic_journal_title | default: "Domestic Journal Papers" }}</h5>
 <ul>
 {% for pub in member.domestic_journal_items %}
 <li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
 {% endfor %}
 </ul>
-</div>
 {% endif %}
 
 {% if member.intl_items %}
-<div class="pub-section">
 <h5>{{ member.intl_title | default: "International Conference Papers" }}</h5>
 <ul>
 {% for pub in member.intl_items %}
 <li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
 {% endfor %}
 </ul>
-</div>
 {% endif %}
 
 {% if member.domestic_items %}
-<div class="pub-section">
 <h5>{{ member.domestic_title | default: "Domestic Conference Papers" }}</h5>
 <ul>
 {% for pub in member.domestic_items %}
 <li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
 {% endfor %}
 </ul>
-</div>
 {% endif %}
 
 </div>
+</details>
+
 {% endif %}
+
+</div>
+</div>
 
 </div>
 
@@ -227,22 +232,3 @@ permalink: /team/
 {% endfor %}
 
 </div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const toggleNames = document.querySelectorAll(".member-toggle-name");
-
-  toggleNames.forEach(function (toggleName) {
-    toggleName.addEventListener("click", function () {
-      const memberBox = toggleName.closest(".memberbox");
-      const column = toggleName.closest(".col-sm-6");
-      const detailPanel = column.querySelector(".member-detail-panel");
-
-      if (detailPanel) {
-        toggleName.classList.toggle("open");
-        detailPanel.classList.toggle("open");
-      }
-    });
-  });
-});
-</script>
