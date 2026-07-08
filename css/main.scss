@@ -181,18 +181,18 @@ protit {
     }
 }
 
-/* Team page original-style alignment fix */
+/* Team page layout */
 
-.memberbox {
+.member-card {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 8px;
+  margin-bottom: 24px;
   min-height: 170px;
 }
 
 .member-photo-box {
   width: 100px;
-  flex-shrink: 0;
+  flex: 0 0 100px;
   margin-right: 24px;
 }
 
@@ -212,6 +212,7 @@ protit {
 .member-info-box h3 {
   margin-top: 0;
   margin-bottom: 8px;
+  font-size: 18px;
 }
 
 .member-info-box p {
@@ -227,76 +228,62 @@ protit {
   margin-bottom: 8px;
 }
 
-#gridid .row {
-  margin-bottom: 24px;
-}
+/* Native toggle using details / summary */
 
-/* Member toggle */
-.member-toggle-name {
-  cursor: pointer;
+.team-toggle {
   margin-top: 0;
   margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
 }
-.member-toggle-name:hover {
+
+.team-toggle summary {
+  cursor: pointer;
+  display: list-item;
+  margin-bottom: 8px;
+}
+
+.team-toggle summary:hover .team-toggle-name {
   color: #438ab6;
 }
-.toggle-arrow {
-  font-size: 0.8em;
-  display: inline-block;
-  transition: transform 0.25s ease;
+
+.team-toggle-name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.25;
 }
-.member-toggle-name.open .toggle-arrow {
-  transform: rotate(-180deg);
+
+.team-toggle-content {
+  margin-top: 8px;
 }
-.member-detail-panel {
-  display: none;
-  margin-top: -10px;
-  margin-bottom: 24px;
-  margin-left: -15px;
-  margin-right: -15px;
-  padding: 12px 14px;
-  background: #f8f9fa;
-  border-left: 3px solid #438ab6;
-  border-radius: 0 6px 6px 0;
-}
-.member-detail-panel.open {
-  display: block;
-}
-.pub-section {
-  margin-bottom: 14px;
-}
-.pub-section:last-child {
-  margin-bottom: 0;
-}
-.pub-section h5 {
+
+.team-toggle-content h5 {
   font-weight: 700;
   font-size: 0.88em;
+  margin-top: 14px;
   margin-bottom: 6px;
   color: #333;
 }
-.pub-section ul {
-  margin: 0;
-  padding-left: 18px;
+
+.team-toggle-content ul {
+  margin-top: 8px;
+  padding-left: 20px;
 }
-.pub-section li {
-  font-size: 0.85em;
-  margin-bottom: 5px;
+
+.team-toggle-content li {
+  margin-bottom: 6px;
   line-height: 1.5;
 }
 
-.member-detail-panel a {
+.team-toggle-content a {
   color: inherit;
   text-decoration: none;
 }
 
-.member-detail-panel a:hover {
+.team-toggle-content a:hover {
   text-decoration: underline;
 }
 
-/* Professor-only layout on Team page */
+/* Professor-only layout */
+
 .professor-section {
   margin-bottom: 35px;
 }
@@ -311,7 +298,6 @@ protit {
 .professor-photo-box {
   width: 100px;
   flex: 0 0 100px;
-  flex-shrink: 0;
   margin-right: 24px;
 }
 
@@ -330,46 +316,67 @@ protit {
   max-width: 900px;
 }
 
-.professor-info-box h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
+.professor-toggle .team-toggle-name {
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.professor-info-box p {
+.professor-toggle-content {
+  max-width: 900px;
+}
+
+.professor-toggle-content p {
   line-height: 1.55;
   margin-bottom: 8px;
 }
 
-.professor-list {
+.professor-toggle-content h5 {
+  font-weight: 700;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+.professor-toggle-content ul {
   padding-left: 20px;
   margin-bottom: 16px;
 }
 
-.professor-list li {
+.professor-toggle-content li {
   margin-bottom: 5px;
   line-height: 1.5;
 }
 
+#gridid .row {
+  margin-bottom: 24px;
+}
+
 @media (max-width: 768px) {
-  .professor-card {
+  .professor-card,
+  .member-card {
     display: flex;
     align-items: flex-start;
   }
 
-  .professor-photo-box {
-    width: 100px;
-    flex: 0 0 100px;
-    margin-right: 20px;
-    margin-bottom: 0;
+  .professor-photo-box,
+  .member-photo-box {
+    width: 90px;
+    flex: 0 0 90px;
+    margin-right: 18px;
   }
 
-  #gridid .professor-photo {
-    width: 100px;
-    max-width: 100px;
+  #gridid .professor-photo,
+  #gridid .member-photo {
+    width: 90px;
+    max-width: 90px;
   }
 
-  .professor-info-box {
+  .professor-info-box,
+  .member-info-box {
     max-width: 100%;
+  }
+
+  .team-toggle-name {
+    font-size: 17px;
   }
 }
 
