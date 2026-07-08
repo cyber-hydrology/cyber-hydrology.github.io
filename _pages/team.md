@@ -35,7 +35,7 @@ permalink: /team/
 
 <div class="professor-info-box">
 
-<h3>{{ member.name }}</h3>
+<h3 class="member-toggle-name">{{ member.name }} <span class="toggle-arrow">▼</span></h3>
 
 {% if member.info %}
 <p>{{ member.info }}</p>
@@ -84,16 +84,16 @@ permalink: /team/
 {% endif %}
 
 {% if member.domestic_journal_items %}
-<h5 class="member-toggle-name award-toggle-name">
-{{ member.domestic_journal_title | default: "Awards & Honors" }} <span class="toggle-arrow">▼</span>
-</h5>
-
 <div class="member-detail-panel professor-awards-panel">
+
+<h5>{{ member.domestic_journal_title | default: "Awards & Honors" }}</h5>
+
 <ul class="professor-list">
 {% for item in member.domestic_journal_items %}
 <li>{{ item.text }}</li>
 {% endfor %}
 </ul>
+
 </div>
 {% endif %}
 
