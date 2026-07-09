@@ -188,7 +188,15 @@ permalink: /team/
 <h5>{{ member.intl_journal_title | default: "International Journal Papers" }}</h5>
 <ul>
 {% for pub in member.intl_journal_items %}
-<li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+<li>
+{% if pub.url %}
+<a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">
+{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}
+</a>
+{% else %}
+{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}
+{% endif %}
+</li>
 {% endfor %}
 </ul>
 </div>
@@ -199,7 +207,15 @@ permalink: /team/
 <h5>{{ member.domestic_journal_title | default: "Domestic Journal Papers" }}</h5>
 <ul>
 {% for pub in member.domestic_journal_items %}
-<li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+<li>
+{% if pub.url %}
+<a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">
+{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}
+</a>
+{% else %}
+{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}
+{% endif %}
+</li>
 {% endfor %}
 </ul>
 </div>
@@ -210,7 +226,15 @@ permalink: /team/
 <h5>{{ member.intl_title | default: "International Conference Papers" }}</h5>
 <ul>
 {% for pub in member.intl_items %}
-<li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+<li>
+{% if pub.url %}
+<a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">
+{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}
+</a>
+{% else %}
+{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}
+{% endif %}
+</li>
 {% endfor %}
 </ul>
 </div>
@@ -221,7 +245,15 @@ permalink: /team/
 <h5>{{ member.domestic_title | default: "Domestic Conference Papers" }}</h5>
 <ul>
 {% for pub in member.domestic_items %}
-<li>{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+<li>
+{% if pub.url %}
+<a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">
+{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}
+</a>
+{% else %}
+{{ pub.text | markdownify | remove: '<p>' | remove: '</p>' }}
+{% endif %}
+</li>
 {% endfor %}
 </ul>
 </div>
