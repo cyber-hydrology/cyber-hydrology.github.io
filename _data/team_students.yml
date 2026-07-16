@@ -62,6 +62,8 @@
 
   domestic_journal_title: Domestic Journal Papers
   domestic_journal_items:
+    - text: "Choi, J., Kim, B., **<u>Lee, Y.</u>**, Noh, S. J. \"Automated Multi-Site Parameter Calibration and Validation of WRF-Hydro in the Nakdong River Basin Using PEST\", J. Korea Water Resour. Assoc., 59(6), 575-587 (2026)"
+      url: "https://jkwra.or.kr/articles/xml/XA52/"
     - text: "**<u>Lee, Y.</u>**, Kim, B., Noh, S. J. \"High-resolution ensemble streamflow predictions using WRF-Hydro and LDAPS: a case study of the Geumho River catchment\", J. Korea Water Resour. Assoc., 58(3), 263–275 (2025)"
       url: "https://jkwra.or.kr/articles/xml/jDwv/"
     - text: "Kim, S., Kim, B., Lee, G., **<u>Lee, Y.</u>**, Noh, S. J. \"High-resolution medium-range streamflow prediction using distributed hydrological model WRF-Hydro and numerical weather forecast GDAPS\", J. Korea Water Resour. Assoc., 57(5), 333-346 (2024)"
