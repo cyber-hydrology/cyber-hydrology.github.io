@@ -69,8 +69,8 @@
   description: 
   authors: Lee, Y., Kim, B., Hiraga, Y., Hokson, JA., Noh, S. J.
   link:
-    url: 
-    display:  "In Review"
+    url:
+    display:  "Accepted"
   highlight: 0
   news2:
   year: 2026
@@ -108,13 +108,13 @@
   news2:
   year: 2026
 
-- title: "Observation-Constrained Urban Flood Mapping by Kriging with External Drift Using Point-Scale Flood Observations and Hydrodynamic Simulations"
-  image: 
-  description: 
+- title: "Urban flood mapping by kriging with external drift using CCTV-derived observations and hydrodynamic simulations"
+  image:
+  description:
   authors: Kim, M., Choi, H., Woo, H., Shin, E. T., Song, C. G., Noh, S. J.
   link:
-    url: 
-    display:  "In Prep"
+    url:
+    display:  "In Review"
   highlight: 0
   news2:
   year: 2026
