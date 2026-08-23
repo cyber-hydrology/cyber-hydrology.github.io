@@ -1,6 +1,6 @@
 - name: 김보미 (Bomi Kim)
   photo: kim_bomi_2.jpg
-  info: 박사 (Ph.D), 2026
+  info: 박사 (Ph.D), 2026 &middot; <a href="https://scholar.google.com/citations?user=rKTj3CoAAAAJ&hl=ko" target="_blank">Google Scholar</a>
   email: kimbom3835@kumoh.ac.kr
   number_educ: 3
   education1: Bachelor, Kumoh National Institute of Technology
@@ -51,7 +51,7 @@
 
 - name: 최현진 (Hyeonjin Choi)
   photo: Choi_hyeonjin.jpg
-  info: 박사 (Ph.D), 2026
+  info: 박사 (Ph.D), 2026 &middot; <a href="https://scholar.google.com/citations?user=mCk6it4AAAAJ&hl=ko" target="_blank">Google Scholar</a>
   email: hyeonjin21@kumoh.ac.kr
   number_educ: 3
   education1: Bachelor, Kumoh National Institute of Technology
