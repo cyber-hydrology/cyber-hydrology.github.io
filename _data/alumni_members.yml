@@ -9,6 +9,15 @@
 #  education3:
 #  education4:
 
+- name: 김민영 (Minyoung Kim)
+  photo: Empty_image.png
+  info: 2024.03 - 2026.09
+  email: minyy208@kumoh.ac.kr
+  number_educ: 1
+  education1: Master, Kumoh National Institute of Technology
+  education2: 
+  education3:
+  education4:
 
 - name: 이가림 (Garim Lee)
   photo: Empty_image.png
@@ -19,16 +28,6 @@
   education2: Researcher, National Disaster Management Research Institute
   education3:
   education4:
-  
-- name: 이송희 (Songhee Lee)
-  photo: Empty_image.png
-  info: 2022.03 - 2024.02
-  #email: thdgml1103@kumoh.ac.kr
-  number_educ: 1
-  education1: Master, Kumoh National Institute of Technology
-  education2:
-  education3:
-  education4:
 
 - name: 김소현 (Sohyun Kim)
   photo: Empty_image.png
@@ -37,5 +36,15 @@
   number_educ: 1
   education1: Master, Kumoh National Institute of Technology
   education2: K-water
+  education3:
+  education4:
+
+- name: 이송희 (Songhee Lee)
+  photo: Empty_image.png
+  info: 2022.03 - 2024.02
+  #email: thdgml1103@kumoh.ac.kr
+  number_educ: 1
+  education1: Master, Kumoh National Institute of Technology
+  education2:
   education3:
   education4:
