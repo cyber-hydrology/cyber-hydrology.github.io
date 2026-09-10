@@ -10,6 +10,8 @@
 
   intl_journal_title: International Journal Papers
   intl_journal_items:
+    - text: "Lee, Y., **<u>Kim, B.</u>**, Hiraga, Y., Hokson, JA., Noh, S. J. \"Scale-dependent flood hazard amplification under warming climates: a tropical cyclone Hinnamnor storyline in South Korea\", Geosci. Lett. 13, 56 (2026)"
+      url: "https://link.springer.com/article/10.1186/s40562-026-00507-9"
     - text: "**<u>Kim, B.</u>**, Lee, Y., Lee, S., Noh, S. J. \"Probabilistic urban flood prediction with multivariate assimilation of sewer and surface observations\", Water Research, 301, 126065 (2026)"
       url: "https://www.sciencedirect.com/science/article/pii/S0043135426007463"
     - text: "**<u>Kim, B.</u>**, Ryu, H., Lee, S., Lee, J., Noh, S. J. \"Portable multi-GPU urban flood modelling via MPI-OpenACC: evaluating acceleration, scaling, and workload-per-GPU\", Environmental Modelling & Software, 600, 106957 (2026)"
