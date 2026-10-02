@@ -9,6 +9,16 @@
 #  education3:
 #  education4:
 
+- name: 최현진 (Hyeonjin Choi)
+  photo: Empty_image.png
+  info: 2021.03 - 2026.09
+ # email: minyy208@kumoh.ac.kr
+  number_educ: 2
+  education1: Ph.D., Kumoh National Institute of Technology
+  education2: Postdoc, KIST, Center for Climate Carbon Cycle Research
+  education3:
+  education4:
+
 - name: 김민영 (Minyoung Kim)
   photo: Empty_image.png
   info: 2024.03 - 2026.09
