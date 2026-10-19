@@ -97,13 +97,13 @@
   news2:
   year: 2026
 
-- title: "An interpretable deep learning surrogate for dynamic 2D urban pluvial flood prediction"
+- title: "Dynamic urban pluvial flood emulation with SegFormer: Input design and diagnostic evaluation"
   image: 
   description: 
-  authors: Woo, H., Kim, B., Choi, H., Noh, S. J.
+  authors: Woo, H., Kim, B., Noh, S. J.
   link:
     url: 
-    display:  "In Prep"
+    display:  "In Review"
   highlight: 0
   news2:
   year: 2026
