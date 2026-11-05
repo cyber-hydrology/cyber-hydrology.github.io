@@ -86,7 +86,7 @@
   news2:
   year: 2026
 
-- title: "Urban flood mapping by kriging with external drift using CCTV-derived observations and hydrodynamic simulations"
+- title: "Observation-constrained urban flood mapping: fusing surveillance camera footage with hydrodynamic simulations"
   image:
   description:
   authors: Kim, M., Choi, H., Woo, H., Shin, E. T., Song, C. G., Noh, S. J.
