@@ -20,6 +20,7 @@
 # ========================
 # 2026 Publications
 # ========================
+
 - title: "Probabilistic urban flood prediction with multivariate assimilation of sewer and surface observations"
   image: 
   description: 
@@ -108,13 +109,13 @@
   news2:
   year: 2026
 
-- title: "Assessing Downstream Hydrological Response Through Upstream-Focused Calibration in a Highly Regulated Basin: A Case Study of the Nakdong River Basin, South Korea"
+- title: "Rainfall patterns and reservoir effects on warming-driven floods: A storyline assessment of Typhoon Hinnamnor"
   image: 
   description: 
-  authors: Lee, Y., Kim, B., Choi, J., Noh, S. J.
+  authors: Lee, Y., Kim, B., Hiraga, Y., Noh, S. J.
   link:
     url: 
-    display:  "In Prep"
+    display:  "In Review"
   highlight: 0
   news2:
   year: 2026
